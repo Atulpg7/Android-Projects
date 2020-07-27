@@ -1,0 +1,1495 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+      <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:fillViewport="true"
+        android:layout_below="@+id/imageView1" >
+        <RelativeLayout 
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:layout_alignParentBottom="true"
+    android:gravity="center"
+    >
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+        android:shrinkColumns="*"
+         android:stretchColumns="4"  >
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_span="5"
+                android:padding="18dip"
+                android:text="Anti Ragging Committee HELP-LINE"
+                android:textColor="#000"
+                android:textSize="15dp" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" 
+            android:background="#484848"        
+            >
+            <TextView
+                android:id="@+id/TextView04"
+                android:gravity="center"
+                android:padding="10dip"            
+                android:text="Desig."
+                android:textColor="#F2F2F2"
+                android:textSize="12dp" />
+            <TextView
+                android:id="@+id/TextView01"
+                android:layout_width="150dp"
+              
+                android:gravity="center"
+                android:padding="10dip"
+                 android:textSize="12dp"
+                android:text="Name"               
+                android:textColor="#F2F2F2" />
+            
+            <TextView
+                android:id="@+id/TextView05"
+            android:layout_width="120dp"
+            
+                android:gravity="center"
+                android:padding="10dip"
+                  android:textSize="12dp"
+                android:text="Ext.No"
+                android:textColor="#F2F2F2" />
+
+            <TextView
+                android:id="@+id/t0"
+                android:layout_width="140dp"
+              
+                android:gravity="center"
+                android:padding="10dip"
+                android:textSize="12dp"
+                android:text="Mob.no"
+                android:textColor="#F2F2F2" />         
+        </TableRow>
+        
+         <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#003399" >
+
+            <TextView
+                android:id="@+id/TextView02"
+               android:layout_width="60dp"
+                 android:layout_weight="1"
+                android:gravity="center"
+              android:padding="10dip"
+                android:text="Pro.-Vice-Chancellor"
+                android:textColor="#F2F2F2"               
+                />
+
+            <TextView
+                android:id="@+id/TextView06"
+                android:layout_weight="1"
+              
+                android:gravity="center"
+                android:padding="10dip"
+                android:text="Prof.(Dr.) A.M. Agrawal"            
+                android:textColor="#F2F2F2" />
+
+            <TextView
+                android:id="@+id/TextView07"
+               android:layout_weight="1"
+                android:gravity="center"
+                android:padding="10dip"
+                android:text="904"
+                android:textColor="#F2F2F2" />
+
+            <TextView
+                android:id="@+id/t1"
+                android:layout_weight="1"
+             android:layout_width="60dp"
+                android:gravity="center"
+                android:padding="10dip"
+                android:text="8192815000"
+                android:textColor="#F2F2F2" />                    
+           
+        </TableRow>
+       
+       
+         <TableRow
+            android:id="@+id/tableRow11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+             android:background="#0174DF" >
+
+            <TextView
+                android:id="@+id/TextView08"
+                android:layout_width="5dp"
+                android:layout_weight="1"
+                android:gravity="center"
+              android:padding="10dip"
+                android:text="Director,IPR"
+                android:textColor="#F2F2F2"               
+                />
+
+            <TextView
+                android:id="@+id/TextView09"
+                android:layout_weight="1"
+              
+                android:gravity="center"
+                android:padding="10dip"
+                android:text="Prof.(Dr.) Pradeep Mishra"
+              
+                android:textColor="#F2F2F2" />
+
+            <TextView
+                android:id="@+id/TextView010"
+               android:layout_weight="1"
+                android:gravity="center"
+                android:padding="10dip"
+                android:text="994"
+                android:textColor="#F2F2F2" />
+
+            <TextView
+                android:id="@+id/t2"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="10dip"
+                android:text="9927064019"
+                android:textColor="#F2F2F2" />
+                      
+           
+        </TableRow>
+         <TableRow
+            android:id="@+id/tableRow51"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+             android:background="#003399" >
+
+            <TextView
+                android:id="@+id/TextView012"
+                android:layout_width="5dp"
+                android:layout_weight="1"
+                android:gravity="center"
+              android:padding="10dip"
+                android:text="Director,IAH"
+                android:textColor="#F2F2F2"               
+                />
+            <TextView
+                android:id="@+id/TextView13"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="10dip"
+                android:text="Prof.(Dr.) Anoop Gupta"
+                android:textColor="#F2F2F2" />
+
+            <TextView
+                android:id="@+id/TextView14"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="10dip"
+                android:text="907"
+                android:textColor="#F2F2F2" />
+
+            <TextView
+                android:id="@+id/t3"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="10dip"
+                android:text="9760077922"
+                android:textColor="#F2F2F2" />
+                      
+           
+        </TableRow>
+         <TableRow
+            android:id="@+id/tableRow15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:background="#0174DF">
+
+            <TextView
+                android:id="@+id/TextView16"
+                android:layout_width="5dp"
+                android:layout_weight="1"
+                android:gravity="center"
+              android:padding="10dip"
+                android:text="Registrar"
+                android:textColor="#F2F2F2"               
+                />
+
+            <TextView
+                android:id="@+id/TextView017"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="10dip"
+                android:text="Mr. A.K.Singh"
+              
+                android:textColor="#F2F2F2" />
+
+            <TextView
+                android:id="@+id/TextView18"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="10dip"
+                android:text="906"
+                android:textColor="#F2F2F2" />
+
+            <TextView
+                android:id="@+id/t4"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="10dip"
+                android:text="9927211500"
+                android:textColor="#F2F2F2" />
+                      
+           
+        </TableRow>
+         <TableRow
+            android:id="@+id/tableRow52"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+              android:background="#003399" >
+
+            <TextView
+                android:id="@+id/TextView0401"
+                android:layout_width="5dp"
+                android:layout_weight="1"
+                android:gravity="center"
+              android:padding="10dip"
+                android:text="Dean Student Welfare"
+                android:textColor="#F2F2F2"               
+                />
+
+            <TextView
+                android:id="@+id/TextView0402"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="10dip"
+                android:text="Prof. (Dr) D.K. Das"
+                android:textColor="#F2F2F2" />
+
+            <TextView
+                android:id="@+id/TextView0403"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="10dip"
+                android:text="470"
+                android:textColor="#F2F2F2" />
+
+            <TextView
+                android:id="@+id/t5"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="10dip"
+                android:text="9927223500"
+                android:textColor="#F2F2F2" />
+                      
+           
+        </TableRow>
+         <TableRow
+            android:id="@+id/tableRow53"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+                 android:background="#0174DF" >
+
+            <TextView
+                android:id="@+id/TextView0404"
+                android:layout_weight="1"
+                android:gravity="center"
+              android:padding="10dip"
+                android:text="Professor and Head"
+                android:textColor="#F2F2F2"               
+                />
+
+            <TextView
+                android:id="@+id/TextView0405"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="10dip"
+                android:text="Prof. T.N.Sharma"
+              
+                android:textColor="#F2F2F2" />
+
+            <TextView
+                android:id="@+id/TextView0406"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="10dip"
+                android:text="889"
+                android:textColor="#F2F2F2" />
+
+            <TextView
+                android:id="@+id/t6"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="10dip"
+                android:text="9450287452"
+                android:textColor="#F2F2F2" />
+                      
+        </TableRow>
+            <TableRow
+            android:id="@+id/tableRow54"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+              android:background="#003399" >
+
+            <TextView
+                android:id="@+id/TextView0407"
+                android:layout_width="5dp"
+                android:layout_weight="1"
+                android:gravity="center"
+              android:padding="10dip"
+                android:text="Professor and Head"
+                android:textColor="#F2F2F2"               
+                />
+
+            <TextView
+                android:id="@+id/TextView0408"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="10dip"
+                android:text="Prof. S. Basu"
+              
+                android:textColor="#F2F2F2" />
+
+            <TextView
+                android:id="@+id/TextView0409"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="10dip"
+                android:text="855"
+                android:textColor="#F2F2F2" />
+
+            <TextView
+                android:id="@+id/t7"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="10dip"
+                android:text="9897704988"
+                android:textColor="#F2F2F2" />
+                      
+           
+        </TableRow>
+         <TableRow
+            android:id="@+id/tableRow55"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+              android:background="#0174DF" >
+
+            <TextView
+                android:id="@+id/TextView04010"
+                android:layout_width="5dp"
+                android:layout_weight="1"
+                android:gravity="center"
+              android:padding="10dip"
+                android:text="Professor and Head"
+                android:textColor="#F2F2F2"               
+                />
+
+            <TextView
+                android:id="@+id/TextView04011"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="10dip"
+                android:text="Prof. Piyush Singhal"
+              
+                android:textColor="#F2F2F2" />
+
+            <TextView
+                android:id="@+id/TextVie04012"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="10dip"
+                android:text="836"
+                android:textColor="#F2F2F2" />
+
+            <TextView
+                android:id="@+id/t8"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="10dip"
+                android:text="9412624713"
+                android:textColor="#F2F2F2" />
+                      
+           
+        </TableRow>
+         <TableRow
+            android:id="@+id/tableRow56"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+             android:background="#003399" >
+
+            <TextView
+                android:id="@+id/TextView0413"
+                android:layout_width="5dp"
+                android:layout_weight="1"
+                android:gravity="center"
+              android:padding="10dip"
+                android:text="Professor and Head"
+                android:textColor="#F2F2F2"               
+                />
+
+            <TextView
+                android:id="@+id/TextView0414"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="10dip"
+                android:text="Prof. A.K. Bhatia"
+              
+                android:textColor="#F2F2F2" />
+
+            <TextView
+                android:id="@+id/TextView0416"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="10dip"
+                android:text="430"
+                android:textColor="#F2F2F2" />
+
+            <TextView
+                android:id="@+id/t9"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="10dip"
+                android:text="9897065354"
+                android:textColor="#F2F2F2" />
+                      
+           
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow57"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+               android:background="#0174DF" >
+
+            <TextView
+                android:id="@+id/TextView0418"
+                android:layout_width="5dp"
+                android:layout_weight="1"
+             
+                android:gravity="center"
+              android:padding="10dip"
+                android:text="Professor And Head"
+                android:textColor="#F2F2F2"               
+                />
+
+            <TextView
+                android:id="@+id/TextView0419"
+                android:layout_weight="1"
+            
+                android:gravity="center"
+                android:padding="10dip"
+                android:text="Dr. A. S. Jalal"
+              
+                android:textColor="#F2F2F2" />
+
+            <TextView
+                android:id="@+id/TextView0420"
+                android:layout_weight="1"
+            
+                android:gravity="center"
+                android:padding="10dip"
+                android:text="959"
+                android:textColor="#F2F2F2" />
+
+            <TextView
+                android:id="@+id/t10"
+                android:layout_weight="1"
+            
+                android:gravity="center"
+                android:padding="10dip"
+                android:text="9412829763"
+                android:textColor="#F2F2F2" />
+                      
+           
+        </TableRow>
+         <TableRow
+            android:id="@+id/tableRow58"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+             android:background="#003399">
+
+            <TextView
+                android:id="@+id/TextView431"
+                android:layout_width="5dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="10dip"
+                android:text="Professor"
+                android:textColor="#F2F2F2"               
+                />
+
+            <TextView
+                android:id="@+id/TextView04432"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="10dip"
+                android:text="Prof. Charul Bhatnagar"
+              
+                android:textColor="#F2F2F2" />
+
+            <TextView
+                android:id="@+id/TextView04433"
+                android:layout_weight="1"
+           
+                android:gravity="center"
+                android:padding="10dip"
+                android:text="941"
+                android:textColor="#F2F2F2" />
+
+            <TextView
+                android:id="@+id/t11"
+                android:layout_weight="1"
+               
+                android:gravity="center"
+                android:padding="10dip"
+                android:text=" 9997077388"
+                android:textColor="#F2F2F2" />
+                      
+           
+        </TableRow>
+         <TableRow
+            android:id="@+id/tableRow434"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+               android:background="#0174DF" >
+
+            <TextView
+                android:id="@+id/TextView0435"
+                android:layout_width="5dp"
+                android:layout_weight="1"
+             
+                android:gravity="center"
+              android:padding="10dip"
+                android:text=" Professor"
+                android:textColor="#F2F2F2"               
+                />
+
+            <TextView
+                android:id="@+id/TextView0436"
+                android:layout_weight="1"
+            
+                android:gravity="center"
+                android:padding="10dip"
+                android:text="Prof. V. N. Nanda"
+              
+                android:textColor="#F2F2F2" />
+
+            <TextView
+                android:id="@+id/TextView0437"
+                android:layout_weight="1"
+            
+                android:gravity="center"
+                android:padding="10dip"
+                android:text="845"
+                android:textColor="#F2F2F2" />
+
+            <TextView
+                android:id="@+id/t12"
+                android:layout_weight="1"
+            
+                android:gravity="center"
+                android:padding="10dip"
+                android:text="9897742100"
+                android:textColor="#F2F2F2" />
+                      
+        </TableRow>
+                        
+           
+       
+<TableRow
+            android:id="@+id/tableRow1345"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+               android:background="#003399" >
+
+            <TextView
+                android:id="@+id/TextView0438"
+                android:layout_width="5dp"
+                android:layout_weight="1"
+             
+                android:gravity="center"
+              android:padding="10dip"
+                android:text="Professor and Head"
+                android:textColor="#F2F2F2"               
+                />
+
+            <TextView
+                android:id="@+id/TextView0439"
+                android:layout_weight="1"
+            
+                android:gravity="center"
+                android:padding="10dip"
+                android:text="Prof. B.R. K. Gupta"
+              
+                android:textColor="#F2F2F2" />
+
+            <TextView
+                android:id="@+id/TextView0440"
+                android:layout_weight="1"
+            
+                android:gravity="center"
+                android:padding="10dip"
+                android:text="470"
+                android:textColor="#F2F2F2" />
+
+            <TextView
+                android:id="@+id/t14"
+                android:layout_weight="1"
+            
+                android:gravity="center"
+                android:padding="10dip"
+                android:text="7351817363"
+                android:textColor="#F2F2F2" />
+                      
+           
+        </TableRow>
+<TableRow
+            android:id="@+id/tableRow161"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+               android:background="#0174DF" >
+
+            <TextView
+                android:id="@+id/TextView0441"
+                android:layout_width="5dp"
+                android:layout_weight="1"
+             
+                android:gravity="center"
+              android:padding="10dip"
+                android:text="Professor and Head"
+                android:textColor="#F2F2F2"               
+                />
+
+            <TextView
+                android:id="@+id/TextView0442"
+                android:layout_weight="1"
+            
+                android:gravity="center"
+                android:padding="10dip"
+                android:text="Prof. P. K. Tandon"
+              
+                android:textColor="#F2F2F2" />
+
+            <TextView
+                android:id="@+id/TextView0443"
+                android:layout_weight="1"
+            
+                android:gravity="center"
+                android:padding="10dip"
+                android:text="470"
+                android:textColor="#F2F2F2" />
+
+            <TextView
+                android:id="@+id/t15"
+                android:layout_weight="1"
+            
+                android:gravity="center"
+                android:padding="10dip"
+                android:text="9412179820"
+                android:textColor="#F2F2F2" />
+                      
+           
+        </TableRow>
+
+<TableRow
+            android:id="@+id/tableRow144"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+               android:background="#003399" >
+
+            <TextView
+                android:id="@+id/TextView04445"
+                android:layout_width="5dp"
+                android:layout_weight="1"
+             
+                android:gravity="center"
+              android:padding="10dip"
+                android:text="Professor"
+                android:textColor="#F2F2F2"               
+                />
+
+            <TextView
+                android:id="@+id/TextView0446"
+                android:layout_weight="1"
+            
+                android:gravity="center"
+                android:padding="10dip"
+                android:text="Prof. Vinod Kumar"
+              
+                android:textColor="#F2F2F2" />
+
+            <TextView
+                android:id="@+id/TextView0447"
+                android:layout_weight="1"
+            
+                android:gravity="center"
+                android:padding="10dip"
+                android:text="470"
+                android:textColor="#F2F2F2" />
+
+            <TextView
+                android:id="@+id/t17"
+                android:layout_weight="1"
+            
+                android:gravity="center"
+                android:padding="10dip"
+                android:text="9012483500"
+                android:textColor="#F2F2F2" />
+                      
+           
+        </TableRow>
+
+<TableRow
+            android:id="@+id/tableRow148"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+               android:background="#0174DF" >
+
+            <TextView
+                android:id="@+id/TextView04489"
+                android:layout_width="5dp"
+                android:layout_weight="1"
+             
+                android:gravity="center"
+              android:padding="10dip"
+                android:text="Chief Protor"
+                android:textColor="#F2F2F2"               
+                />
+
+            <TextView
+                android:id="@+id/TextView0449"
+                android:layout_weight="1"
+            
+                android:gravity="center"
+                android:padding="10dip"
+                android:text="Dr. Ashish Sharma"
+              
+                android:textColor="#F2F2F2" />
+
+            <TextView
+                android:id="@+id/TextView0450"
+                android:layout_weight="1"
+            
+                android:gravity="center"
+                android:padding="10dip"
+                android:text="965"
+                android:textColor="#F2F2F2" />
+
+            <TextView
+                android:id="@+id/t18"
+                android:layout_weight="1"
+            
+                android:gravity="center"
+                android:padding="10dip"
+                android:text="9412353562"
+                android:textColor="#F2F2F2" />
+                      
+           
+        </TableRow>
+        
+<TableRow
+            android:id="@+id/tableRow1881"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+               android:background="#003399" >
+
+            <TextView
+                android:id="@+id/TextView4"
+                android:layout_width="5dp"
+                android:layout_weight="1"
+             
+                android:gravity="center"
+              android:padding="10dip"
+                android:text="Principal"
+                android:textColor="#F2F2F2"               
+                />
+
+            <TextView
+                android:id="@+id/TetView04"
+                android:layout_weight="1"
+            
+                android:gravity="center"
+                android:padding="10dip"
+                android:text="Mr. Vikas Sharma"
+              
+                android:textColor="#F2F2F2" />
+
+            <TextView
+                android:id="@+id/TextViw04"
+                android:layout_weight="1"
+            
+                android:gravity="center"
+                android:padding="10dip"
+                android:text="..."
+                android:textColor="#F2F2F2" />
+
+            <TextView
+                android:id="@+id/t19"
+                android:layout_weight="1"
+            
+                android:gravity="center"
+                android:padding="10dip"
+                android:text="9897436757"
+                android:textColor="#F2F2F2" />
+                      
+           
+        </TableRow>
+        
+<TableRow
+            android:id="@+id/tableRow1E"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+               android:background="#0174DF" >
+
+            <TextView
+                android:id="@+id/TextView04Q"
+                android:layout_width="5dp"
+                android:layout_weight="1"
+             
+                android:gravity="center"
+              android:padding="10dip"
+                android:text="Principal"
+                android:textColor="#F2F2F2"               
+                />
+
+            <TextView
+                android:id="@+id/TextView04W"
+                android:layout_weight="1"
+            
+                android:gravity="center"
+                android:padding="10dip"
+                android:text="Mr. Diwakar Bhardwaj"
+              
+                android:textColor="#F2F2F2" />
+
+            <TextView
+                android:id="@+id/TextView04E"
+                android:layout_weight="1"
+            
+                android:gravity="center"
+                android:padding="10dip"
+                android:text="986"
+                android:textColor="#F2F2F2" />
+
+            <TextView
+                android:id="@+id/t20"
+                android:layout_weight="1"
+            
+                android:gravity="center"
+                android:padding="10dip"
+                android:text="9897040971"
+                android:textColor="#F2F2F2" />
+                      
+           
+        </TableRow>
+
+<TableRow
+            android:id="@+id/tableRow1R"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+               android:background="#003399" >
+
+            <TextView
+                android:id="@+id/TextView04T"
+                android:layout_width="5dp"
+                android:layout_weight="1"
+             
+                android:gravity="center"
+              android:padding="10dip"
+                android:text="Dy. Chief Proctor"
+                android:textColor="#F2F2F2"               
+                />
+
+            <TextView
+                android:id="@+id/TextView04Y"
+                android:layout_weight="1"
+            
+                android:gravity="center"
+                android:padding="10dip"
+                android:text="Mr. V. K. Deolia"
+              
+                android:textColor="#F2F2F2" />
+
+            <TextView
+                android:id="@+id/TextView04U"
+                android:layout_weight="1"
+            
+                android:gravity="center"
+                android:padding="10dip"
+                android:text="888"
+                android:textColor="#F2F2F2" />
+
+            <TextView
+                android:id="@+id/t21"
+                android:layout_weight="1"
+            
+                android:gravity="center"
+                android:padding="10dip"
+                android:text="9412383869"
+                android:textColor="#F2F2F2" />
+                      
+           
+        </TableRow>
+
+
+<TableRow
+            android:id="@+id/tableRow1I"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+               android:background="#0174DF" >
+
+            <TextView
+                android:id="@+id/TextView04O"
+                android:layout_width="5dp"
+                android:layout_weight="1"
+             
+                android:gravity="center"
+              android:padding="10dip"
+                android:text="Proctor-In-charge"
+                android:textColor="#F2F2F2"               
+                />
+
+            <TextView
+                android:id="@+id/TextView04P"
+                android:layout_weight="1"
+            
+                android:gravity="center"
+                android:padding="10dip"
+                android:text="Dr. Somesh Dhamija"
+              
+                android:textColor="#F2F2F2" />
+
+            <TextView
+                android:id="@+id/TextView04A"
+                android:layout_weight="1"
+            
+                android:gravity="center"
+                android:padding="10dip"
+                android:text="721"
+                android:textColor="#F2F2F2" />
+
+            <TextView
+                android:id="@+id/t22"
+                android:layout_weight="1"
+            
+                android:gravity="center"
+                android:padding="10dip"
+                android:text="9412280122"
+                android:textColor="#F2F2F2" />
+                      
+           
+        </TableRow>
+        
+
+<TableRow
+            android:id="@+id/tableRow1S"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+               android:background="#003399" >
+
+            <TextView
+                android:id="@+id/TextView04D"
+                android:layout_width="5dp"
+                android:layout_weight="1"
+             
+                android:gravity="center"
+              android:padding="10dip"
+                android:text="Associate Prof."
+                android:textColor="#F2F2F2"               
+                />
+
+            <TextView
+                android:id="@+id/TextView04F"
+                android:layout_weight="1"
+            
+                android:gravity="center"
+                android:padding="10dip"
+                android:text="Mr. Sanjay Maurya"
+              
+                android:textColor="#F2F2F2" />
+
+            <TextView
+                android:id="@+id/TextView04G"
+                android:layout_weight="1"
+            
+                android:gravity="center"
+                android:padding="10dip"
+                android:text="..."
+                android:textColor="#F2F2F2" />
+
+            <TextView
+                android:id="@+id/t23"
+                android:layout_weight="1"
+            
+                android:gravity="center"
+                android:padding="10dip"
+                android:text="7895010874"
+                android:textColor="#F2F2F2" />
+                      
+           
+        </TableRow>
+
+<TableRow
+            android:id="@+id/tableRow1G"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+               android:background="#0174DF" >
+
+            <TextView
+                android:id="@+id/TextView04H"
+                android:layout_width="5dp"
+                android:layout_weight="1"
+             
+                android:gravity="center"
+              android:padding="10dip"
+                android:text="Proctor-In-charge"
+                android:textColor="#F2F2F2"               
+                />
+
+            <TextView
+                android:id="@+id/TextView04J"
+                android:layout_weight="1"
+            
+                android:gravity="center"
+                android:padding="10dip"
+                android:text="Dr. Vikash Tripathi"
+              
+                android:textColor="#F2F2F2" />
+
+            <TextView
+                android:id="@+id/TextView04K"
+                android:layout_weight="1"
+            
+                android:gravity="center"
+                android:padding="10dip"
+                android:text="436"
+                android:textColor="#F2F2F2" />
+
+            <TextView
+                android:id="@+id/t24"
+                android:layout_weight="1"
+            
+                android:gravity="center"
+                android:padding="10dip"
+                android:text="9412284009"
+                android:textColor="#F2F2F2" />
+                      
+           
+        </TableRow>
+<TableRow
+            android:id="@+id/tableRow1L"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+               android:background="#003399" >
+
+            <TextView
+                android:id="@+id/TextView04Z"
+                android:layout_width="5dp"
+                android:layout_weight="1"
+             
+                android:gravity="center"
+              android:padding="10dip"
+                android:text="Proctor-In-charge"
+                android:textColor="#F2F2F2"               
+                />
+
+            <TextView
+                android:id="@+id/TextView04X"
+                android:layout_weight="1"
+            
+                android:gravity="center"
+                android:padding="10dip"
+                android:text="Mr. Kamal Shah"
+              
+                android:textColor="#F2F2F2" />
+
+            <TextView
+                android:id="@+id/TextVieCVw04"
+                android:layout_weight="1"
+            
+                android:gravity="center"
+                android:padding="10dip"
+                android:text="606"
+                android:textColor="#F2F2F2" />
+
+            <TextView
+                android:id="@+id/t25"
+                android:layout_weight="1"
+            
+                android:gravity="center"
+                android:padding="10dip"
+                android:text="9359059129"
+                android:textColor="#F2F2F2" />
+                      
+           
+        </TableRow>
+
+
+
+
+<TableRow
+            android:id="@+id/tableRow1DF"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+               android:background="#0174DF" >
+
+            <TextView
+                android:id="@+id/TextViewCB04"
+                android:layout_width="5dp"
+                android:layout_weight="1"
+             
+                android:gravity="center"
+              android:padding="10dip"
+                android:text="Professor"
+                android:textColor="#F2F2F2"               
+                />
+
+            <TextView
+                android:id="@+id/TextDGView04"
+                android:layout_weight="1"
+            
+                android:gravity="center"
+                android:padding="10dip"
+                android:text="Mr. Kamal Sharma"
+              
+                android:textColor="#F2F2F2" />
+
+            <TextView
+                android:id="@+id/TextDFGView04"
+                android:layout_weight="1"
+            
+                android:gravity="center"
+                android:padding="10dip"
+                android:text="831"
+                android:textColor="#F2F2F2" />
+
+            <TextView
+                android:id="@+id/t26"
+                android:layout_weight="1"
+            
+                android:gravity="center"
+                android:padding="10dip"
+                android:text="9411065400"
+                android:textColor="#F2F2F2" />
+                      
+           
+        </TableRow>
+
+
+
+
+<TableRow
+            android:id="@+id/tableRRTow1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+               android:background="#003399" >
+
+            <TextView
+                android:id="@+id/TextVftgrtiew04"
+                android:layout_width="5dp"
+                android:layout_weight="1"
+             
+                android:gravity="center"
+              android:padding="10dip"
+                android:text="Assistant Professor"
+                android:textColor="#F2F2F2"               
+                />
+
+            <TextView
+                android:id="@+id/TexNMtView04"
+                android:layout_weight="1"
+            
+                android:gravity="center"
+                android:padding="10dip"
+                android:text="Mr. Subhash Chandra"
+              
+                android:textColor="#F2F2F2" />
+
+            <TextView
+                android:id="@+id/TextVieHJw04"
+                android:layout_weight="1"
+            
+                android:gravity="center"
+                android:padding="10dip"
+                android:text="878"
+                android:textColor="#F2F2F2" />
+
+            <TextView
+                android:id="@+id/t27"
+                android:layout_weight="1"
+            
+                android:gravity="center"
+                android:padding="10dip"
+                android:text="7830775997"
+                android:textColor="#F2F2F2" />
+                      
+           
+        </TableRow>
+
+
+<TableRow
+            android:id="@+id/tableqwRow1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+               android:background="#0174DF" >
+
+            <TextView
+                android:id="@+id/TexterView04"
+                android:layout_width="5dp"
+                android:layout_weight="1"
+             
+                android:gravity="center"
+              android:padding="10dip"
+                android:text="Warden"
+                android:textColor="#F2F2F2"               
+                />
+
+            <TextView
+                android:id="@+id/TextytView04"
+                android:layout_weight="1"
+            
+                android:gravity="center"
+                android:padding="10dip"
+                android:text="Mr. Vipin Chandra Dubey"
+              
+                android:textColor="#F2F2F2" />
+
+            <TextView
+                android:id="@+id/TextyuView04"
+                android:layout_weight="1"
+            
+                android:gravity="center"
+                android:padding="10dip"
+                android:text="929"
+                android:textColor="#F2F2F2" />
+
+            <TextView
+                android:id="@+id/t29"
+                android:layout_weight="1"
+            
+                android:gravity="center"
+                android:padding="10dip"
+                android:text="9760929029"
+                android:textColor="#F2F2F2" />
+                      
+           
+        </TableRow>
+<TableRow
+            android:id="@+id/tabluieRow1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+               android:background="#003399" >
+
+            <TextView
+                android:id="@+id/TeioxtView04"
+                android:layout_width="5dp"
+                android:layout_weight="1"
+             
+                android:gravity="center"
+              android:padding="10dip"
+                android:text="Warden"
+                android:textColor="#F2F2F2"               
+                />
+
+            <TextView
+                android:id="@+id/TeopxtView04"
+                android:layout_weight="1"
+            
+                android:gravity="center"
+                android:padding="10dip"
+                android:text="Mr. Umesh Sharma"
+              
+                android:textColor="#F2F2F2" />
+
+            <TextView
+                android:id="@+id/TextVdfiasew04"
+                android:layout_weight="1"
+            
+                android:gravity="center"
+                android:padding="10dip"
+                android:text="971"
+                android:textColor="#F2F2F2" />
+
+            <TextView
+                android:id="@+id/t30"
+                android:layout_weight="1"
+            
+                android:gravity="center"
+                android:padding="10dip"
+                android:text="9719431820"
+                android:textColor="#F2F2F2" />
+                      
+           
+        </TableRow>
+<TableRow
+            android:id="@+id/tabledfRow1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+               android:background="#0174DF" >
+
+            <TextView
+                android:id="@+id/TexfgtView04"
+                android:layout_width="5dp"
+                android:layout_weight="1"
+             
+                android:gravity="center"
+              android:padding="10dip"
+                android:text="Asst.Professor"
+                android:textColor="#F2F2F2"               
+                />
+
+            <TextView
+                android:id="@+id/TextVghjiew04"
+                android:layout_weight="1"
+            
+                android:gravity="center"
+                android:padding="10dip"
+                android:text="Ms. Deepali Singh"
+              
+                android:textColor="#F2F2F2" />
+
+            <TextView
+                android:id="@+id/TextVghgiew04"
+                android:layout_weight="1"
+            
+                android:gravity="center"
+                android:padding="10dip"
+                android:text="961"
+                android:textColor="#F2F2F2" />
+
+            <TextView
+                android:id="@+id/t31"
+                android:layout_weight="1"
+            
+                android:gravity="center"
+                android:padding="10dip"
+                android:text="9410424782"
+                android:textColor="#F2F2F2" />
+                      
+           
+        </TableRow>
+
+
+      <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" 
+            android:background="@color/green1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_span="5"
+                android:padding="18dip"
+                android:text="Other Important Numbers"
+                android:textColor="#F2F2F2"
+                android:textSize="15dp" />
+        </TableRow>
+         
+          <TableRow  android:id="@+id/newtb1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+               android:background="#003399">
+              
+                 <TextView
+                android:id="@+id/TextVghyiew04"
+                android:layout_width="5dp"
+                android:layout_weight="1"
+                android:gravity="center"
+              android:padding="10dip"
+                android:text="D.M. Office"
+                android:textColor="#F2F2F2"               
+                />
+
+            <TextView
+                android:id="@+id/tt1"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="10dip"
+                android:text="0565-2471152"
+                android:textColor="#F2F2F2" />
+
+          
+              
+          </TableRow> 
+          
+           <TableRow  android:id="@+id/newttyub1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+               android:background="#003399">
+              
+                 <TextView
+                android:id="@+id/TextVieuiow04"
+                android:layout_width="5dp"
+                android:layout_weight="1"
+             
+                android:gravity="center"
+              android:padding="10dip"
+                android:text="S.S.P. Office"
+                android:textColor="#F2F2F2"               
+                />
+
+            <TextView
+                android:id="@+id/tt2"
+                android:layout_weight="1"
+            
+                android:gravity="center"
+                android:padding="10dip"
+                android:text="0565-2471368"
+                android:textColor="#F2F2F2" />
+
+          
+              
+          </TableRow> 
+          
+            <TableRow  android:id="@+id/netyuwtb1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+               android:background="#003399">
+              
+                 <TextView
+                android:id="@+id/TextViwerew04"
+                android:layout_width="5dp"
+                android:layout_weight="1"
+             
+                android:gravity="center"
+              android:padding="10dip"
+                android:text="Jait Chauki In-charge"
+                android:textColor="#F2F2F2"               
+                />
+
+            <TextView
+                android:id="@+id/tt3"
+                android:layout_weight="1"
+            
+                android:gravity="center"
+                android:padding="10dip"
+                android:text="9012359063"
+                android:textColor="#F2F2F2" />
+
+          
+              
+          </TableRow> 
+    
+    </TableLayout>
+    
+    </RelativeLayout>
+    </ScrollView>
+    </RelativeLayout>

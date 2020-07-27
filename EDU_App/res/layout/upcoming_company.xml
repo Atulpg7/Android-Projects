@@ -1,0 +1,36 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black" > 
+
+ <RelativeLayout
+            android:id="@+id/content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" 
+               android:textColor="#FDD017"
+                android:text="Upcoming Company"
+                
+                android:gravity="center"
+                android:layout_marginTop="5dp"
+                />
+           <ListView android:id="@+id/uphead" 
+          android:layout_marginTop="30dp"
+          android:background="#3BAAE3"
+         android:layout_width="wrap_content" android:layout_height="wrap_content"
+        
+        >   
+        </ListView> 
+
+    <ListView android:id="@+id/mylist"
+         android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+          android:layout_marginTop="60dp"             
+ >
+</ListView>
+</RelativeLayout>
+</LinearLayout>

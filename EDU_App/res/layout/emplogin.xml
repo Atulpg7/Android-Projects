@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"  
+android:paddingLeft="20dp"
+android:paddingRight="20dp"
+    android:id="@+id/emer">
+ <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:fillViewport="true"
+         >
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center" >
+            
+            
+            
+            <ImageView
+                android:id="@+id/imageView1"
+               android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/emploghead" /> 
+                
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+            
+            
+            <EditText
+                android:id="@+id/editText1"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:hint="Employee ID"
+                android:inputType="textPersonName" >
+                <requestFocus />
+            </EditText>
+         
+           
+            <EditText
+                android:id="@+id/editText2"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:hint="Password"
+                android:inputType="textPassword" />
+            
+       
+           <Button
+            android:id="@+id/login235"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="15dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true" 
+            android:onClick="mybutton"
+            android:text="Login"
+            android:textStyle="italic" />
+       
+        
+           <!--   <ProgressBar
+                android:id="@+id/myProgress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="invisible" />-->
+
+            <TextView
+                android:id="@+id/link"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:autoLink="all"
+                android:linksClickable="true"
+                android:clickable="true"
+                android:onClick="forget"
+                android:text="Forget password?"
+                android:textColor="@color/firozi"
+                android:textStyle="italic" />
+               
+          
+            <TextView
+                android:id="@+id/txtAddition"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:visibility="invisible" />
+        </LinearLayout>
+</ScrollView>
+</RelativeLayout>

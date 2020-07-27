@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Autocomplete_TextView</string>
+
+    <string-array name="names">
+
+        <item>Sakshi</item>
+        <item>Ayushi</item>
+        <item>Atul</item>
+        <item>Vivek</item>
+        <item>Aman</item>
+        <item>Nikhil</item>
+        <item>Niharika</item>
+        <item>Saavann</item>
+        <item>SAAVANN</item>
+
+    </string-array>
+</resources>

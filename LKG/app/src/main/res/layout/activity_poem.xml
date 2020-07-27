@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <view
+                android:id="@+id/youtubeplay5"
+                class="com.google.android.youtube.player.YouTubePlayerView"
+                id="@+id/view2"
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:layout_alignLeft="@+id/youtubeplay4"
+                android:layout_alignStart="@+id/youtubeplay4"
+                android:layout_below="@+id/textView3"
+                android:layout_marginTop="16dp" />
+
+            <view
+                android:id="@+id/youtubeplay4"
+                class="com.google.android.youtube.player.YouTubePlayerView"
+                id="@+id/view"
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:layout_alignLeft="@+id/youtubeplay3"
+                android:layout_alignStart="@+id/youtubeplay3"
+                android:layout_below="@+id/textView"
+                android:layout_marginTop="16dp" />
+
+            <Button
+                android:id="@+id/btnplay3"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_alignLeft="@+id/btnplay2"
+                android:layout_alignStart="@+id/btnplay2"
+                android:layout_alignTop="@+id/youtubeplay3"
+                android:layout_marginTop="63dp"
+                android:background="@mipmap/play"
+                android:layout_centerHorizontal="true" />
+
+            <Button
+                android:id="@+id/btnplay4"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_alignLeft="@+id/btnplay3"
+                android:layout_alignStart="@+id/btnplay3"
+                android:layout_alignTop="@+id/youtubeplay4"
+                android:layout_marginTop="62dp"
+                android:background="@mipmap/play"
+                android:layout_centerHorizontal="true" />
+
+            <Button
+                android:id="@+id/btnplay5"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_alignLeft="@+id/btnplay4"
+                android:layout_alignStart="@+id/btnplay4"
+                android:layout_alignTop="@+id/youtubeplay5"
+                android:layout_marginTop="63dp"
+                android:background="@mipmap/play"
+                android:layout_centerHorizontal="true" />
+
+            <view
+                android:id="@+id/youtubeplay3"
+                class="com.google.android.youtube.player.YouTubePlayerView"
+                id="@+id/view8"
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:layout_alignLeft="@+id/youtubeplay2"
+                android:layout_alignStart="@+id/youtubeplay2"
+                android:layout_below="@+id/textView48"
+                android:layout_marginTop="16dp" />
+
+            <TextView
+                android:id="@+id/textView48"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/youtubeplay2"
+                android:layout_marginTop="18dp"
+                android:text="3. Jingle Bells Jingle Bells."
+                android:textColor="@android:color/holo_orange_light"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/youtubeplay4"
+                android:layout_marginTop="16dp"
+                android:text="5. Teddy Bear Teddy Bear."
+                android:textColor="@android:color/holo_orange_light"
+                android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/btnplay2"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@mipmap/play"
+                android:layout_alignTop="@+id/youtubeplay2"
+                android:layout_alignLeft="@+id/btnplay"
+                android:layout_alignStart="@+id/btnplay"
+                android:layout_marginTop="63dp"
+                android:layout_centerHorizontal="true" />
+
+            <view
+                android:id="@+id/youtubeplay2"
+                class="com.google.android.youtube.player.YouTubePlayerView"
+                id="@+id/view7"
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:layout_alignLeft="@+id/youtubeplay"
+                android:layout_alignStart="@+id/youtubeplay"
+                android:layout_below="@+id/textView44"
+                android:layout_marginTop="16dp" />
+
+            <TextView
+                android:id="@+id/textView44"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2. Jhony Jhony Yes Papa."
+                android:textColor="@android:color/holo_orange_light"
+                android:textSize="25sp"
+                android:layout_marginTop="16dp"
+                android:layout_below="@+id/youtubeplay"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <Button
+                android:id="@+id/btnplay"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@mipmap/play"
+                android:layout_marginTop="62dp"
+
+                android:layout_alignTop="@+id/youtubeplay"
+                android:layout_centerHorizontal="true" />
+
+            <TextView
+                android:id="@+id/textView43"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1.Twinkle Twinkle Little Star."
+                android:textColor="@android:color/holo_orange_light"
+                android:textSize="25sp"
+                android:layout_above="@+id/btnplay"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="11dp" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/youtubeplay3"
+                android:layout_marginTop="16dp"
+                android:text="4. Rain Rain Go Away."
+                android:textColor="@android:color/holo_orange_light"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/holo_blue_light" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/holo_blue_light"
+                android:layout_marginTop="16dp"
+                android:layout_below="@+id/youtubeplay5"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <view
+                android:id="@+id/youtubeplay"
+                class="com.google.android.youtube.player.YouTubePlayerView"
+                id="@+id/view6"
+                layout_alignParentLeft="true"
+                layout_alignParentStart="true"
+                layout_alignParentTop="true"
+                layout_marginLeft="39dp"
+                layout_marginStart="39dp"
+                layout_marginTop="42dp"
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="73dp" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WriteForUs">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal|center_vertical|center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.495">
+
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="cursive"
+            android:text="Give Your Valuable Feedback"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimary"
+            android:textSize="45dp"
+            android:textStyle="italic|bold" />
+
+
+        <EditText
+            android:id="@+id/probtitle"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:drawableLeft="@drawable/title"
+            android:hint="  Title"
+            android:inputType="text"
+            android:textColor="@android:color/darker_gray" />
+
+        <EditText
+            android:id="@+id/probdescription"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:drawableTop="@drawable/description"
+            android:gravity="start|top"
+            android:hint=" Description"
+            android:inputType="text"
+            android:textColor="@android:color/darker_gray" />
+
+        <Button
+            android:id="@+id/btnsubmit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@color/colorPrimaryDark"
+            android:text="Submit "
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textStyle="bold|italic" />
+
+
+    </LinearLayout>
+
+
+</ScrollView>
+
+
+
+</android.support.constraint.ConstraintLayout>

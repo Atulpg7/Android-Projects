@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+
+    <TextView
+        android:id="@+id/textView112"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_red_light" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView125"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/imgblue"
+                android:layout_marginTop="19dp"
+                android:background="@android:color/holo_red_light" />
+
+            <TextView
+                android:id="@+id/r"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="red" />
+
+            <TextView
+                android:id="@+id/g"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="green" />
+
+            <TextView
+                android:id="@+id/pu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="purple" />
+
+            <TextView
+                android:id="@+id/bl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="blue" />
+
+            <TextView
+                android:id="@+id/b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="black" />
+
+            <TextView
+                android:id="@+id/y"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="yellow" />
+
+            <TextView
+                android:id="@+id/p"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="pink" />
+
+            <TextView
+                android:id="@+id/w"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="white" />
+
+            <TextView
+                android:id="@+id/o"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="orange" />
+
+            <TextView
+                android:id="@+id/gr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="gray" />
+
+            <TextView
+                android:id="@+id/textView115"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="red" />
+
+            <ImageButton
+                android:id="@+id/imgred"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="22dp"
+                android:background="@null"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/red" />
+
+            <ImageButton
+                android:id="@+id/imggreen"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignTop="@+id/imgred"
+                android:background="@null"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/green" />
+
+            <ImageButton
+                android:id="@+id/imgblack"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/imgred"
+                android:background="@null"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/black" />
+
+            <ImageButton
+                android:id="@+id/imgyellow"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/imggreen"
+                android:background="@null"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/yellow" />
+
+            <ImageButton
+                android:id="@+id/imgpink"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/imgblack"
+                android:background="@null"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/pink" />
+
+            <ImageButton
+                android:id="@+id/imgwhite"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/imgyellow"
+                android:background="@null"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/white" />
+
+            <ImageButton
+                android:id="@+id/imgorange"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/imgpink"
+                android:background="@null"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/orange" />
+
+            <ImageButton
+                android:id="@+id/imgblue"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:background="@null"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/blue"
+                android:layout_below="@+id/imgorange"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <ImageButton
+                android:id="@+id/imgpurple"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:background="@null"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/purple"
+                android:layout_below="@+id/imggray"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+            <ImageButton
+                android:id="@+id/imggray"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/imgwhite"
+                android:background="@null"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/gray" />
+
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1011291032609",
+    "firebase_url": "https://dhabiee-6df4a.firebaseio.com",
+    "project_id": "dhabiee-6df4a",
+    "storage_bucket": "dhabiee-6df4a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1011291032609:android:103e44265d2049b4",
+        "android_client_info": {
+          "package_name": "com.example.atulkumar.dhabiee"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1011291032609-vv4gki3rm4tbhoa9lu4912bejon294an.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.atulkumar.dhabiee",
+            "certificate_hash": "9d05c94439195b15bf0475fe435c3adea72c4f30"
+          }
+        },
+        {
+          "client_id": "1011291032609-28k5mpmp9ni33t7cl0aoolrjn45ja4ed.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMyWWE0UG4VOPHQP-3vRfPPvC8daaQkts"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1011291032609-28k5mpmp9ni33t7cl0aoolrjn45ja4ed.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

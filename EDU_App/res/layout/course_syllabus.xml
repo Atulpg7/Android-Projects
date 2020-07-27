@@ -1,0 +1,148 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"  
+	android:paddingLeft="20dp"
+	android:paddingRight="20dp"
+    android:id="@+id/emer"
+    android:background="@drawable/bk1">  
+ <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/imageView1" >
+        <LinearLayout
+            
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+     <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_span="5"
+                android:padding="18dip"
+                android:gravity="center"
+                android:text="Download Your Syllabus in PDF Format"
+                android:textColor="#FDD017"
+                android:textSize="20dp" />
+        </TableRow>
+
+     <TextView
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_span="1"
+         android:background="@drawable/tables"
+         android:clickable="true"
+         android:gravity="left"
+         android:onClick="iet"
+         android:padding="18dip"
+         android:text="Institute of Engineering and Technology" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal" >
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal" >
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_span="1"
+                    android:background="@drawable/tables"
+                    android:clickable="true"
+                    android:gravity="left"
+                    android:onClick="ibm"
+                    android:padding="18dip"
+                    android:text="Institute of Business Management" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_span="5"
+                    android:background="@drawable/tables"
+                    android:clickable="true"
+                    android:gravity="left"
+                    android:onClick="ipr"
+                    android:padding="18dip"
+                    android:text="Institute of Pharmaceutical Research" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_span="5"
+                    android:background="@drawable/tables"
+                    android:clickable="true"
+                    android:gravity="left"
+                    android:onClick="iah"
+                    android:padding="18dip"
+                    android:text="Institute of Applied Sciences and Humanities" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_span="5"
+                    android:background="@drawable/tables"
+                    android:clickable="true"
+                    android:gravity="left"
+                    android:onClick="foe"
+                    android:padding="18dip"
+                    android:text="Faculty of Education" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_span="5"
+                    android:background="@drawable/tables"
+                    android:clickable="true"
+                    android:gravity="left"
+                    android:onClick="up"
+                    android:padding="18dip"
+                    android:text="University Polytechnic" />
+            </TableRow>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

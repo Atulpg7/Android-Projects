@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+>
+<LinearLayout 
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+  
+<HorizontalScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:fillViewport="true"
+    android:layout_marginTop="5dp"
+    android:scrollbars="horizontal|vertical" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+        
+        <ImageView
+                android:id="@+id/home"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                 android:onClick="home"
+                android:src="@drawable/st0" />
+        
+ 			<ImageView
+                android:id="@+id/attendencebutt_s"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                 android:onClick="attendence"
+                android:src="@drawable/st1" />
+ 		
+ 			<ImageView
+                android:id="@+id/resultbutt_s"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:onClick="resultbut"
+                android:src="@drawable/st3" />
+ 			
+ 			<ImageView
+                android:id="@+id/cpi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                 android:onClick="cpi"
+                android:src="@drawable/st9" />
+ 			
+ 			<ImageView
+                android:id="@+id/rank"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                 android:onClick="rank"
+                android:src="@drawable/st10" />
+ 			
+ 			<ImageView
+                android:id="@+id/marks"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                 android:onClick="marks"
+                android:src="@drawable/st11" />
+ 			
+ 			<ImageView
+                android:id="@+id/time_table"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                 android:onClick="time"
+                android:src="@drawable/st8" />
+ 			
+ 			<ImageView
+                android:id="@+id/imga2_s"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                 android:onClick="quiz"
+                android:src="@drawable/st2" />
+ 			
+ 			<ImageView
+                android:id="@+id/prepdesh_s"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                  android:onClick="prep"
+                android:src="@drawable/em12" />
+ 		
+ 			<ImageView
+                android:id="@+id/ut_s"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                 android:onClick="bookhostel"
+                android:src="@drawable/st6" />
+ 			
+ 			<!--  <ImageView
+                android:id="@+id/alert_s"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                  android:onClick="studentalert"
+                android:src="@drawable/em3" />-->
+ 			
+ 			<!--<TextView
+                android:id="@+id/count_s"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:textColor="@color/white"
+                android:textSize="1dp" /> -->
+ 			
+ 			<ImageView
+                android:id="@+id/button14_s"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                 android:onClick="feedback"
+                android:src="@drawable/em8" />
+ 			<ImageView
+                android:id="@+id/gla_s"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                 android:onClick="library"
+                android:src="@drawable/st5" />
+ 			
+ 			<ImageView
+                android:id="@+id/fb_s"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                   android:onClick="hostal"
+                android:src="@drawable/st7" />
+ 			<ImageView
+                android:id="@+id/syl_s"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                  android:onClick="ord"
+                android:src="@drawable/st4" />
+ 			
+
+ 			</LinearLayout>
+ 			</HorizontalScrollView>
+
+<ProgressBar
+android:id="@+id/progress1_s"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_gravity="center" />
+<WebView 
+   android:id="@+id/webview_s"
+   android:layout_width="fill_parent"
+   android:layout_height="fill_parent"
+/>
+</LinearLayout>
+
+ <SlidingDrawer
+     android:id="@+id/slidingDrawer1_s"
+     android:layout_width="wrap_content"
+     android:layout_height="fill_parent"
+     android:layout_alignParentBottom="true"
+     android:content="@+id/content_s"
+     android:handle="@+id/handle_s"
+     android:orientation="horizontal" >
+        
+        <Button
+            android:id="@+id/handle_s"
+            android:layout_width="35dp"
+            android:layout_height="800dp"
+            android:layout_marginLeft="30dp"
+            android:background="#0000"
+            android:text="" />
+        
+        <LinearLayout
+            android:id="@+id/content_s"
+            android:layout_width="108dp"
+            android:layout_height="fill_parent"
+            android:background="@drawable/bg4" >
+    
+             <TableLayout
+                 android:id="@+id/content_qs"
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent" >
+    
+    <TableRow
+                            android:layout_height="fill_parent"
+                            android:layout_width="fill_parent"
+                            android:layout_marginTop="15dp"
+                             android:layout_marginLeft="15dp"
+                            android:gravity="center_horizontal">
+            
+     <ImageView
+                android:id="@+id/nd_drw_s"
+                android:layout_width="100dp"
+                android:layout_height="102dp"
+             
+                android:background="@null"
+                
+                 />
+
+     </TableRow>
+     
+       <TableRow
+                            android:layout_height="fill_parent"
+                            android:layout_width="fill_parent"
+                             android:layout_marginTop="15dp"
+                            android:gravity="center_horizontal">
+     
+            <TextView
+                android:id="@+id/laliu_s"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:textSize="16dp"
+                 android:textStyle="italic"
+                android:textColor="@color/white" />
+       
+          
+       
+           </TableRow>
+           
+        <TableRow
+                            android:layout_height="fill_parent"
+                            android:layout_width="fill_parent"
+                             android:layout_marginTop="15dp"
+                            android:gravity="center_horizontal">
+     
+            
+       
+            <TextView
+                android:id="@+id/de_s"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:textSize="14dp"
+            android:text="Sem :"
+                 android:textStyle="italic"
+                android:textColor="@color/white" />
+           
+              <TextView
+                android:id="@+id/desig_s"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:textSize="14dp"
+                 android:textStyle="italic"
+                android:textColor="@color/white" />
+       
+           </TableRow>
+           
+        <TableRow
+                            android:layout_height="fill_parent"
+                            android:layout_width="fill_parent"
+                             android:layout_marginTop="40dp"
+                            android:gravity="center">
+       
+           <ImageView
+                android:id="@+id/logout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                 android:onClick="log_out"
+                android:src="@drawable/logout_last" />
+       
+           </TableRow>
+     
+    </TableLayout>
+               
+
+            
+    </LinearLayout>
+					        
+
+    
+    </SlidingDrawer>
+</RelativeLayout>
+

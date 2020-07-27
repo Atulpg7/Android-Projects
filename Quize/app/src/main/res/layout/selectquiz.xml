@@ -1,0 +1,301 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"  
+	android:paddingLeft="20dp"
+	android:paddingRight="20dp"
+    android:id="@+id/emer"
+    android:background="@drawable/quizback">  
+ <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/imageView1" >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+     <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_span="5"
+                android:padding="18dip"
+                android:gravity="center"
+                android:text="Select Quiz Type"
+                android:textColor="@color/yellow"
+                android:textSize="20dp" />
+        </TableRow>
+          <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_span="1"
+                android:padding="18dip"
+                android:gravity="left"
+                android:background="@drawable/tables"
+                android:text="GK "
+                android:clickable="true"
+                android:onClick="gk"
+               />
+        </TableRow>
+         <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_span="1"
+                android:padding="18dip"
+                android:gravity="left"
+                android:background="@drawable/tables"
+                android:text="Quant "
+                android:clickable="true"
+                android:onClick="quant"
+               />
+        </TableRow>
+        
+          <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_span="5"
+                android:padding="18dip"
+                android:gravity="left"
+                android:background="@drawable/tables"
+                android:text="Resoning "
+                     android:clickable="true"
+                android:onClick="resoning"
+               />
+        </TableRow>
+          <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_span="5"
+                android:padding="18dip"
+                android:gravity="left"
+                android:background="@drawable/tables"
+                android:text="Verbal "
+                     android:clickable="true"
+                android:onClick="verbal"
+               />
+        </TableRow>
+        
+            <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_span="5"
+                android:padding="18dip"
+                android:gravity="left"
+                android:background="@drawable/tables"
+                android:text="Technical "
+                     android:clickable="true"
+                android:onClick="tech"
+               />
+        </TableRow>
+        
+         <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_span="5"
+                android:padding="18dip"
+                android:gravity="left"
+                android:background="@drawable/tables"
+                android:text="English "
+                     android:clickable="true"
+                android:onClick="english"
+               />
+        </TableRow>
+        
+         <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_span="5"
+                android:padding="18dip"
+                android:gravity="left"
+                android:background="@drawable/tables"
+                android:text="DBMS With SQL"
+                     android:clickable="true"
+                android:onClick="dbms1"
+               />
+        </TableRow>
+         <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_span="5"
+                android:padding="18dip"
+                android:gravity="left"
+                android:background="@drawable/tables"
+                android:text="C Programming Language"
+                     android:clickable="true"
+                android:onClick="c"
+               />
+        </TableRow>
+         <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_span="5"
+                android:padding="18dip"
+                android:gravity="left"
+                android:background="@drawable/tables"
+                android:text="oops with C++"
+                     android:clickable="true"
+                android:onClick="c_plus"
+               />
+        </TableRow>
+        
+             <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_span="5"
+                android:padding="18dip"
+                android:gravity="left"
+                android:background="@drawable/tables"
+                android:text="Java"
+                     android:clickable="true"
+                android:onClick="java"
+               />
+        </TableRow>
+        
+                 <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_span="5"
+                android:padding="18dip"
+                android:gravity="left"
+                android:background="@drawable/tables"
+                android:text="C#"
+                     android:clickable="true"
+                android:onClick="c_sharp"
+               />
+        </TableRow>
+         <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_span="5"
+                android:padding="18dip"
+                android:gravity="left"
+                android:background="@drawable/tables"
+                android:text="ME Quiz"
+                     android:clickable="true"
+                android:onClick="me"
+               />
+        </TableRow>
+         <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_span="5"
+                android:padding="18dip"
+                android:gravity="left"
+                android:background="@drawable/tables"
+                android:text="Civ. Quiz"
+                     android:clickable="true"
+                android:onClick="civ"
+               />
+        </TableRow>
+         <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_span="5"
+                android:padding="18dip"
+                android:gravity="left"
+                android:background="@drawable/tables"
+                android:text="EC Quiz"
+                     android:clickable="true"
+                android:onClick="ec"
+               />
+        </TableRow>
+         <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_span="5"
+                android:padding="18dip"
+                android:gravity="left"
+                android:background="@drawable/tables"
+                android:text="EN Quiz"
+                     android:clickable="true"
+                android:onClick="en"
+               />
+        </TableRow>
+        
+
+        
+ </LinearLayout>
+    </ScrollView>    
+</RelativeLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "551862199144",
+    "firebase_url": "https://clean-chitkara-app.firebaseio.com",
+    "project_id": "clean-chitkara-app",
+    "storage_bucket": "clean-chitkara-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:551862199144:android:94e420cf65c3f7d1",
+        "android_client_info": {
+          "package_name": "com.example.cleanchitkaraapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "551862199144-tn6ilb4b2ceaaldo7g80rpmbcbst4g2r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.cleanchitkaraapp",
+            "certificate_hash": "2ff6c750f0e521d6fe640b6dfc5d7743592d328e"
+          }
+        },
+        {
+          "client_id": "551862199144-a59l03nsa4hnjpqtgb3nlf2sirqc5q95.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFCKAItjUhp3hIWv2pVQTIb-1T1WS8W9Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "551862199144-a59l03nsa4hnjpqtgb3nlf2sirqc5q95.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

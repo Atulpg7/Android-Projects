@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">New_Notezzzz</string>
+
+    <string name="navigation_drawer_open">open navigation drawer</string>
+    <string name="navigation_drawer_close">close navigation drawer</string>
+    <string name="title_activity_hello">Hello</string>
+
+    <string name="action_settings">Settings</string>
+
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

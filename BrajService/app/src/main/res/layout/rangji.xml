@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black">
+
+
+    <TextView
+        android:id="@+id/textView158"
+        android:layout_width="match_parent"
+        android:layout_height="7dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/Gold" />
+
+    <TextView
+        android:id="@+id/textView159"
+        android:layout_width="match_parent"
+        android:layout_height="7dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@color/Gold" />
+
+    <TextView
+        android:id="@+id/textView160"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView15"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="13dp"
+        android:background="@drawable/roundcorner4"
+        android:fontFamily="cursive"
+        android:rotation="0"
+        android:text="Shri Rang Ji"
+        android:textAlignment="center"
+        android:textColor="@color/Gold"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:id="@+id/imageView36"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_below="@+id/textView160"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+        app:srcCompat="@drawable/rangji" />
+
+    <ScrollView
+        android:layout_width="320dp"
+        android:layout_height="350dp"
+        android:background="@drawable/roundcorner6"
+        android:layout_below="@+id/imageView36"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp">
+
+        <TextView
+            android:id="@+id/textView171"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="15dp"
+            android:paddingBottom="15dp"
+            android:paddingTop="10dp"
+            android:text='Sri Rangji Mandir is dedicated to Lord Sri Goda-Rangamannar. Goda or Andal as she is popularly known in South India was a famous 8th century Vaishnava saint who had composed "Tiruppuvai" which centers around her love for her beloved Lord Krishna and his leela bhoomi Vrindavan. She pines for him, fasts for him, sings songs in his praise and wants to attain him by marrying him. Lord Ranganatha who is none other than Krishna answers her prayers by becoming her bridegroom. In Sri Rangji Mandir, Lord Krishna is present as the bridegroom with a walking stick in his hand as is the custom in a traditional south Indian marriage. To his right is Andal and to his left Garuda, the vahana of Lord Krishna.   Andal had expressed three wishes in "NachiyarTirumozhi"(143 verses composed by her in praise of Lord Krishna). Her first wish was to spend her life at the feet of Lord Krishna in Vrindavan. Her second wish that Lord Krishna accept her as his bride came true when she married Lord Krishna and the third wish that Lord Ranganatha (Lord Krishna) be offered "Ksheeranna"(dessert made of rice and milk) in a hundred pots was fulfilled by the eleventh century vaishnava saint Sri Ramanujacharya. Her first wish which had not been fulfilled by any of the previous Vaishnava acharyas was fulfilled by Sri Rangadeshik Swamiji by constructing this temple where Sri Goda-Rangamannar reside as divya dampathi (divine couple).'
+            android:textColor="@color/AntiqueWhite"
+            android:textSize="18sp" />
+    </ScrollView>
+</RelativeLayout>

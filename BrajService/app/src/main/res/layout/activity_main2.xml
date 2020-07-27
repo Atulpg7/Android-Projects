@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/DarkCyan"
+    >
+
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:background="@drawable/roundcorner3"
+        android:layout_below="@+id/textView18"
+        android:layout_centerHorizontal="true">
+
+        <ImageButton
+            android:id="@+id/temple"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="13dp"
+            android:layout_marginRight="13dp"
+            android:layout_toLeftOf="@+id/aboutus3"
+            android:layout_toStartOf="@+id/aboutus3"
+            android:background="@drawable/roundcorner8"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/temple" />
+
+        <ImageButton
+            android:id="@+id/hotels3"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/roundcorner8"
+            android:padding="1dp"
+            android:scaleType="fitStart"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/textView131"
+            android:layout_toEndOf="@+id/textView131"
+            android:layout_marginLeft="7dp"
+            android:layout_marginStart="7dp" />
+
+        <ImageButton
+            android:id="@+id/hotels"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:layout_alignEnd="@+id/hotels3"
+            android:layout_alignParentTop="true"
+            android:layout_alignRight="@+id/hotels3"
+            android:layout_marginEnd="9dp"
+            android:layout_marginRight="9dp"
+            android:layout_marginTop="19dp"
+            android:background="@drawable/hotel"
+            android:padding="1dp"
+            android:scaleType="fitStart" />
+
+        <TextView
+            android:id="@+id/hoteltxt"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+            android:text=" Hotels"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:layout_above="@+id/taxies3"
+            android:layout_alignLeft="@+id/hotels3"
+            android:layout_alignStart="@+id/hotels3" />
+
+        <ImageButton
+            android:id="@+id/map3"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignLeft="@+id/hoteltxt"
+            android:layout_alignStart="@+id/hoteltxt"
+            android:layout_alignTop="@+id/taxies3"
+            android:background="@drawable/roundcorner8"
+            android:scaleType="fitCenter" />
+
+        <ImageButton
+            android:id="@+id/map"
+            android:layout_width="64dp"
+            android:layout_height="48dp"
+            android:background="@null"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/map"
+            android:layout_alignTop="@+id/taxies"
+            android:layout_alignRight="@+id/hotels"
+            android:layout_alignEnd="@+id/hotels" />
+
+        <ImageButton
+            android:id="@+id/aboutus3"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_centerHorizontal="true"
+            android:background="@null"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/roundcorner8"
+            android:layout_below="@+id/textView23" />
+
+        <ImageButton
+            android:id="@+id/aboutus"
+            android:layout_width="70dp"
+            android:layout_height="54dp"
+            android:layout_alignTop="@+id/aboutus3"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="14dp"
+            android:background="@null"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/about" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/temple"
+            android:layout_alignStart="@+id/temple"
+            android:layout_below="@+id/temple"
+            android:layout_marginTop="15dp"
+            android:text="Temples"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/taxies3"
+            android:layout_alignStart="@+id/taxies3"
+            android:layout_below="@+id/map3"
+            android:layout_marginTop="12dp"
+            android:paddingLeft="15dp"
+            android:text="Cabs"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+
+        <ImageButton
+            android:id="@+id/taxies3"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignLeft="@+id/textView20"
+            android:layout_alignStart="@+id/textView20"
+            android:layout_below="@+id/textView20"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/roundcorner8"
+            android:scaleType="fitCenter" />
+
+        <ImageButton
+            android:id="@+id/taxies"
+            android:layout_width="60dp"
+            android:layout_height="45dp"
+            android:layout_marginEnd="7dp"
+            android:layout_marginRight="7dp"
+            android:layout_marginTop="16dp"
+            android:background="@null"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/taxi"
+            android:layout_alignTop="@+id/taxies3"
+            android:layout_alignRight="@+id/textView20"
+            android:layout_alignEnd="@+id/textView20" />
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/map3"
+            android:layout_alignStart="@+id/map3"
+            android:layout_alignTop="@+id/textView22"
+            android:paddingLeft="5dp"
+            android:text="Full Map"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView131"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/aboutus3"
+            android:layout_centerHorizontal="true"
+            android:text="About Us"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_below="@+id/textView16"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="13dp"
+        android:background="@drawable/roundcorner4"
+        android:fontFamily="cursive"
+        android:rotation="0"
+        android:text="Braj Dham"
+        android:textAlignment="center"
+        android:textColor="@color/Gold"
+        android:textSize="50sp" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="match_parent"
+        android:layout_height="7dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/Gold" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="match_parent"
+        android:layout_height="7dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@color/Gold" />
+
+</RelativeLayout>

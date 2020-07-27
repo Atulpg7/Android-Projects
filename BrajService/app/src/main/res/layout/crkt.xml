@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/MediumAquamarine">
+
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout2"
+        android:layout_width="350dp"
+        android:layout_height="400dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/roundcorner5">
+
+        <TextView
+            android:id="@+id/textView265"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/imageView40"
+            android:layout_toEndOf="@+id/imageView40"
+            android:layout_toRightOf="@+id/imageView40"
+            android:text="At Jaipuriya Bhavan, Vrindavan - 281121, Near Bankey Bihari Temple"
+            android:textColor="@android:color/black"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/textView269"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView268"
+            android:layout_alignStart="@+id/textView268"
+            android:layout_below="@+id/textView268"
+            android:layout_marginTop="58dp"
+            android:paddingLeft="5dp"
+            android:text="NA"
+            android:textColor="@android:color/black"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/textView268"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/imageView53"
+            android:layout_toEndOf="@+id/imageView52"
+            android:layout_toRightOf="@+id/imageView52"
+            android:paddingLeft="5dp"
+            android:text="www.radheykrishnatravels.com"
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/imageView39"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="7dp"
+            android:layout_marginStart="7dp"
+            android:layout_marginTop="31dp"
+            app:srcCompat="@drawable/mobilesignup" />
+
+        <ImageView
+            android:id="@+id/imageView40"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_alignLeft="@+id/imageView39"
+            android:layout_alignStart="@+id/imageView39"
+            android:layout_below="@+id/textView264"
+            android:layout_marginTop="17dp"
+            app:srcCompat="@drawable/address" />
+
+        <ImageView
+            android:id="@+id/imageView52"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_alignLeft="@+id/imageView40"
+            android:layout_alignStart="@+id/imageView40"
+            android:layout_below="@+id/textView265"
+            android:layout_marginTop="48dp"
+            app:srcCompat="@drawable/website" />
+
+        <ImageView
+            android:id="@+id/imageView53"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_alignLeft="@+id/imageView52"
+            android:layout_alignStart="@+id/imageView52"
+            android:layout_below="@+id/imageView52"
+            android:layout_marginTop="48dp"
+            app:srcCompat="@drawable/rating" />
+
+        <TextView
+            android:id="@+id/textView264"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_alignTop="@+id/imageView39"
+            android:layout_toEndOf="@+id/imageView39"
+            android:layout_toRightOf="@+id/imageView39"
+            android:text="+91 7536811111"
+            android:textColor="@android:color/black"
+            android:textSize="22sp" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textView244"
+        android:layout_width="match_parent"
+        android:layout_height="7dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/Gold" />
+
+    <TextView
+        android:id="@+id/textView245"
+        android:layout_width="match_parent"
+        android:layout_height="7dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@color/Gold" />
+
+    <TextView
+        android:id="@+id/textView246"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView15"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="13dp"
+        android:background="@drawable/roundcorner4"
+        android:fontFamily="cursive"
+        android:rotation="0"
+        android:text="Radhe Krishna Travels"
+        android:textAlignment="center"
+        android:textColor="@color/Gold"
+        android:textSize="30sp" />
+</RelativeLayout>

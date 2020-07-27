@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_donate"
+            android:icon="@drawable/donate"
+            android:title="Donate" />
+        <item
+            android:id="@+id/nav_finddoner"
+            android:icon="@drawable/finddonar"
+            android:title="Find Doner" />
+        <item
+            android:id="@+id/nav_rules"
+            android:icon="@drawable/rules"
+            android:title="Rules Of Donate" />
+        <item
+            android:id="@+id/nav_camp_info"
+            android:icon="@drawable/profile"
+            android:title="Our Camp Info" />
+    </group>
+
+    <item android:title="Settings">
+        <menu>
+
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>

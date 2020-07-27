@@ -1,0 +1,906 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/DodgerBlue">
+
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView19"
+        android:layout_marginTop="13dp"
+        android:background="@drawable/roundcorner4"
+        android:fontFamily="cursive"
+        android:rotation="0"
+        android:text="Hotels"
+        android:textAlignment="center"
+        android:textColor="@color/Gold"
+        android:textSize="42sp" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="match_parent"
+        android:layout_height="7dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/Gold" />
+
+    <ScrollView
+        android:id="@+id/scrollView3"
+        android:layout_width="wrap_content"
+        android:layout_height="410dp"
+        android:layout_below="@+id/textView28"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/roundcorner5">
+
+        <RelativeLayout
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/roundcorner5">
+
+            <TextView
+                android:id="@+id/textView117"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/hsh"
+                android:background="@color/Black"
+                android:elevation="17dp" />
+
+            <TextView
+                android:id="@+id/textView118"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/hkv"
+                android:background="@color/Black"
+                android:elevation="17dp" />
+
+            <TextView
+                android:id="@+id/textView119"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/hbv"
+                android:background="@color/Black"
+                android:elevation="17dp" />
+
+            <TextView
+                android:id="@+id/textView120"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/hdr"
+                android:background="@color/Black"
+                android:elevation="17dp" />
+
+            <TextView
+                android:id="@+id/textView121"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/hts"
+                android:background="@color/Black"
+                android:elevation="17dp" />
+
+            <TextView
+                android:id="@+id/textView122"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/hgg"
+                android:background="@color/Black"
+                android:elevation="17dp" />
+
+            <TextView
+                android:id="@+id/textView123"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/htrb"
+                android:background="@color/Black"
+                android:elevation="17dp" />
+
+            <TextView
+                android:id="@+id/textView124"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/kr"
+                android:background="@color/Black"
+                android:elevation="17dp" />
+
+            <TextView
+                android:id="@+id/textView125"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/ssd"
+                android:background="@color/Black"
+                android:elevation="17dp" />
+
+            <TextView
+                android:id="@+id/textView126"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/imageView29"
+                android:layout_marginTop="6dp"
+                android:background="@color/Black"
+                android:elevation="17dp" />
+
+            <Button
+                android:id="@+id/hsh"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/textView85"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:background="@null" />
+
+            <Button
+                android:id="@+id/hkv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/textView84"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/hsh"
+                android:background="@null" />
+
+            <Button
+                android:id="@+id/hbv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/textView83"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/hkv"
+                android:background="@null" />
+
+            <Button
+                android:id="@+id/hdr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/textView82"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/hbv"
+                android:background="@null" />
+
+            <Button
+                android:id="@+id/hts"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/textView97"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/hdr"
+                android:background="@null" />
+
+            <Button
+                android:id="@+id/hgg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/textView59"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/hts"
+                android:background="@null" />
+
+            <Button
+                android:id="@+id/htrb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/textView58"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/hgg"
+                android:background="@null" />
+
+            <Button
+                android:id="@+id/kr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/textView35"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/htrb"
+                android:background="@null" />
+
+            <Button
+                android:id="@+id/ssd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/textView52"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/kr"
+                android:background="@null" />
+
+            <Button
+                android:id="@+id/nsp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/textView87"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/ssd"
+                android:background="@null" />
+
+            <TextView
+                android:id="@+id/textView107"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/textView88"
+                android:layout_alignParentLeft="true"
+
+                android:layout_alignParentStart="true"
+                android:paddingLeft="240dp"
+                android:text="Fare And Rating"
+                android:textColor="@color/Blue"
+                android:textSize="7sp" />
+
+            <TextView
+                android:id="@+id/textView108"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/textView90"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:paddingLeft="240dp"
+                android:text="Fare And Rating"
+                android:textColor="@color/Blue"
+                android:textSize="7sp" />
+
+            <TextView
+                android:id="@+id/textView109"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/textView92"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:paddingLeft="240dp"
+                android:text="Fare And Rating"
+                android:textColor="@color/Blue"
+                android:textSize="7sp" />
+
+            <TextView
+                android:id="@+id/textView110"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/textView94"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:paddingLeft="240dp"
+                android:text="Fare And Rating"
+                android:textColor="@color/Blue"
+                android:textSize="7sp" />
+
+            <TextView
+                android:id="@+id/textView111"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/textView96"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:paddingLeft="240dp"
+                android:text="Fare And Rating"
+                android:textAlignment="textStart"
+                android:textColor="@color/Blue"
+                android:textSize="7sp" />
+
+            <TextView
+                android:id="@+id/textView112"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/textView98"
+                android:layout_alignParentLeft="true"
+
+                android:layout_alignParentStart="true"
+                android:paddingLeft="240dp"
+                android:text="Fare And Rating"
+                android:textColor="@color/Blue"
+                android:textSize="7sp" />
+
+            <TextView
+                android:id="@+id/textView113"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/textView100"
+                android:layout_alignParentLeft="true"
+
+                android:layout_alignParentStart="true"
+                android:paddingLeft="240dp"
+                android:text="Fare And Rating"
+                android:textColor="@color/Blue"
+                android:textSize="7sp" />
+
+            <TextView
+                android:id="@+id/textView114"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/textView102"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:paddingLeft="240dp"
+                android:text="Fare And Rating"
+                android:textAlignment="textStart"
+                android:textColor="@color/Blue"
+                android:textSize="7sp" />
+
+            <TextView
+                android:id="@+id/textView115"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/textView104"
+                android:layout_alignParentLeft="true"
+
+                android:layout_alignParentStart="true"
+                android:paddingLeft="240dp"
+                android:text="Fare And Rating"
+                android:textColor="@color/Blue"
+                android:textSize="7sp" />
+
+            <TextView
+                android:id="@+id/textView116"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/textView106"
+                android:layout_alignParentLeft="true"
+
+                android:layout_alignParentStart="true"
+                android:paddingLeft="240dp"
+                android:text="Fare And Rating"
+                android:textColor="@color/Blue"
+                android:textSize="7sp" />
+
+            <TextView
+                android:id="@+id/textView87"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignBottom="@+id/textView52"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:paddingLeft="255dp"
+                android:text="4.1 / 5"
+                android:textAlignment="textStart"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="7sp" />
+
+            <TextView
+                android:id="@+id/textView88"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/textView87"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:paddingLeft="240dp"
+                android:text="₹ 2989 / Room"
+                android:textAlignment="textStart"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="7sp" />
+
+            <TextView
+                android:id="@+id/textView89"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/textView52"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:paddingLeft="255dp"
+                android:text="4.5 / 5"
+                android:textAlignment="textStart"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="7sp" />
+
+            <TextView
+                android:id="@+id/textView90"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/textView89"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:paddingLeft="240dp"
+                android:text="₹ 1887 / Room"
+                android:textAlignment="textStart"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="7sp" />
+
+            <TextView
+                android:id="@+id/textView91"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/textView124"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:paddingLeft="255dp"
+                android:text="4.0 / 5"
+                android:textAlignment="textStart"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="7sp" />
+
+            <TextView
+                android:id="@+id/textView92"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/textView91"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:paddingLeft="240dp"
+                android:text="₹ 1901 / Room"
+                android:textAlignment="textStart"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="7sp" />
+
+            <TextView
+                android:id="@+id/textView93"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/textView123"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:paddingLeft="255dp"
+                android:text="4.5 / 5"
+                android:textAlignment="textStart"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="7sp" />
+
+            <TextView
+                android:id="@+id/textView94"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/textView93"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:paddingLeft="240dp"
+                android:text="₹ 2092 / Room"
+                android:textAlignment="textStart"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="7sp" />
+
+            <TextView
+                android:id="@+id/textView95"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/textView122"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:paddingLeft="255dp"
+                android:text="5.0 / 5"
+                android:textAlignment="textStart"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="7sp" />
+
+            <TextView
+                android:id="@+id/textView96"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/textView95"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:paddingLeft="240dp"
+                android:text="₹ 2240 / Room"
+                android:textAlignment="textStart"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="7sp" />
+
+            <TextView
+                android:id="@+id/textView97"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignBottom="@+id/textView82"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:paddingLeft="255dp"
+                android:text="3.5 / 5"
+                android:textAlignment="textStart"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="7sp" />
+
+            <TextView
+                android:id="@+id/textView98"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/textView97"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:paddingLeft="240dp"
+                android:text="₹ 1591 / Room"
+                android:textAlignment="textStart"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="7sp" />
+
+            <TextView
+                android:id="@+id/textView99"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/textView82"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:paddingLeft="255dp"
+                android:text="4.0 / 5"
+                android:textAlignment="textStart"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="7sp" />
+
+            <TextView
+                android:id="@+id/textView100"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/textView99"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:paddingLeft="240dp"
+                android:text="₹ 1692 / Room"
+                android:textAlignment="textStart"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="7sp" />
+
+            <TextView
+                android:id="@+id/textView101"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/textView83"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:paddingLeft="255dp"
+                android:text="3.5 / 5"
+                android:textAlignment="textStart"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="7sp" />
+
+            <TextView
+                android:id="@+id/textView102"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/textView101"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:paddingLeft="240dp"
+                android:text="₹ 1980 / Room"
+                android:textAlignment="textStart"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="7sp" />
+
+            <TextView
+                android:id="@+id/textView103"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/textView118"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:paddingLeft="255dp"
+                android:text="3.8 / 5"
+                android:textAlignment="textStart"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="7sp" />
+
+            <TextView
+                android:id="@+id/textView104"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/textView103"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:paddingLeft="240dp"
+                android:text=" ₹ 2,480 / Room"
+                android:textAlignment="textStart"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="7sp" />
+
+            <TextView
+                android:id="@+id/textView105"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignBottom="@+id/textView86"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:paddingLeft="255dp"
+                android:text="4.5 / 5"
+                android:textAlignment="textStart"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="7sp" />
+
+            <TextView
+                android:id="@+id/textView106"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/textView105"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:paddingLeft="240dp"
+                android:text="₹ 1,169 / Room"
+                android:textAlignment="textStart"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="7sp" />
+
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/textView52"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/imageView27"
+                android:paddingLeft="80dp"
+                android:paddingTop="5dp"
+                android:text="Shanti Sewa Dham"
+                android:textColor="@color/DarkMagenta"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView52"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignBottom="@+id/imageView29"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/imageView28"
+                android:paddingLeft="80dp"
+                android:text="Nidhivan Sarovar Portico"
+                android:textColor="@color/DarkMagenta"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView58"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/textView35"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/imageView26"
+                android:paddingLeft="80dp"
+                android:paddingTop="5dp"
+                android:text="Kridha Residency -A Boutique Hotel"
+                android:textColor="@color/DarkMagenta"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView59"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/textView58"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/imageView25"
+                android:paddingLeft="80dp"
+                android:paddingTop="5dp"
+                android:text="Hotel The Royal Bharti"
+                android:textColor="@color/DarkMagenta"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView81"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/textView59"
+                android:layout_alignLeft="@+id/imageView25"
+                android:layout_alignStart="@+id/imageView25"
+                android:layout_below="@+id/imageView24"
+                android:paddingLeft="75dp"
+                android:paddingTop="5dp"
+                android:text="Hotel Geet Govind"
+                android:textAlignment="textStart"
+                android:textColor="@color/DarkMagenta"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView82"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/textView81"
+                android:layout_alignLeft="@+id/imageView11"
+                android:layout_alignStart="@+id/imageView11"
+                android:layout_below="@+id/imageView11"
+                android:paddingLeft="75dp"
+                android:paddingTop="5dp"
+                android:text="Hotel The Subham"
+                android:textAlignment="textStart"
+                android:textColor="@color/DarkMagenta"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView83"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/textView82"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/imageView13"
+                android:paddingLeft="80dp"
+                android:paddingTop="5dp"
+                android:text="Hotel Dev Residency"
+                android:textAlignment="textStart"
+                android:textColor="@color/DarkMagenta"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView84"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/textView83"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/imageView22"
+                android:paddingLeft="80dp"
+                android:paddingTop="5dp"
+                android:text="Hotel Basera Vrindavan"
+                android:textAlignment="textStart"
+                android:textColor="@color/DarkMagenta"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView85"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/textView84"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/imageView23"
+                android:paddingLeft="80dp"
+                android:paddingTop="5dp"
+                android:text="Hotel Krishnam Vrindavan"
+                android:textAlignment="textStart"
+                android:textColor="@color/DarkMagenta"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView86"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/textView117"
+                android:layout_alignParentTop="true"
+                android:layout_toEndOf="@+id/imageView8"
+                android:paddingLeft="80dp"
+                android:paddingTop="5dp"
+                android:text="Hotel Subham Holidays"
+                android:textAlignment="textStart"
+                android:textColor="@color/DarkMagenta"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/imageView22"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_alignLeft="@+id/imageView23"
+                android:layout_alignStart="@+id/imageView23"
+                android:layout_below="@+id/imageView23"
+                app:srcCompat="@drawable/krishnam" />
+
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_alignLeft="@+id/imageView13"
+                android:layout_alignStart="@+id/imageView13"
+                android:layout_below="@+id/imageView13"
+                app:srcCompat="@drawable/dev" />
+
+            <ImageView
+                android:id="@+id/imageView24"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_alignLeft="@+id/imageView11"
+                android:layout_alignStart="@+id/imageView11"
+                android:layout_below="@+id/imageView11"
+                app:srcCompat="@drawable/thesubham" />
+
+            <ImageView
+                android:id="@+id/imageView25"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_alignLeft="@+id/imageView24"
+                android:layout_alignStart="@+id/imageView24"
+                android:layout_below="@+id/imageView24"
+                app:srcCompat="@drawable/geetgovind" />
+
+            <ImageView
+                android:id="@+id/imageView26"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_alignLeft="@+id/imageView25"
+                android:layout_alignStart="@+id/imageView25"
+                android:layout_below="@+id/imageView25"
+                app:srcCompat="@drawable/theroyalbharti" />
+
+            <ImageView
+                android:id="@+id/imageView27"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_alignLeft="@+id/imageView26"
+                android:layout_alignStart="@+id/imageView26"
+                android:layout_below="@+id/imageView26"
+                app:srcCompat="@drawable/kridha" />
+
+            <ImageView
+                android:id="@+id/imageView28"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_alignLeft="@+id/imageView27"
+                android:layout_alignStart="@+id/imageView27"
+                android:layout_below="@+id/imageView27"
+                app:srcCompat="@drawable/shantisevadham" />
+
+            <ImageView
+                android:id="@+id/imageView29"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_alignLeft="@+id/imageView28"
+                android:layout_alignStart="@+id/imageView28"
+                android:layout_below="@+id/imageView28"
+                app:srcCompat="@drawable/nidhivansarovar" />
+
+            <ImageView
+                android:id="@+id/imageView23"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_alignLeft="@+id/scrollView3"
+                android:layout_alignStart="@+id/scrollView3"
+                android:layout_below="@+id/scrollView3"
+                android:layout_marginLeft="9dp"
+                android:layout_marginStart="9dp"
+                app:srcCompat="@drawable/subham" />
+
+            <ImageView
+                android:id="@+id/imageView13"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_alignLeft="@+id/imageView22"
+                android:layout_alignStart="@+id/imageView22"
+                android:layout_below="@+id/imageView22"
+                app:srcCompat="@drawable/basera" />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="match_parent"
+        android:layout_height="7dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@color/Gold" />
+
+</RelativeLayout>

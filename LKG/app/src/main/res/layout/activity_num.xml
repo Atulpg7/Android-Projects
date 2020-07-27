@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+
+    <TextView
+        android:id="@+id/textView42"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_orange_dark" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView70"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/holo_orange_dark"
+                android:layout_below="@+id/tni"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:id="@+id/tni"
+                android:layout_width="5dp"
+                android:layout_height="5dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/ini"
+                android:layout_marginTop="9dp"
+                android:background="@android:color/holo_orange_dark"
+                android:text="Nine" />
+
+            <TextView
+                android:id="@+id/tei"
+                android:layout_width="5dp"
+                android:layout_height="5dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/ini"
+                android:layout_marginTop="9dp"
+                android:background="@android:color/holo_orange_dark"
+                android:text="Eight" />
+
+            <TextView
+                android:id="@+id/tse"
+                android:layout_width="5dp"
+                android:layout_height="5dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/ini"
+                android:layout_marginTop="9dp"
+                android:background="@android:color/holo_orange_dark"
+                android:text="Seven" />
+
+            <TextView
+                android:id="@+id/tsi"
+                android:layout_width="5dp"
+                android:layout_height="5dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/ini"
+                android:layout_marginTop="9dp"
+                android:background="@android:color/holo_orange_dark"
+                android:text="Six" />
+
+            <TextView
+                android:id="@+id/tfi"
+                android:layout_width="5dp"
+                android:layout_height="5dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/ini"
+                android:layout_marginTop="9dp"
+                android:background="@android:color/holo_orange_dark"
+                android:text="Five" />
+
+            <TextView
+                android:id="@+id/tone"
+                android:layout_width="5dp"
+                android:layout_height="5dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/ini"
+                android:layout_marginTop="9dp"
+                android:background="@android:color/holo_orange_dark"
+                android:text="One" />
+
+            <TextView
+                android:id="@+id/ttw"
+                android:layout_width="5dp"
+                android:layout_height="5dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/ini"
+                android:layout_marginTop="9dp"
+                android:background="@android:color/holo_orange_dark"
+                android:text="Two" />
+
+            <TextView
+                android:id="@+id/tth"
+                android:layout_width="5dp"
+                android:layout_height="5dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/ini"
+                android:layout_marginTop="9dp"
+                android:background="@android:color/holo_orange_dark"
+                android:text="Three" />
+
+            <TextView
+                android:id="@+id/tfo"
+                android:layout_width="5dp"
+                android:layout_height="5dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/ini"
+                android:layout_marginTop="9dp"
+                android:background="@android:color/holo_orange_dark"
+                android:text="Four" />
+
+            <ImageButton
+                android:id="@+id/isi"
+                android:background="@null"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@mipmap/six"
+                android:layout_marginRight="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_alignTop="@+id/ifi"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+            <ImageButton
+                android:id="@+id/ise"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_alignLeft="@+id/ifi"
+                android:layout_alignStart="@+id/ifi"
+                android:layout_below="@+id/ifi"
+                android:layout_marginTop="15dp"
+                android:background="@null"
+                android:scaleType="fitCenter"
+                app:srcCompat="@mipmap/seven" />
+
+            <ImageButton
+                android:id="@+id/ini"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_alignEnd="@+id/iei"
+                android:layout_alignRight="@+id/iei"
+                android:layout_below="@+id/ise"
+                android:layout_marginEnd="87dp"
+                android:layout_marginRight="87dp"
+                android:background="@null"
+                android:scaleType="fitCenter"
+                app:srcCompat="@mipmap/nine" />
+
+            <ImageButton
+                android:id="@+id/iei"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:background="@null"
+                android:scaleType="fitCenter"
+                app:srcCompat="@mipmap/eight"
+                android:layout_alignTop="@+id/ise"
+                android:layout_alignLeft="@+id/isi"
+                android:layout_alignStart="@+id/isi" />
+
+            <ImageButton
+                android:id="@+id/ifi"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_alignLeft="@+id/ith"
+                android:layout_alignStart="@+id/ith"
+                android:layout_below="@+id/ith"
+                android:layout_marginTop="18dp"
+                android:background="@null"
+                android:scaleType="fitCenter"
+                app:srcCompat="@mipmap/five" />
+
+            <ImageButton
+                android:id="@+id/ifo"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_alignLeft="@+id/isi"
+                android:layout_alignStart="@+id/isi"
+                android:layout_alignTop="@+id/ith"
+                android:background="@null"
+                android:scaleType="fitCenter"
+                app:srcCompat="@mipmap/four" />
+
+            <ImageButton
+                android:id="@+id/ith"
+                android:background="@null"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@mipmap/three"
+                android:layout_marginTop="19dp"
+                android:layout_below="@+id/ione"
+                android:layout_alignLeft="@+id/ione"
+                android:layout_alignStart="@+id/ione" />
+
+            <ImageButton
+                android:id="@+id/itw"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_alignLeft="@+id/isi"
+                android:layout_alignStart="@+id/isi"
+                android:layout_alignTop="@+id/ione"
+                android:background="@null"
+                android:scaleType="fitCenter"
+                app:srcCompat="@mipmap/two" />
+
+            <ImageButton
+                android:id="@+id/ione"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="15dp"
+                android:background="@null"
+                android:scaleType="fitCenter"
+                app:srcCompat="@mipmap/one"
+                android:layout_marginLeft="13dp"
+                android:layout_marginStart="13dp"
+                android:layout_below="@+id/textView42"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>

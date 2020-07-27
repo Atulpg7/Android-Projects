@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GLA University</string>
+
+   
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+     <string-array name="rivers">
+        <item >Brahmaputra</item>
+        <item >Ganges</item>
+        <item >Kaveri</item>
+        <item >Godavari</item>
+        <item >Periyar</item>
+        <item >Bharathappuzha (Nila)</item>
+        <item >Yamuna</item>
+    </string-array>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+ 
+    
+<string name="dp">Choose a category</string>
+    <string-array name="dp1">
+         <item>All</item>
+        <item>Student</item>
+        <item>Employee</item>   
+    </string-array>
+    <string name="cou">Select one field</string>
+    <string-array name="cou1">
+         <item>All</item>
+        <item>B.Tech First Year</item>
+        <item>B.Tech</item> 
+        <item>M.Tech</item>
+        <item>MCA</item>
+          <item>MBA</item>
+          <item>BCA</item>
+          <item>BBA</item>
+          <item>MSC</item>
+          <item>BSC</item>
+          <item>B.ed</item>
+          <item>B.Pharma</item>
+          <item>M.Pharma</item>
+          <item>D.Pharma</item>     
+                                    
+    </string-array>
+      <string name="thi">Choose.....</string>
+    <string-array name="thi1">
+         <item>All</item>
+        <item>Ist Year</item>
+        <item>IInd Year</item>
+        <item>IIIrd Year</item>
+        <item>IVth Year</item>
+        <item>Admin</item>
+        <item>IET</item>
+        <item>IBM</item>
+        <item>IPR</item>
+        <item>IAH</item>
+           <item>B.ED</item>
+        <item>Lab Asst.</item>
+        <item>Account Section</item>
+        <item>Central Library </item>
+        <item>Coumpter Section</item>
+               <item>Establishment Section </item>
+            <item>Aarogyam</item>
+              <item>Purchase Section</item>
+                <item>Hostel</item>
+                 <item>Warden</item>
+                  <item>CONSTRUCTION</item>
+                   <item>SECURITY</item>
+                    <item>HOUSE KEEPING</item>
+                     <item>T and P Deptt.</item>
+                      <item>GLNA Faculty</item>
+                       <item>polyt. faculty</item>                     
+        </string-array>
+        
+    <string-array name="navigation_drawer_items_array">
+        <item>Connect</item>
+        <item>Fixtures</item>
+        <item>Table</item>
+    </string-array>
+        
+    <string name="fo">Select one field</string>
+    <string-array name="fo1">
+         <item>All</item>
+        <item>I</item>
+        <item>II</item>
+        <item>III</item>
+        <item>IV</item>
+    
+       
+       </string-array>
+     <item name="red" type="color">#FFFF4444</item>
+     
+     
+  
+  
+
+     
+     
+     
+</resources>

@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:fillViewport="true"
+        android:layout_below="@+id/imageView1" >
+        <RelativeLayout 
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:layout_alignParentBottom="true"
+    android:gravity="center"
+    >
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="170dip"
+        android:layout_marginLeft="3dip"
+        android:layout_marginRight="3dip"
+        android:layout_marginTop="3dp"
+        android:background="@drawable/ractangleb" >
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#C8C800" >
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/empcode"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/deg"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="45dp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <EditText
+            android:id="@+id/month"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="70dp"
+            android:editable="false"
+            android:hint="Select Date >>" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="120dp"
+            android:text="Submit"
+            android:textStyle="italic" />
+
+        <ImageButton
+            android:id="@+id/imageButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/month"
+            android:layout_toRightOf="@+id/month"
+            android:background="@null"
+            android:contentDescription="selectdate"
+            android:cropToPadding="true"
+            android:src="@drawable/date4" />
+
+    </RelativeLayout>
+
+  <RelativeLayout 
+      android:id="@+id/detail1"
+         android:layout_width="wrap_content"
+        android:layout_height="200dip"
+        android:layout_marginTop="10dp"
+         android:layout_marginLeft="3dip"
+         android:layout_marginRight="3dip"
+        android:layout_centerInParent="true"
+        android:visibility="invisible"
+            android:background="@drawable/ractangleb" >
+         <TextView
+        android:id="@+id/workingdays"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+         android:layout_marginTop="12dp"
+         android:textColor="#34282C"
+         android:layout_marginLeft="15dp"  
+         />
+    <TextView
+        android:id="@+id/totalearn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+         android:layout_marginTop="40dp"
+         android:layout_marginLeft="15dp"  
+         />
+    <TextView
+        android:id="@+id/deduction"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+         android:layout_marginTop="68dp"
+         android:layout_marginLeft="15dp"
+         />
+     <TextView
+        android:id="@+id/grosssalary"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+         android:layout_marginTop="96dp"
+         android:layout_marginLeft="15dp"
+         />
+     <TextView
+        android:id="@+id/netsalary"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+         android:layout_marginTop="126dp"
+         android:layout_marginLeft="15dp"
+         />   
+              
+       </RelativeLayout>
+  <ImageButton
+      android:id="@+id/imageButton2"
+      android:layout_width="250dp"
+      android:layout_height="50dp"
+      android:src="@drawable/more1" 
+       android:layout_marginTop="356dp"
+       android:visibility="invisible"
+      android:onClick="moredetails"/>  
+          
+  <RelativeLayout
+        android:id="@+id/more"
+        android:layout_width="wrap_content"
+        android:layout_height="170dip"
+        android:layout_marginLeft="3dip"
+        android:layout_marginRight="3dip"
+        android:layout_marginTop="415dp"
+        android:visibility="invisible"
+        android:background="@drawable/ractangleb" >
+    
+             <ListView android:id="@+id/athead" 
+          android:layout_marginTop="3dp"
+          android:background="#3BAAE3"
+         android:layout_width="wrap_content" android:layout_height="wrap_content" > 
+          
+        </ListView>            
+  <ListView android:id="@+id/gridView1" 
+          android:layout_marginTop="50dp"
+         android:layout_width="wrap_content" android:layout_height="wrap_content" >  
+         
+        </ListView>
+         
+ </RelativeLayout>
+</RelativeLayout>
+</ScrollView>
+</RelativeLayout>

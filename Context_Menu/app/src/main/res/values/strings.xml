@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Context_Menu</string>
+
+
+    <string-array name="names">
+        <item>Atul</item>
+        <item>Aman</item>
+        <item>Moti</item>
+        <item>Appu</item>
+    </string-array>
+
+</resources>

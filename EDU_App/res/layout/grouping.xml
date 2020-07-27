@@ -1,0 +1,25 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"  
+    android:id="@+id/emer"
+     tools:context="com.javapapers.android.expandablelistview.app.MainActivity"
+    >
+ 
+ <LinearLayout
+         android:id="@+id/content"
+         android:layout_width="match_parent"
+         android:layout_height="404dp"
+         android:background="#FFFFFF" >
+
+    <ExpandableListView
+        android:id="@+id/expandableListView"
+        android:layout_width="fill_parent"
+        android:layout_height="394dp"
+        android:divider="#A4C739"
+        android:dividerHeight="0.5dp"
+       />
+
+</LinearLayout>
+</RelativeLayout>

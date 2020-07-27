@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sakshi.new_notezzzz.c_sec">
+
+
+
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="368dp"
+        android:layout_height="652dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="
+Basics of C:-
+
+•	History of C
+•	Overview
+•	Environmental setup
+•	Program structure
+•	Basic Syntax
+•	Data Types
+•	Variables
+•	Constants
+•	Storage classes
+•	Operators
+
+Decision Making:-
+
+•	Loops
+•	Functions
+•	Scope rules
+•	Switch case statements
+      Array and Strings:-
+
+•	Arrays
+•	Pointers
+•	Strings
+•	Structures
+•	Unions
+•	Inputs and Outputs
+•	Pre-processors
+
+Headerfiles, I/O,Error handling:-
+•	Header files
+•	File I/O
+•	Type Casting
+•	Error handling
+•	Recursion
+•	Variable arguments
+•	Command line arguments
+•	Memory Management
+
+Data Types:-
+Data types in c refer to an extensive system used for declaring variables or functions of different types. The type of a variable determines how much space it occupies in storage and how the bit pattern stored is interpreted.
+The types in C can be classified as follows −
+1	Basic Types
+They are arithmetic types and are further classified into: (a) integer types and (b) floating-point types.
+2	Enumerated types
+They are again arithmetic types and they are used to define variables that can only assign certain discrete integer values throughout the program.
+3	The type void
+The type specifier void indicates that no value is available.
+4	Derived types
+They include (a) Pointer types, (b) Array types, (c) Structure types, (d) Union types and (e) Function types.
+The array types and structure types are referred collectively as the aggregate types. The type of a function specifies the type of the function's return value. We will see the basic types in the following section, where as other types will be covered in the upcoming chapters.
+Integer Types
+The following table provides the details of standard integer types with their storage sizes and value ranges −
+Type	Storage size	Value range
+char	1 byte	-128 to 127 or 0 to 255
+unsigned char	1 byte	0 to 255
+signed char	1 byte	-128 to 127
+int	2 or 4 bytes	-32,768 to 32,767 or -2,147,483,648 to 2,147,483,647
+unsigned int	2 or 4 bytes	0 to 65,535 or 0 to 4,294,967,295
+short	2 bytes	-32,768 to 32,767
+unsigned short	2 bytes	0 to 65,535
+long	4 bytes	-2,147,483,648 to 2,147,483,647
+unsigned long	4 bytes	0 to 4,294,967,295
+Variables:-
+A variable is nothing but a name given to a storage area that our programs can manipulate. Each variable in C has a specific type, which determines the size and layout of the variable's memory; the range of values that can be stored within that memory; and the set of operations that can be applied to the variable.
+The name of a variable can be composed of letters, digits, and the underscore character. It must begin with either a letter or an underscore. Upper and lowercase letters are distinct because C is case-sensitive. Based on the basic types explained in the previous chapter, there will be the following basic variable types −
+1	Char
+Typically a single octet(one byte). This is an integer type.
+2	Int
+The most natural size of integer for the machine.
+3	Float
+A single-precision floating point value.
+4	Double
+A double-precision floating point value.
+5	Void
+Represents the absence of type.
+C programming language also allows to define various other types of variables, which we will cover in subsequent chapters like Enumeration, Pointer, Array, Structure, Union, etc. For this chapter, let us study only basic variable types.
+Variable Definition in C
+A variable definition tells the compiler where and how much storage to create for the variable. A variable definition specifies a data type and contains a list of one or more variables of that type as follows −
+
+
+For definition without an initializer: variables with static storage duration are implicitly initialized with NULL (all bytes have the value 0); the initial value of all other variables are undefined.
+Variable Declaration in C
+A variable declaration provides assurance to the compiler that there exists a variable with the given type and name so that the compiler can proceed for further compilation without requiring the complete detail about the variable. A variable definition has its meaning at the time of compilation only, the compiler needs actual variable definition at the time of linking the program.
+A variable declaration is useful when you are using multiple files and you define your variable in one of the files which will be available at the time of linking of the program. You will use the keyword extern to declare a variable at any place. Though you can declare a variable multiple times in your C program, it can be defined only once in a file, a function, or a block of code.
+Example
+Try the following example, where variables have been declared at the top, but they have been defined and initialized inside the main function −
+Constants:-
+Constants refer to fixed values that the program may not alter during its execution. These fixed values are also called literals.
+Constants can be of any of the basic data types like an integer constant, a floating constant, a character constant, or a string literal. There are enumeration constants as well.
+Constants are treated just like regular variables except that their values cannot be modified after their definition.
+Integer Literals
+An integer literal can be a decimal, octal, or hexadecimal constant. A prefix specifies the base or radix: 0x or 0X for hexadecimal, 0 for octal, and nothing for decimal.
+An integer literal can also have a suffix that is a combination of U and L, for unsigned and long, respectively. The suffix can be uppercase or lowercase and can be in any order.
+Here are some examples of integer literals −
+212         /* Legal */
+215u        /* Legal */
+0xFeeL      /* Legal */
+078         /* Illegal: 8 is not an octal digit */
+032UU       /* Illegal: cannot repeat a suffix */
+Following are other examples of various types of integer literals −
+85         /* decimal */
+0213       /* octal */
+0x4b       /* hexadecimal */
+30         /* int */
+30u        /* unsigned int */
+30l        /* long */
+30ul       /* unsigned long */
+Floating-point Literals
+A floating-point literal has an integer part, a decimal point, a fractional part, and an exponent part. You can represent floating point literals either in decimal form or exponential form.
+While representing decimal form, you must include the decimal point, the exponent, or both; and while representing exponential form, you must include the integer part, the fractional part, or both. The signed exponent is introduced by e or E.
+Here are some examples of floating-point literals −
+3.14159       /* Legal */
+314159E-5L    /* Legal */
+510E          /* Illegal: incomplete exponent */
+210f          /* Illegal: no decimal or exponent */
+.e55          /* Illegal: missing integer or fraction */
+Character Constants
+Character literals are enclosed in single quotes, e.g., 'x' can be stored in a simple variable of char type.
+A character literal can be a plain character (e.g., 'x'), an escape sequence (e.g., '\t'), or a universal character (e.g., '\u02C0').
+There are certain characters in C that represent special meaning when preceded by a backslash for example, newline (\n) or tab (\t).
+Escape sequence	Meaning
+\\	\ character
+\'	' character
+\ character
+            \?	? character
+            \a	Alert or bell
+            \b	Backspace
+            \f	Form feed
+            \n	Newline
+            \r	Carriage return
+            \t	Horizontal tab
+            \v	Vertical tab
+
+"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintVertical_bias="0.0" />
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</android.support.constraint.ConstraintLayout>

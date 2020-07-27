@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="Contents">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/notesbtn"
+                    android:icon="@drawable/notespic"
+                    android:title="Notes" />
+                <item
+                    android:id="@+id/asgmntbtn"
+                    android:icon="@drawable/agnmntpic"
+                    android:title="Assignments" />
+                <item
+                    android:id="@+id/quizebtn"
+                    android:icon="@drawable/quizepic"
+                    android:title="Quizes" />
+                <item
+                    android:id="@+id/fdbkbtn"
+                    android:icon="@drawable/fdbkpic"
+                    android:title="Feedback" />
+            </group>
+        </menu>
+    </item>
+
+
+    <item android:title="Exit">
+        <menu>
+            <item
+                android:id="@+id/logoutbtn"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>

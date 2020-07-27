@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black">
+
+
+    <TextView
+        android:id="@+id/textView140"
+        android:layout_width="match_parent"
+        android:layout_height="7dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/Gold" />
+
+    <TextView
+        android:id="@+id/textView144"
+        android:layout_width="match_parent"
+        android:layout_height="7dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@color/Gold" />
+
+    <TextView
+        android:id="@+id/textView145"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView15"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="13dp"
+        android:background="@drawable/roundcorner4"
+        android:fontFamily="cursive"
+        android:rotation="0"
+        android:text="Shri Dwarkadheesh Mandir"
+        android:textAlignment="center"
+        android:textColor="@color/Gold"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:id="@+id/imageView31"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_below="@+id/textView145"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        app:srcCompat="@drawable/dwarkadheesh" />
+
+    <ScrollView
+        android:layout_width="320dp"
+        android:layout_height="350dp"
+        android:layout_below="@+id/imageView31"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/roundcorner6">
+
+        <TextView
+            android:id="@+id/textView167"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="15dp"
+            android:paddingBottom="15dp"
+            android:paddingTop="10dp"
+            android:text="The Dwarkadhish temple, touted as one of the holiest temples in the city of Mathura, is famous all over the country for its elaborate architecture and paintings. Built only in the year 1814, the temple is relatively new but has managed to gain the scared impression by the grace of the almighty deity housed inside it. Situated within the perimeter of the city's holy gate, near the ghats of River Yamuna, the whole temple and its surrounding is a hub of a lot of interesting activities. Thousands of devotees that here every day to experience the divine aura of the opulent temple.  An array of beautiful ceiling paintings showcasing the various aspects of the Lord's life and the beautiful Rajasthani architectural designs and carving makes the complex look even more magnanimous. The beautiful black coloured marble idol of the Lord has four arms, two on his waist and two upwards while transporting your soul into a dimension full of peace and serenity. The beautiful shringar of the Lord is awe-inspiring and very aesthetic.  "
+            android:textColor="@color/AntiqueWhite"
+            android:textSize="18sp" />
+    </ScrollView>
+</RelativeLayout>

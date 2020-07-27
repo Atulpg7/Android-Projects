@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black">
+
+
+    <TextView
+        android:id="@+id/textView152"
+        android:layout_width="match_parent"
+        android:layout_height="7dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/Gold" />
+
+    <TextView
+        android:id="@+id/textView153"
+        android:layout_width="match_parent"
+        android:layout_height="7dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@color/Gold" />
+
+    <TextView
+        android:id="@+id/textView154"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView15"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="13dp"
+        android:background="@drawable/roundcorner4"
+        android:fontFamily="cursive"
+        android:rotation="0"
+        android:text="Prem Mandir"
+        android:textAlignment="center"
+        android:textColor="@color/Gold"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:id="@+id/imageView34"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_below="@+id/textView154"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        app:srcCompat="@drawable/premmandir" />
+
+    <ScrollView
+        android:layout_width="320dp"
+        android:layout_height="350dp"
+        android:background="@drawable/roundcorner6"
+        android:layout_below="@+id/imageView34"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp">
+
+        <TextView
+            android:id="@+id/textView169"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="15dp"
+            android:paddingBottom="15dp"
+            android:paddingTop="10dp"
+            android:text="Prem Mandir 54 acres, 125 feet high, 122 feet long and 115 feet wide. The lush green gardens, fountains, Radha Krishna magnificent jhanki, Sri Govrdhn holding Leela, Snake Kaliya Leela are displayed. Easier poetry of Shri Radha Govind are written on smooth marble straps, to read and understand by common man. The outer walls are painted with pastimes stories of Mathura and Dwarka.  Vrindavan maintained their sense continuity of religion. Along with old temples the new temple also increases. Today, pilgrims have been flocking to these new places and temples. It is believed that Indians collect the purity elements in entertenment also. That the reason, religious people are also changing their choices and locations. The main thing in life, the fact remains vibrancy Indians. The view is so amazing that one can not live without saying Radhe-Radhe."
+            android:textColor="@color/AntiqueWhite"
+            android:textSize="18sp" />
+    </ScrollView>
+</RelativeLayout>

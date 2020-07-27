@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RulesActivity"
+    android:background="@mipmap/bg">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="3dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginRight="3dp"
+            android:layout_marginBottom="3dp"
+            android:background="@color/white"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.032">
+
+
+            <ImageView
+                android:id="@+id/rules"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/rulesimg"
+                android:layout_weight="1"
+                android:scaleType="matrix"/>
+
+
+
+<!--            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="cursive"
+                android:gravity="center"
+                android:text="Rules Of Blood Donation"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="25sp"
+                android:textStyle="italic|bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/bullet"
+                android:text=" Any donor, who is healthy, fit and not suffering from any transmittable diseases can donate blood. "
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="15dp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/bullet"
+                android:text=" Donor must be 18 -60 years age and having a minimum weight of 50Kg can donate blood."
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="15dp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/bullet"
+                android:text=" Donor’s Hemoglobin level is 12.5% minimum."
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="15dp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/bullet"
+                android:text=" A donor can again donate blood after 3 months of your last donation of blood."
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="15dp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/bullet"
+                android:text=" Pulse rate must be between 50 to 100mm without any irregularities."
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="15dp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/bullet"
+                android:text=" BP Diastolic 50 to 100 mm Hg and Systolic 100 to 180 mm Hg."
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="15dp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/bullet"
+                android:text="Body temperature should be normal and oral temperature should not exceed 37.5 degree Celsius."
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="15dp"
+                android:textStyle="italic" />-->
+
+
+
+            <!--<LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@color/white"
+                android:orientation="vertical"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.032">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="cursive"
+                    android:gravity="center"
+                    android:text="रक्त दान के नियम"
+                    android:textColor="@android:color/holo_red_dark"
+                    android:textSize="25sp"
+                    android:textStyle="italic|bold"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_weight="1"
+                    android:drawableLeft="@drawable/bullet"
+                    android:text=" रक्‍तदान करने वाले व्‍यक्‍ति की उम्र 17 साल से अधिक होनी चाहिए।"
+                    android:textColor="@android:color/holo_red_dark"
+                    android:textSize="15dp"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:drawableLeft="@drawable/bullet"
+                    android:text=" रक्‍तदान के लिए वही लोग योग्‍य होते हैं, जिनका वज़न 50 किलो से अधिक होता है।"
+                    android:textColor="@android:color/holo_red_dark"
+                    android:textSize="15dp"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:drawableLeft="@drawable/bullet"
+                    android:text=" महावारी के दौर से गुज़र रही महिलाएं या बच्‍चे को स्‍तनपान कराने वाली महिलाएं रक्‍तदान नहीं कर सकतीं।"
+                    android:textColor="@android:color/holo_red_dark"
+                    android:textSize="15dp"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:drawableLeft="@drawable/bullet"
+                    android:text=" अगर आपने रक्‍तदान के 48 घंटे पहले एल्‍कोहल का सेवन किया है तो आप रक्‍तदान नहीं कर सकते।"
+                    android:textColor="@android:color/holo_red_dark"
+                    android:textSize="15dp"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:drawableLeft="@drawable/bullet"
+                    android:text=" रक्‍तदान करने वाले व्‍यक्‍ति के हीमोग्‍लोबीन का स्‍तर 12 प्रतिशत से अधिक होना चाहिए।"
+                    android:textColor="@android:color/holo_red_dark"
+                    android:textSize="15dp"
+                    android:textStyle="italic"
+                    android:layout_marginBottom="10dp"/>
+
+            </LinearLayout>-->
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

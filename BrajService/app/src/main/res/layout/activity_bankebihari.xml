@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black">
+
+
+    <TextView
+        android:id="@+id/textView141"
+        android:layout_width="match_parent"
+        android:layout_height="7dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/Gold" />
+
+    <TextView
+        android:id="@+id/textView142"
+        android:layout_width="match_parent"
+        android:layout_height="7dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@color/Gold" />
+
+    <TextView
+        android:id="@+id/textView143"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView15"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="13dp"
+        android:background="@drawable/roundcorner4"
+        android:fontFamily="cursive"
+        android:rotation="0"
+        android:text="Shri Bankey Bihari"
+        android:textAlignment="center"
+        android:textColor="@color/Gold"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:id="@+id/imageView30"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_below="@+id/textView143"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/bankeybihari" />
+
+    <ScrollView
+        android:layout_width="320dp"
+        android:layout_height="350dp"
+        android:layout_below="@+id/imageView30"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/roundcorner6">
+
+        <TextView
+            android:id="@+id/textView164"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="15dp"
+            android:paddingBottom="15dp"
+            android:paddingTop="10dp"
+            android:text="Bankey Bihari Temple is the prime attraction and the highly revered shrine of Vrindavan. In Uttar Pradesh, Vrindavan is a small town that is celebrated for this holy shrine of Lord Krishna. Banke Bihari Mandir is the popular temple amongst the Vaishnavites of India. The present temple was built by Swami Haridas in 1864. Here, Lord Krishna is observed in his phase of childhood. The services offered to the Lord are made in such style, as if, nurturing a small child.   In the phrase Bankey Bihari, the term 'Bankey' suggests 'bent at three places' and 'Bihari refers 'the Supreme enjoyer'. Thus, Bankey Bihari is the benefactor of bliss and pleasure. Lord Bankey Bihari is also known Thakurji, the owner of everything. The black wooden idol of Bankey Bihariji was brought in this temple from Nidhivan by Swami Haridas. The services made to deity is regarded as the 'sewa' of the deity. At that time, Swami Haridas tendered the 'sewa' of Bihariji to Goswami Jagannath. "
+            android:textColor="@color/AntiqueWhite"
+            android:textSize="18sp" />
+    </ScrollView>
+
+</RelativeLayout>

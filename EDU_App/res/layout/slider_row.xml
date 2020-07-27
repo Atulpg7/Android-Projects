@@ -1,0 +1,10 @@
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@android:id/text1"
+    android:layout_width="fill_parent"
+    android:layout_height="50dp"
+    android:textColor="@android:color/black"
+    android:textSize="15dp"
+    android:gravity="center_vertical|center_horizontal"
+    android:text="@string/hello_world"
+    tools:context=".syllabus1" />

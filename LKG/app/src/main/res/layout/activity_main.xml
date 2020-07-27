@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/main"
+    tools:context="com.example.atulkumar.lkg.MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView87"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_light" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/Poem"
+                android:layout_marginTop="70dp"
+                android:background="@android:color/holo_blue_light" />
+
+            <ImageButton
+                android:id="@+id/abc"
+                android:layout_width="150dp"
+                android:layout_height="130dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+
+                android:adjustViewBounds="true"
+                android:background="@mipmap/abc"
+                android:padding="20dp"
+                android:scaleType="fitCenter" />
+
+            <TextView
+                android:id="@+id/atoz"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:layout_alignEnd="@+id/abc"
+                android:layout_alignRight="@+id/abc"
+                android:layout_below="@+id/abc"
+                android:layout_marginTop="8dp"
+                android:background="@mipmap/colourmain"
+                android:text="A TO Z"
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="28sp" />
+
+            <ImageButton
+                android:id="@+id/num"
+                android:layout_width="150dp"
+                android:layout_height="130dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignTop="@+id/abc"
+                android:layout_marginEnd="7dp"
+                android:layout_marginRight="7dp"
+
+                android:adjustViewBounds="true"
+                android:background="@mipmap/digit"
+                android:padding="10dp"
+                android:scaleType="fitCenter" />
+
+            <TextView
+                android:id="@+id/onetonine"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:layout_alignBaseline="@+id/atoz"
+                android:layout_alignBottom="@+id/atoz"
+                android:layout_alignEnd="@+id/num"
+                android:layout_alignRight="@+id/num"
+                android:background="@mipmap/colourmain"
+                android:text="1 To 9"
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="28sp" />
+
+            <ImageButton
+                android:id="@+id/h1"
+
+                style="@android:style/Widget.Holo.ImageButton"
+                android:layout_width="150dp"
+                android:layout_height="130dp"
+                android:layout_alignEnd="@+id/atoz"
+                android:layout_alignRight="@+id/atoz"
+                android:layout_below="@+id/atoz"
+                android:layout_marginTop="15dp"
+                android:background="@mipmap/h1"
+                android:scaleType="fitCenter" />
+
+            <TextView
+                android:id="@+id/hindi"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:layout_alignEnd="@+id/h1"
+                android:layout_alignRight="@+id/h1"
+                android:layout_below="@+id/h1"
+                android:layout_marginTop="12dp"
+                android:background="@mipmap/colourmain"
+                android:text="अ से अः तक"
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="28sp" />
+
+            <ImageButton
+                android:id="@+id/h2"
+                android:layout_width="150dp"
+                android:layout_height="130dp"
+                android:layout_alignEnd="@+id/num"
+                android:layout_alignRight="@+id/num"
+                android:layout_alignTop="@+id/h1"
+                android:background="@mipmap/h3"
+                android:scaleType="fitCenter" />
+
+            <TextView
+                android:id="@+id/hindi2"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:layout_above="@+id/shapes"
+                android:layout_alignEnd="@+id/h2"
+                android:layout_alignRight="@+id/h2"
+                android:background="@mipmap/colourmain"
+                android:text="क से ज्ञ तक"
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="28sp" />
+
+            <ImageButton
+                android:id="@+id/shapes"
+
+                android:layout_width="150dp"
+                android:layout_height="130dp"
+                android:layout_alignLeft="@+id/hindi"
+                android:layout_alignStart="@+id/hindi"
+                android:layout_below="@+id/hindi"
+
+                android:layout_marginTop="21dp"
+                android:background="@mipmap/logoshape"
+                android:scaleType="centerInside" />
+
+            <ImageButton
+                android:id="@+id/Poem"
+
+                android:layout_width="150dp"
+                android:layout_height="130dp"
+
+                android:layout_alignEnd="@+id/shape"
+                android:layout_alignRight="@+id/shape"
+                android:layout_below="@+id/animaln"
+                android:layout_marginTop="14dp"
+                android:background="@drawable/poem"
+                android:scaleType="centerInside" />
+
+            <TextView
+                android:id="@+id/animaln"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:layout_alignEnd="@+id/animals"
+                android:layout_alignRight="@+id/animals"
+                android:layout_below="@+id/animals"
+                android:layout_marginTop="8dp"
+                android:background="@mipmap/colourmain"
+                android:text="ANIMALS"
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="28sp" />
+
+            <TextView
+                android:id="@+id/shape"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:layout_alignBaseline="@+id/animaln"
+                android:layout_alignBottom="@+id/animaln"
+                android:layout_alignEnd="@+id/shapes"
+                android:layout_alignRight="@+id/shapes"
+                android:background="@mipmap/colourmain"
+                android:text="SHAPES"
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="28sp" />
+
+            <TextView
+                android:id="@+id/txtcolours"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:layout_alignBaseline="@+id/poems"
+                android:layout_alignBottom="@+id/poems"
+                android:layout_alignLeft="@+id/Colours"
+                android:layout_alignStart="@+id/Colours"
+                android:background="@mipmap/colourmain"
+                android:text="COLOURS"
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="28sp" />
+
+            <TextView
+                android:id="@+id/poems"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:layout_alignEnd="@+id/Poem"
+                android:layout_alignRight="@+id/Poem"
+                android:layout_below="@+id/Poem"
+                android:layout_marginTop="14dp"
+                android:background="@mipmap/colourmain"
+                android:text="POEMS"
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="28sp" />
+
+            <ImageButton
+                android:id="@+id/animals"
+                android:layout_width="150dp"
+                android:layout_height="130dp"
+                android:layout_alignLeft="@+id/hindi2"
+                android:layout_alignStart="@+id/hindi2"
+                android:layout_alignTop="@+id/shapes"
+                android:background="@mipmap/logoa"
+                android:scaleType="fitCenter" />
+
+            <ImageButton
+                android:id="@+id/Colours"
+                android:layout_width="150dp"
+                android:layout_height="130dp"
+                android:layout_alignEnd="@+id/animaln"
+                android:layout_alignRight="@+id/animaln"
+                android:layout_alignTop="@+id/Poem"
+                android:background="@mipmap/colours"
+                android:scaleType="fitCenter" />
+
+
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>

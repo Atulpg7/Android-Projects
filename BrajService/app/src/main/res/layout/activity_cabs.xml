@@ -1,0 +1,516 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/MediumPurple">
+
+
+    <TextView
+        android:id="@+id/textView127"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView128"
+        android:layout_marginTop="13dp"
+        android:background="@drawable/roundcorner4"
+        android:fontFamily="cursive"
+        android:rotation="0"
+        android:text="Cabs"
+        android:textAlignment="center"
+        android:textColor="@color/Gold"
+        android:textSize="42sp" />
+
+    <TextView
+        android:id="@+id/textView128"
+        android:layout_width="match_parent"
+        android:layout_height="7dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/Gold" />
+
+    <TextView
+        android:id="@+id/textView129"
+        android:layout_width="match_parent"
+        android:layout_height="7dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@color/Gold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:layout_below="@+id/textView127"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/roundcorner5">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textView186"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_above="@+id/sgtt"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:background="@color/Black"
+                android:elevation="17dp" />
+
+            <TextView
+                android:id="@+id/textView214"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_above="@+id/dbtt"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:background="@color/Black"
+                android:elevation="17dp" />
+
+            <TextView
+                android:id="@+id/textView215"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_above="@+id/sltt"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:background="@color/Black"
+                android:elevation="17dp" />
+
+            <TextView
+                android:id="@+id/textView216"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_above="@+id/bbte"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:background="@color/Black"
+                android:elevation="17dp" />
+
+            <TextView
+                android:id="@+id/textView217"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_above="@+id/ltt"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:background="@color/Black"
+                android:elevation="17dp" />
+
+            <TextView
+                android:id="@+id/textView218"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_above="@+id/gt"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:background="@color/Black"
+                android:elevation="17dp" />
+
+            <TextView
+                android:id="@+id/textView219"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_above="@+id/ytb"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:background="@color/Black"
+                android:elevation="17dp" />
+
+            <TextView
+                android:id="@+id/textView220"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_above="@+id/rkt"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:background="@color/Black"
+                android:elevation="17dp" />
+
+            <TextView
+                android:id="@+id/textView221"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_above="@+id/cbt"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:background="@color/Black"
+                android:elevation="17dp" />
+
+            <TextView
+                android:id="@+id/textView222"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:background="@color/Black"
+                android:elevation="17dp" />
+
+            <Button
+                android:id="@+id/hktt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/textView185"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:background="@null" />
+
+            <Button
+                android:id="@+id/sgtt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/textView183"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/hktt"
+                android:background="@null" />
+
+            <Button
+                android:id="@+id/dbtt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/textView182"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/sgtt"
+                android:background="@null" />
+
+            <Button
+                android:id="@+id/sltt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/textView181"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/dbtt"
+                android:background="@null" />
+
+            <Button
+                android:id="@+id/bbte"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/textView179"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/sltt"
+                android:background="@null" />
+
+            <Button
+                android:id="@+id/ltt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/textView178"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/bbte"
+                android:background="@null" />
+
+            <Button
+                android:id="@+id/gt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/textView177"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/ltt"
+                android:background="@null" />
+
+            <Button
+                android:id="@+id/ytb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/textView176"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/gt"
+                android:background="@null" />
+
+            <Button
+                android:id="@+id/rkt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/textView174"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/ytb"
+                android:background="@null" />
+
+            <Button
+                android:id="@+id/cbt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/textView174"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/rkt"
+                android:background="@null" />
+
+            <TextView
+                android:id="@+id/textView173"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/imageView56"
+                android:layout_alignParentTop="true"
+                android:layout_toEndOf="@+id/imageView21"
+                android:layout_toRightOf="@+id/imageView21"
+                android:paddingLeft="80dp"
+                android:paddingTop="5dp"
+                android:text="Hare Krishna Tour And Travels"
+                android:textColor="@color/DarkMagenta"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView185"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/imageView58"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textView173"
+                android:paddingLeft="80dp"
+                android:paddingTop="5dp"
+                android:text="Shri Girraj Tour And Travels"
+                android:textColor="@color/DarkMagenta"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView183"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/imageView65"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textView185"
+                android:paddingLeft="80dp"
+                android:paddingTop="5dp"
+                android:text="Do Bhai Tour And Travels"
+                android:textColor="@color/DarkMagenta"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView182"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/imageView64"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textView183"
+                android:paddingLeft="80dp"
+                android:paddingTop="5dp"
+                android:text="Shri Lakshmi Tour And Travels"
+                android:textColor="@color/DarkMagenta"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView181"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/imageView63"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textView182"
+                android:paddingLeft="80dp"
+                android:paddingTop="5dp"
+                android:text="Bye Bye Taxi Enterprises"
+                android:textColor="@color/DarkMagenta"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView179"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/imageView62"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textView181"
+                android:paddingLeft="80dp"
+                android:paddingTop="5dp"
+                android:text="Laxmi Tour And Travels"
+                android:textColor="@color/DarkMagenta"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView178"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/imageView61"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textView179"
+                android:paddingLeft="80dp"
+                android:paddingTop="5dp"
+                android:text="Gautam Travels"
+                android:textColor="@color/DarkMagenta"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView177"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/imageView60"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textView178"
+                android:paddingLeft="80dp"
+                android:paddingTop="5dp"
+                android:text="YaduvanshamTravel Bureau"
+                android:textColor="@color/DarkMagenta"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView176"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/imageView59"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textView177"
+                android:paddingLeft="80dp"
+                android:paddingTop="5dp"
+                android:text="Radhe Krishna Travels "
+                android:textColor="@color/DarkMagenta"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView174"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignBottom="@+id/imageView59"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textView176"
+                android:paddingLeft="80dp"
+                android:paddingTop="5dp"
+                android:text="Chacha Bhatija Travels"
+                android:textColor="@color/DarkMagenta"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/imageView38"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="9dp"
+                android:src="@mipmap/harekrishna" />
+
+            <ImageView
+                android:id="@+id/imageView56"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/imageView38"
+                android:layout_marginLeft="9dp"
+                android:src="@mipmap/girraj" />
+
+            <ImageView
+                android:id="@+id/imageView58"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/imageView56"
+                android:layout_marginLeft="9dp"
+                android:src="@mipmap/dobhai" />
+
+            <ImageView
+                android:id="@+id/imageView65"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/imageView58"
+                android:layout_marginLeft="9dp"
+                android:src="@mipmap/lakshmi" />
+
+            <ImageView
+                android:id="@+id/imageView64"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/imageView65"
+                android:layout_marginLeft="9dp"
+                android:src="@mipmap/byebye" />
+
+            <ImageView
+                android:id="@+id/imageView63"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/imageView64"
+                android:layout_marginLeft="9dp"
+                android:src="@mipmap/laxmi" />
+
+            <ImageView
+                android:id="@+id/imageView62"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/imageView63"
+                android:layout_marginLeft="9dp"
+                android:src="@mipmap/gautam" />
+
+            <ImageView
+                android:id="@+id/imageView61"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/imageView62"
+                android:layout_marginLeft="9dp"
+                android:src="@drawable/yaduvansham" />
+
+            <ImageView
+                android:id="@+id/imageView60"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/imageView61"
+                android:layout_marginLeft="9dp"
+                android:src="@mipmap/radhekrishna" />
+
+            <ImageView
+                android:id="@+id/imageView59"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/imageView60"
+                android:layout_marginLeft="9dp"
+                android:src="@mipmap/chacha" />
+
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black">
+
+
+    <TextView
+        android:id="@+id/textView155"
+        android:layout_width="match_parent"
+        android:layout_height="7dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/Gold" />
+
+    <TextView
+        android:id="@+id/textView156"
+        android:layout_width="match_parent"
+        android:layout_height="7dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@color/Gold" />
+
+    <TextView
+        android:id="@+id/textView157"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView15"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="13dp"
+        android:background="@drawable/roundcorner4"
+        android:fontFamily="cursive"
+        android:rotation="0"
+        android:text="Shri Radha Damodar "
+        android:textAlignment="center"
+        android:textColor="@color/Gold"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:id="@+id/imageView35"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_below="@+id/textView157"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/radhadamodar" />
+
+    <ScrollView
+        android:layout_width="320dp"
+        android:layout_height="350dp"
+        android:background="@drawable/roundcorner6"
+        android:layout_below="@+id/imageView35"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="11dp">
+
+        <TextView
+            android:id="@+id/textView170"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="15dp"
+            android:paddingBottom="15dp"
+            android:paddingTop="10dp"
+            android:text="This temple is situated within the area of Sevakunj in Vrindavan. Shri Rup Goswami used to live here in his bhajana-kuti. The contemporary Goswamis and devotees assembled here for istagosthis and, in those gatherings of Vaishnavas, Shri Raghunath Bhatt would elucidate on Shrimad Bhagvat in his melodious voice. Shri Rup Goswami compiled Shri Bhakti Rasamrita Sindhu, Ujjval Nilamani and other sacred texts on bhakti at this place. The young Shri Jiv Goswami was engaged in all kinds of service to Shri Rup Goswami, who personally manifested the deity of Shri Radha-Damodar with his own hands and offered the service and worship to Shri Jiv. According to the book Seva Prakatya, Shri Radha Damodar were installed in samvat 1599 (1543 AD) in the month of Magha (January–February) on Shukl Dashami (the tenth day of the bright half of the month). The original Shri Radha-Damodar are now in Jaipur, and Their Pratibhu Vigrahas, which are as potent as the original deities, are in Vrindavan."
+            android:textColor="@color/AntiqueWhite"
+            android:textSize="18sp" />
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,1744 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+
+    <TextView
+        android:id="@+id/textView86"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_green_light" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:fillViewport="true"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+
+            <TextView
+                android:id="@+id/k"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/imga"
+                android:layout_toEndOf="@+id/textView50"
+                android:layout_toRightOf="@+id/textView50"
+                android:text="क से कबूतर"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/tharmas"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/imga"
+                android:layout_toEndOf="@+id/textView50"
+                android:layout_toRightOf="@+id/textView50"
+                android:text="थ से थरमस"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/tamatar"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/imga"
+                android:layout_toEndOf="@+id/textView50"
+                android:layout_toRightOf="@+id/textView50"
+                android:text="ट से टमाटर"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/dakhali"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/imga"
+                android:layout_toEndOf="@+id/textView50"
+                android:layout_toRightOf="@+id/textView50"
+                android:text="ङ खाली"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/nchkhali"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/imga"
+                android:layout_toEndOf="@+id/textView50"
+                android:layout_toRightOf="@+id/textView50"
+                android:text="ञ खाली"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/txtkabootar"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/imga"
+                android:layout_toEndOf="@+id/textView50"
+                android:layout_toRightOf="@+id/textView50"
+                android:text="कबूतर"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/gr"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/imgc"
+                android:layout_toEndOf="@+id/textView52"
+                android:layout_toRightOf="@+id/textView52"
+                android:text="ग से गमला"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/imgc"
+                android:layout_toEndOf="@+id/textView52"
+                android:layout_toRightOf="@+id/textView52"
+                android:text="गमला"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/t"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/imgk"
+                android:layout_toEndOf="@+id/textView61"
+                android:layout_toRightOf="@+id/textView61"
+                android:text="ट से टमाटर"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/textView40"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/imgk"
+                android:layout_toEndOf="@+id/textView61"
+                android:layout_toRightOf="@+id/textView61"
+                android:text="टमाटर"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/nakhali"
+                android:layout_width="120dp"
+                android:layout_height="35dp"
+                android:layout_below="@+id/imgo"
+                android:layout_toEndOf="@+id/textView92"
+                android:layout_toRightOf="@+id/textView92"
+                android:text="ण खाली"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/ta"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/imgp"
+                android:text="त से तरबूज"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/textView47"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/imgp"
+                android:text="तरबूज"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/pt"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/imgu"
+                android:layout_toEndOf="@+id/textView96"
+                android:layout_toRightOf="@+id/textView96"
+                android:text="प से पतंग"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/textView60"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/imgu"
+                android:layout_toEndOf="@+id/textView96"
+                android:layout_toRightOf="@+id/textView96"
+                android:text="पतंग"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/yg"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/imgz"
+                android:text="य से यज्ञ"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/textView63"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/imgz"
+                android:text="यज्ञ"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/sa"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/imgshatkon"
+                android:layout_toEndOf="@+id/textView106"
+                android:layout_toRightOf="@+id/textView106"
+                android:text="ष से षट्कोण"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/textView66"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/imgshatkon"
+                android:layout_toEndOf="@+id/textView106"
+                android:layout_toRightOf="@+id/textView106"
+                android:text="षट्कोण"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/gy"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/imggyani"
+                android:text="ज्ञ से ज्ञानी"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/textView67"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/imggyani"
+                android:text="ज्ञानी"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/tr"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:layout_alignLeft="@+id/imgtrishul"
+                android:layout_alignStart="@+id/imgtrishul"
+                android:layout_below="@+id/imgtrishul"
+                android:text="त्र से त्रिशूल"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/textView68"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:layout_alignLeft="@+id/imgtrishul"
+                android:layout_alignStart="@+id/imgtrishul"
+                android:layout_below="@+id/imgtrishul"
+                android:text="त्रिशूल"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/sh"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/imgchatriya"
+                android:text="क्ष से क्षत्रिय"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/textView71"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/imgchatriya"
+                android:text="क्षत्रिय"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/hn"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:layout_alignLeft="@+id/imghans"
+                android:layout_alignStart="@+id/imghans"
+                android:layout_below="@+id/imghans"
+                android:text="ह से हंस"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/textView72"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:layout_alignLeft="@+id/imghans"
+                android:layout_alignStart="@+id/imghans"
+                android:layout_below="@+id/imghans"
+                android:text="हंस"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/sp"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/imgsapera"
+                android:text="स से सपेरा"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/textView73"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/imgsapera"
+                android:text="सपेरा"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/she"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/imgsher"
+                android:layout_toEndOf="@+id/textView105"
+                android:layout_toRightOf="@+id/textView105"
+                android:text="श से शेर"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/textView74"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/imgsher"
+                android:layout_toEndOf="@+id/textView105"
+                android:layout_toRightOf="@+id/textView105"
+                android:text="शेर"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/v"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/imgvak"
+                android:layout_toEndOf="@+id/textView104"
+                android:layout_toRightOf="@+id/textView104"
+                android:text="व से वक "
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/textView75"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/imgvak"
+                android:layout_toEndOf="@+id/textView104"
+                android:layout_toRightOf="@+id/textView104"
+                android:text="वक "
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/l"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/imglattu"
+                android:text="ल से लट्टू"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/textView77"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/imglattu"
+                android:text="लट्टू"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/r"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/imgrassi"
+                android:layout_toEndOf="@+id/textView102"
+                android:layout_toRightOf="@+id/textView102"
+                android:text="र से रस्सी"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/textView78"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/imgrassi"
+                android:layout_toEndOf="@+id/textView102"
+                android:layout_toRightOf="@+id/textView102"
+                android:text="रस्सी"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/ma"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/imgy"
+                android:layout_toEndOf="@+id/textView100"
+                android:layout_toRightOf="@+id/textView100"
+                android:text="म से मछली"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/textView79"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/imgy"
+                android:layout_toEndOf="@+id/textView100"
+                android:layout_toRightOf="@+id/textView100"
+                android:text="मछली"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/bh"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/imgx"
+                android:text="भ से भालू"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/textView80"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/imgx"
+                android:text="भालू"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/ba"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/imgw"
+                android:layout_toEndOf="@+id/textView98"
+                android:layout_toRightOf="@+id/textView98"
+                android:text="ब से बतक"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/textView82"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/imgw"
+                android:layout_toEndOf="@+id/textView98"
+                android:layout_toRightOf="@+id/textView98"
+                android:text="बतक"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/fa"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/imgv"
+                android:text="फ से फ़ल "
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/textView83"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/imgv"
+                android:text="फ़ल "
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/na"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/imgt"
+                android:text="न से नल"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/textView88"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/imgt"
+                android:text="नल"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/dh"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/imgs"
+                android:layout_toEndOf="@+id/textView94"
+                android:layout_toRightOf="@+id/textView94"
+                android:text="ध से धनुष"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/textView111"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/imgs"
+                android:layout_toEndOf="@+id/textView94"
+                android:layout_toRightOf="@+id/textView94"
+                android:text="धनुष"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/dawat"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/imgr"
+                android:text="द से दवात"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/textView137"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/imgr"
+                android:text=" दवात"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/thar"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/imgq"
+                android:layout_toEndOf="@+id/textView92"
+                android:layout_toRightOf="@+id/textView92"
+                android:text="थ से थरमस"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/textView139"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/imgq"
+                android:layout_toEndOf="@+id/textView92"
+                android:layout_toRightOf="@+id/textView92"
+                android:text="थरमस"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/dha"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/imgn"
+                android:text="ढ से ढक्कन"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/textView138"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/imgn"
+                android:text="ढक्कन"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/dm"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/imgm"
+                android:layout_toEndOf="@+id/textView64"
+                android:layout_toRightOf="@+id/textView64"
+                android:text="ड से डमरू"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/textView136"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/imgm"
+                android:layout_toEndOf="@+id/textView64"
+                android:layout_toRightOf="@+id/textView64"
+                android:text="डमरू"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/th"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/imgl"
+                android:text="ठ से ठठेरा "
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/textView135"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/imgl"
+                android:text="ठठेरा "
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/jha"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/imgi"
+                android:layout_toEndOf="@+id/textView58"
+                android:layout_toRightOf="@+id/textView58"
+                android:text="झ से झंडा "
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/textView134"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/imgi"
+                android:layout_toEndOf="@+id/textView58"
+                android:layout_toRightOf="@+id/textView58"
+                android:text="झंडा "
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/jh"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/imgh"
+                android:text="ज से जहाज "
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/textView133"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/imgh"
+                android:text="जहाज "
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/cha"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/imgg"
+                android:layout_toEndOf="@+id/textView56"
+                android:layout_toRightOf="@+id/textView56"
+                android:text="छ से छत्री"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/textView132"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/imgg"
+                android:layout_toEndOf="@+id/textView56"
+                android:layout_toRightOf="@+id/textView56"
+                android:text="छत्री"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/ch"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/imgf"
+                android:text="च से चम्मच"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/textView131"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/imgf"
+                android:text="चम्मच"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/kh"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/imgb"
+                android:text="ख से खरगोश"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/textView130"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/imgb"
+                android:text="खरगोश"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/gh"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/imgd"
+                android:text="घ से घर "
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/textView129"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/imgd"
+                android:text="घर "
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/textView45"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignTop="@+id/imga"
+                android:text="क"
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="35sp" />
+
+            <TextView
+                android:id="@+id/textView49"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text=" ख "
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="35sp"
+                android:layout_alignTop="@+id/imgb"
+                android:layout_toLeftOf="@+id/imgb"
+                android:layout_toStartOf="@+id/imgb" />
+
+            <TextView
+                android:id="@+id/textView52"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignTop="@+id/imge"
+                android:text="ङ"
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="35sp" />
+
+            <TextView
+                android:id="@+id/textView57"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignTop="@+id/imgj"
+                android:layout_toLeftOf="@+id/imgj"
+                android:layout_toStartOf="@+id/imgj"
+                android:text="ञ"
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="35sp" />
+
+            <TextView
+                android:id="@+id/textView64"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="ण "
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="35sp"
+                android:layout_alignTop="@+id/imgo"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:id="@+id/textView93"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignTop="@+id/imgt"
+                android:layout_toLeftOf="@+id/imgr"
+                android:layout_toStartOf="@+id/imgr"
+                android:text="न"
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="35sp" />
+
+            <TextView
+                android:id="@+id/textView98"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="म"
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="35sp"
+                android:layout_alignTop="@+id/imgy"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:id="@+id/textView103"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="श  "
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="35sp"
+                android:layout_alignTop="@+id/imgsher"
+                android:layout_toLeftOf="@+id/imgsher"
+                android:layout_toStartOf="@+id/imgsher" />
+
+            <TextView
+                android:id="@+id/textView102"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="व"
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="35sp"
+                android:layout_alignTop="@+id/imgvak"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:id="@+id/textView108"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="ज्ञ"
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="35sp"
+                android:layout_alignTop="@+id/imgtrishul"
+                android:layout_toLeftOf="@+id/imggyani"
+                android:layout_toStartOf="@+id/imggyani" />
+
+            <TextView
+                android:id="@+id/textView109"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignTop="@+id/imgtrishul"
+                android:text="त्र "
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="35sp" />
+
+            <TextView
+                android:id="@+id/textView107"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="क्ष "
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="35sp"
+                android:layout_alignTop="@+id/imgchatriya"
+                android:layout_toLeftOf="@+id/imgchatriya"
+                android:layout_toStartOf="@+id/imgchatriya" />
+
+            <TextView
+                android:id="@+id/textView106"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="ह"
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="35sp"
+                android:layout_alignTop="@+id/imghans"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:id="@+id/textView105"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="स "
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="35sp"
+                android:layout_alignTop="@+id/imgsapera"
+                android:layout_toLeftOf="@+id/imgsapera"
+                android:layout_toStartOf="@+id/imgsapera" />
+
+            <TextView
+                android:id="@+id/textView104"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="ष "
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="35sp"
+                android:layout_below="@+id/v"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="29dp" />
+
+            <TextView
+                android:id="@+id/textView101"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="ल "
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="35sp"
+                android:layout_alignTop="@+id/imglattu"
+                android:layout_toLeftOf="@+id/imglattu"
+                android:layout_toStartOf="@+id/imglattu" />
+
+            <TextView
+                android:id="@+id/textView100"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="र "
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="35sp"
+                android:layout_alignTop="@+id/imgrassi"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:id="@+id/textView99"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="य "
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="35sp"
+                android:layout_alignTop="@+id/imgz"
+                android:layout_toLeftOf="@+id/imgz"
+                android:layout_toStartOf="@+id/imgz" />
+
+            <TextView
+                android:id="@+id/textView97"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="भ "
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="35sp"
+                android:layout_alignTop="@+id/imgx"
+                android:layout_toLeftOf="@+id/imgx"
+                android:layout_toStartOf="@+id/imgx" />
+
+            <TextView
+                android:id="@+id/textView96"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="ब "
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="35sp"
+                android:layout_alignTop="@+id/imgx"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:id="@+id/textView95"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="फ "
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="35sp"
+                android:layout_alignTop="@+id/imgv"
+                android:layout_toLeftOf="@+id/imgv"
+                android:layout_toStartOf="@+id/imgv" />
+
+            <TextView
+                android:id="@+id/textView94"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="प "
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="35sp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignTop="@+id/imgu" />
+
+            <TextView
+                android:id="@+id/textView92"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignTop="@+id/imgs"
+                android:text="ध "
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="35sp" />
+
+            <TextView
+                android:id="@+id/textView91"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="द "
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="35sp"
+                android:layout_alignTop="@+id/imgr"
+                android:layout_toLeftOf="@+id/imgr"
+                android:layout_toStartOf="@+id/imgr" />
+
+            <TextView
+                android:id="@+id/textView90"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="थ "
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="35sp"
+                android:layout_alignTop="@+id/imgq"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:id="@+id/textView65"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="त "
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="35sp"
+                android:layout_alignTop="@+id/imgp"
+                android:layout_toLeftOf="@+id/imgp"
+                android:layout_toStartOf="@+id/imgp" />
+
+            <TextView
+                android:id="@+id/textView62"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="ढ "
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="35sp"
+                android:layout_alignTop="@+id/imgn"
+                android:layout_toLeftOf="@+id/imgn"
+                android:layout_toStartOf="@+id/imgn" />
+
+            <TextView
+                android:id="@+id/textView61"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="ड "
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="35sp"
+                android:layout_alignTop="@+id/imgm"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:id="@+id/textView59"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="ठ "
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="35sp"
+                android:layout_alignTop="@+id/imgl"
+                android:layout_toLeftOf="@+id/imgl"
+                android:layout_toStartOf="@+id/imgl" />
+
+            <TextView
+                android:id="@+id/textView58"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="ट "
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="35sp"
+                android:layout_alignTop="@+id/imgk"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:id="@+id/textView56"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignTop="@+id/imgi"
+                android:text=" झ "
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="35sp" />
+
+            <TextView
+                android:id="@+id/textView55"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="ज"
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="35sp"
+                android:layout_alignTop="@+id/imgh"
+                android:layout_toLeftOf="@+id/imgh"
+                android:layout_toStartOf="@+id/imgh" />
+
+            <TextView
+                android:id="@+id/textView54"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignTop="@+id/imgf"
+                android:layout_toLeftOf="@+id/imgf"
+                android:layout_toStartOf="@+id/imgf"
+                android:text="च "
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="35sp" />
+
+            <TextView
+                android:id="@+id/textView53"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignTop="@+id/imgg"
+                android:text="छ "
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="35sp" />
+
+            <TextView
+                android:id="@+id/textView51"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignTop="@+id/imgd"
+                android:layout_toLeftOf="@+id/imgd"
+                android:layout_toStartOf="@+id/imgd"
+                android:text="घ "
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="35sp" />
+
+            <TextView
+                android:id="@+id/textView50"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignTop="@+id/imgc"
+                android:text=" ग "
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="35sp" />
+
+            <ImageButton
+                android:id="@+id/imga"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:background="@null"
+                android:scaleType="fitCenter"
+                app:srcCompat="@mipmap/kabootar"
+                android:layout_alignTop="@+id/textView49"
+                android:layout_toRightOf="@+id/textView45"
+                android:layout_toEndOf="@+id/textView45" />
+
+            <ImageButton
+                android:id="@+id/imgf"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_alignLeft="@+id/imgd"
+                android:layout_alignStart="@+id/imgd"
+                android:layout_alignTop="@+id/imge"
+                android:background="@null"
+                android:scaleType="fitCenter"
+                app:srcCompat="@mipmap/chammach" />
+
+            <ImageButton
+                android:id="@+id/imgb"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="9dp"
+                android:background="@null"
+                android:scaleType="fitCenter"
+                app:srcCompat="@mipmap/khargosh"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginRight="7dp"
+                android:layout_marginEnd="7dp" />
+
+            <ImageButton
+                android:id="@+id/imgc"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:background="@null"
+                android:scaleType="fitCenter"
+                app:srcCompat="@mipmap/gamla"
+                android:layout_below="@+id/k"
+                android:layout_toRightOf="@+id/textView50"
+                android:layout_toEndOf="@+id/textView50"
+                android:layout_marginTop="33dp" />
+
+            <ImageButton
+                android:id="@+id/imgd"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_alignLeft="@+id/imgb"
+                android:layout_alignStart="@+id/imgb"
+                android:layout_alignTop="@+id/imgc"
+                android:background="@null"
+                android:scaleType="fitCenter"
+                app:srcCompat="@mipmap/ghar" />
+
+            <ImageButton
+                android:id="@+id/imge"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_below="@+id/gr"
+                android:layout_marginTop="38dp"
+                android:layout_toEndOf="@+id/textView52"
+                android:layout_toRightOf="@+id/textView52"
+                android:background="@null"
+                android:scaleType="fitCenter"
+                app:srcCompat="@mipmap/khali" />
+
+            <ImageButton
+                android:id="@+id/imgh"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:background="@null"
+                android:scaleType="fitCenter"
+                app:srcCompat="@mipmap/jahaj"
+                android:layout_alignTop="@+id/imgg"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+            <ImageButton
+                android:id="@+id/imgg"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:background="@null"
+                android:scaleType="fitCenter"
+                app:srcCompat="@mipmap/chatari"
+                android:layout_below="@+id/ch"
+                android:layout_toRightOf="@+id/textView53"
+                android:layout_toEndOf="@+id/textView53"
+                android:layout_marginTop="25dp" />
+
+            <ImageButton
+                android:id="@+id/imgi"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:background="@null"
+                android:scaleType="fitCenter"
+                app:srcCompat="@mipmap/jhanda"
+                android:layout_below="@+id/cha"
+                android:layout_toRightOf="@+id/textView56"
+                android:layout_toEndOf="@+id/textView56"
+                android:layout_marginTop="30dp" />
+
+            <ImageButton
+                android:id="@+id/imgn"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_alignLeft="@+id/imgl"
+                android:layout_alignStart="@+id/imgl"
+                android:layout_alignTop="@+id/imgm"
+                android:background="@null"
+                android:scaleType="fitCenter"
+                app:srcCompat="@mipmap/thakkan" />
+
+            <ImageButton
+                android:id="@+id/imgm"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:background="@null"
+                android:scaleType="fitCenter"
+                app:srcCompat="@mipmap/damru"
+                android:layout_below="@+id/t"
+                android:layout_toRightOf="@+id/textView64"
+                android:layout_toEndOf="@+id/textView64"
+                android:layout_marginTop="33dp" />
+
+            <ImageButton
+                android:id="@+id/imgr"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_alignLeft="@+id/imgp"
+                android:layout_alignStart="@+id/imgp"
+                android:layout_alignTop="@+id/imgq"
+                android:background="@null"
+                android:scaleType="fitCenter"
+                app:srcCompat="@mipmap/dawat" />
+
+            <ImageButton
+                android:id="@+id/imgq"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:background="@null"
+                android:scaleType="fitCenter"
+                app:srcCompat="@mipmap/tharmas"
+                android:layout_marginTop="41dp"
+                android:layout_below="@+id/nakhali"
+                android:layout_toRightOf="@+id/textView90"
+                android:layout_toEndOf="@+id/textView90" />
+
+            <ImageButton
+                android:id="@+id/imgv"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_alignLeft="@+id/imgr"
+                android:layout_alignStart="@+id/imgr"
+                android:layout_alignTop="@+id/imgu"
+                android:background="@null"
+                android:scaleType="fitCenter"
+                app:srcCompat="@mipmap/fal" />
+
+            <ImageButton
+                android:id="@+id/imgu"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:background="@null"
+                android:scaleType="fitCenter"
+                app:srcCompat="@mipmap/patang"
+                android:layout_below="@+id/dh"
+                android:layout_toRightOf="@+id/textView94"
+                android:layout_toEndOf="@+id/textView94"
+                android:layout_marginTop="31dp" />
+
+            <ImageButton
+                android:id="@+id/imgz"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:background="@null"
+                android:scaleType="fitCenter"
+                app:srcCompat="@mipmap/yagya"
+                android:layout_below="@+id/bh"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="30dp" />
+
+            <ImageButton
+                android:id="@+id/imgy"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:background="@null"
+                android:scaleType="fitCenter"
+                app:srcCompat="@mipmap/machali"
+                android:layout_alignTop="@+id/textView99"
+                android:layout_toRightOf="@+id/textView98"
+                android:layout_toEndOf="@+id/textView98" />
+
+            <ImageButton
+                android:id="@+id/imgsher"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:background="@null"
+                android:scaleType="fitCenter"
+                app:srcCompat="@mipmap/sher"
+                android:layout_below="@+id/l"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="24dp" />
+
+            <ImageButton
+                android:id="@+id/imgvak"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:background="@null"
+                android:scaleType="fitCenter"
+                app:srcCompat="@mipmap/vak"
+                android:layout_alignTop="@+id/textView103"
+                android:layout_toRightOf="@+id/textView102"
+                android:layout_toEndOf="@+id/textView102" />
+
+            <ImageButton
+                android:id="@+id/imgchatriya"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_alignLeft="@+id/imgsapera"
+                android:layout_alignStart="@+id/imgsapera"
+                android:layout_alignTop="@+id/imghans"
+                android:background="@null"
+                android:scaleType="fitCenter"
+                app:srcCompat="@mipmap/chatriya" />
+
+            <ImageButton
+                android:id="@+id/imghans"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:background="@null"
+                android:scaleType="fitCenter"
+                app:srcCompat="@mipmap/hans"
+                android:layout_marginTop="32dp"
+                android:layout_below="@+id/sa"
+                android:layout_toRightOf="@+id/textView106"
+                android:layout_toEndOf="@+id/textView106" />
+
+            <ImageButton
+                android:id="@+id/imggyani"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:background="@null"
+                android:scaleType="fitCenter"
+                app:srcCompat="@mipmap/jyani"
+                android:layout_below="@+id/sh"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="33dp" />
+
+            <ImageButton
+                android:id="@+id/imgtrishul"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:background="@null"
+                android:scaleType="fitCenter"
+                app:srcCompat="@mipmap/trishul"
+                android:layout_alignTop="@+id/imggyani"
+                android:layout_toRightOf="@+id/textView109"
+                android:layout_toEndOf="@+id/textView109" />
+
+            <ImageButton
+                android:id="@+id/imgsapera"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_alignLeft="@+id/imgsher"
+                android:layout_alignStart="@+id/imgsher"
+                android:layout_alignTop="@+id/imgshatkon"
+                android:background="@null"
+                android:scaleType="fitCenter"
+                app:srcCompat="@mipmap/sapera" />
+
+            <ImageButton
+                android:id="@+id/imgshatkon"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:background="@null"
+                android:scaleType="fitCenter"
+                app:srcCompat="@mipmap/shatkon"
+                android:layout_alignTop="@+id/textView104"
+                android:layout_toRightOf="@+id/textView104"
+                android:layout_toEndOf="@+id/textView104" />
+
+            <ImageButton
+                android:id="@+id/imglattu"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_alignLeft="@+id/imgz"
+                android:layout_alignStart="@+id/imgz"
+                android:layout_alignTop="@+id/imgrassi"
+                android:background="@null"
+                android:scaleType="fitCenter"
+                app:srcCompat="@mipmap/lattu" />
+
+            <ImageButton
+                android:id="@+id/imgrassi"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:background="@null"
+                android:scaleType="fitCenter"
+                app:srcCompat="@mipmap/rassi"
+                android:layout_below="@+id/ma"
+                android:layout_toRightOf="@+id/textView100"
+                android:layout_toEndOf="@+id/textView100"
+                android:layout_marginTop="33dp" />
+
+            <ImageButton
+                android:id="@+id/imgx"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:background="@null"
+                android:scaleType="fitCenter"
+                app:srcCompat="@mipmap/bhalu"
+                android:layout_below="@+id/fa"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="35dp" />
+
+            <ImageButton
+                android:id="@+id/imgw"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:background="@null"
+                android:scaleType="fitCenter"
+                app:srcCompat="@mipmap/bhatak"
+                android:layout_alignTop="@+id/textView96"
+                android:layout_toRightOf="@+id/textView96"
+                android:layout_toEndOf="@+id/textView96" />
+
+            <ImageButton
+                android:id="@+id/imgt"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_alignLeft="@+id/imgv"
+                android:layout_alignStart="@+id/imgv"
+                android:layout_alignTop="@+id/imgs"
+                android:background="@null"
+                android:scaleType="fitCenter"
+                app:srcCompat="@mipmap/nal" />
+
+            <ImageButton
+                android:id="@+id/imgs"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:background="@null"
+                android:scaleType="fitCenter"
+                app:srcCompat="@mipmap/dhanush"
+                android:layout_below="@+id/thar"
+                android:layout_toRightOf="@+id/textView92"
+                android:layout_toEndOf="@+id/textView92"
+                android:layout_marginTop="35dp" />
+
+            <ImageButton
+                android:id="@+id/imgp"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_alignLeft="@+id/imgn"
+                android:layout_alignStart="@+id/imgn"
+                android:layout_alignTop="@+id/imgo"
+                android:background="@null"
+                android:scaleType="fitCenter"
+                app:srcCompat="@mipmap/tarbooz" />
+
+            <ImageButton
+                android:id="@+id/imgo"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_below="@+id/dm"
+                android:layout_marginTop="36dp"
+                android:layout_toEndOf="@+id/textView64"
+                android:layout_toRightOf="@+id/textView64"
+                android:background="@null"
+                android:scaleType="fitCenter"
+                app:srcCompat="@mipmap/khali" />
+
+            <ImageButton
+                android:id="@+id/imgl"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:background="@null"
+                android:scaleType="fitCenter"
+                app:srcCompat="@mipmap/thathara"
+                android:layout_alignTop="@+id/imgk"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+            <ImageButton
+                android:id="@+id/imgk"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:background="@null"
+                android:scaleType="fitCenter"
+                app:srcCompat="@mipmap/tamatar"
+                android:layout_below="@+id/jha"
+                android:layout_toRightOf="@+id/textView61"
+                android:layout_toEndOf="@+id/textView61"
+                android:layout_marginTop="30dp" />
+
+            <ImageButton
+                android:id="@+id/imgj"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_alignLeft="@+id/imgh"
+                android:layout_alignStart="@+id/imgh"
+                android:layout_alignTop="@+id/imgi"
+                android:background="@null"
+                android:scaleType="fitCenter"
+                app:srcCompat="@mipmap/khali" />
+
+            <TextView
+                android:id="@+id/textView145"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/gy"
+                android:layout_marginTop="22dp"
+                android:background="@android:color/holo_green_light" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+</LinearLayout>

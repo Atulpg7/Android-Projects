@@ -1,0 +1,117 @@
+{
+  "project_info": {
+    "project_number": "25228317041",
+    "firebase_url": "https://myfirstdatastorageapp.firebaseio.com",
+    "project_id": "myfirstdatastorageapp",
+    "storage_bucket": "myfirstdatastorageapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:25228317041:android:8168bab7e4a10123",
+        "android_client_info": {
+          "package_name": "com.example.ducat.mydatastorage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "25228317041-kf87c4ihg7tkqdo3h7j45n5u5a80umi6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMwY8HqKN21PWKWi9KVUjG2kPy-hh8KV4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:25228317041:android:7925aecf8e196f84",
+        "android_client_info": {
+          "package_name": "com.example.ducat.datastorage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "25228317041-813kj768ojsm82lv3qtuo3eoemrt73v9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ducat.datastorage",
+            "certificate_hash": "cfe7ee6df474cabb5b9949e965fcbcbaa54032f2"
+          }
+        },
+        {
+          "client_id": "25228317041-kf87c4ihg7tkqdo3h7j45n5u5a80umi6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMwY8HqKN21PWKWi9KVUjG2kPy-hh8KV4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "25228317041-kf87c4ihg7tkqdo3h7j45n5u5a80umi6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:25228317041:android:909f1dd30fcb943e",
+        "android_client_info": {
+          "package_name": "com.example.ducat.notificationserv"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "25228317041-kf87c4ihg7tkqdo3h7j45n5u5a80umi6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMwY8HqKN21PWKWi9KVUjG2kPy-hh8KV4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

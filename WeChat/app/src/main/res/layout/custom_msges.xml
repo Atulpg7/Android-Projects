@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    android:background="@drawable/message_recieved"
+    android:layout_marginBottom="5dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginLeft="10dp">
+
+    <TextView
+        android:textStyle="normal|bold"
+        android:id="@+id/message_user"
+        android:layout_marginLeft="5dp"
+        android:text="atulpg7@gmail.com"
+        android:textColor="@color/colorPrimary"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:textStyle="normal|bold"
+        android:id="@+id/message_time"
+        android:textSize="10dp"
+        android:layout_marginRight="5dp"
+        android:textColor="@android:color/darker_gray"
+        android:text="26/11/2017 12:11:58"
+        android:layout_alignParentEnd="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true" />
+
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:textSize="18sp"
+        android:layout_marginLeft="5dp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Body1"
+        android:layout_below="@+id/message_user"
+        android:layout_alignParentStart="true"
+        android:id="@+id/message_text"
+        android:text="Hello"
+        android:inputType="textMultiLine"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true" />
+
+</RelativeLayout>

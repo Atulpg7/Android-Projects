@@ -1,0 +1,521 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+
+    <TextView
+        android:id="@+id/textView41"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_orange_dark" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView81"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/holo_orange_dark"
+                android:layout_marginTop="16dp"
+                android:layout_below="@+id/s"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:id="@+id/textView46"
+                android:layout_width="350dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/textView41"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="11dp"
+                android:background="@mipmap/logo123"
+                android:text=" DOMESTIC ANIMALS"
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="32sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView69"
+                android:layout_width="350dp"
+                android:layout_height="40dp"
+                android:layout_alignLeft="@+id/textView46"
+                android:layout_alignStart="@+id/textView46"
+                android:layout_below="@+id/p"
+                android:layout_marginTop="171dp"
+                android:background="@drawable/coloura"
+                android:text="WILD ANIMALS"
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="35sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView76"
+                android:layout_width="350dp"
+                android:layout_height="40dp"
+                android:layout_alignLeft="@+id/textView69"
+                android:layout_alignStart="@+id/textView69"
+                android:layout_below="@+id/l"
+                android:layout_marginTop="173dp"
+                android:background="@mipmap/logo123"
+                android:text="SEA ANIMALS"
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="35sp"
+                android:textStyle="bold|italic" />
+
+            <ImageButton
+                android:id="@+id/dogi"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignTop="@+id/ca"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@null"
+                android:scaleType="centerCrop"
+                app:srcCompat="@mipmap/dog" />
+
+            <ImageButton
+                android:background="@null"
+                android:id="@+id/ca"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="13dp"
+                android:layout_marginStart="13dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@mipmap/camel"
+                android:layout_marginTop="12dp"
+                android:layout_below="@+id/textView46"
+                android:layout_alignLeft="@+id/textView46"
+                android:layout_alignStart="@+id/textView46" />
+
+            <ImageButton
+                android:background="@null"
+                android:id="@+id/ra"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@mipmap/rat"
+                android:layout_below="@+id/h"
+                android:layout_alignLeft="@+id/ho"
+                android:layout_alignStart="@+id/ho" />
+
+            <ImageButton
+                android:background="@null"
+                android:id="@+id/pi"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@mipmap/pig"
+                android:layout_below="@+id/c"
+                android:layout_alignLeft="@+id/cat"
+                android:layout_alignStart="@+id/cat" />
+
+            <ImageButton
+                android:id="@+id/ti"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_alignLeft="@+id/p"
+                android:layout_alignStart="@+id/p"
+                android:layout_below="@+id/textView69"
+                android:layout_marginTop="10dp"
+                android:background="@null"
+                android:scaleType="fitCenter"
+                app:srcCompat="@mipmap/tiger" />
+
+            <ImageButton
+                android:id="@+id/li"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:background="@null"
+                android:scaleType="centerCrop"
+                app:srcCompat="@mipmap/lion"
+                android:layout_below="@+id/b"
+                android:layout_alignLeft="@+id/be"
+                android:layout_alignStart="@+id/be" />
+
+            <ImageButton
+                android:id="@+id/go"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_alignLeft="@+id/gi"
+                android:layout_alignStart="@+id/gi"
+                android:layout_below="@+id/gr"
+                android:background="@null"
+                android:scaleType="centerCrop"
+                app:srcCompat="@mipmap/gorilla" />
+
+            <ImageButton
+                android:id="@+id/wh"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_alignLeft="@+id/sh"
+                android:layout_alignStart="@+id/sh"
+                android:layout_below="@+id/dol"
+                android:background="@null"
+                android:scaleType="centerCrop"
+                app:srcCompat="@mipmap/whale" />
+
+            <ImageButton
+                android:id="@+id/oc"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:background="@null"
+                android:scaleType="centerCrop"
+                app:srcCompat="@mipmap/octopus"
+                android:layout_below="@+id/tur"
+                android:layout_alignLeft="@+id/tu"
+                android:layout_alignStart="@+id/tu" />
+
+            <ImageButton
+                android:id="@+id/sh"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:background="@null"
+                android:scaleType="centerCrop"
+                app:srcCompat="@mipmap/shark"
+                android:layout_below="@+id/w"
+                android:layout_alignLeft="@+id/dol"
+                android:layout_alignStart="@+id/dol" />
+
+            <ImageButton
+                android:id="@+id/tu"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_alignLeft="@+id/cr"
+                android:layout_alignStart="@+id/cr"
+                android:layout_below="@+id/cr"
+                android:background="@null"
+                android:scaleType="centerCrop"
+                app:srcCompat="@mipmap/turtle" />
+
+            <ImageButton
+                android:id="@+id/dol"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_alignLeft="@+id/l"
+                android:layout_alignStart="@+id/l"
+                android:layout_alignTop="@+id/cr"
+                android:background="@null"
+                android:scaleType="centerCrop"
+                app:srcCompat="@mipmap/dolphin" />
+
+            <ImageButton
+                android:id="@+id/cr"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_alignLeft="@+id/grr"
+                android:layout_alignStart="@+id/grr"
+                android:layout_below="@+id/textView76"
+                android:layout_marginTop="13dp"
+                android:background="@null"
+                android:scaleType="centerCrop"
+                app:srcCompat="@mipmap/crocodile" />
+
+            <ImageButton
+                android:id="@+id/be"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:background="@null"
+                android:scaleType="centerCrop"
+                app:srcCompat="@mipmap/bear"
+                android:layout_below="@+id/e"
+                android:layout_alignLeft="@+id/ele"
+                android:layout_alignStart="@+id/ele" />
+
+            <ImageButton
+                android:id="@+id/gi"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:background="@null"
+                android:scaleType="centerCrop"
+                app:srcCompat="@mipmap/giraffe"
+                android:layout_below="@+id/t"
+                android:layout_alignLeft="@+id/t"
+                android:layout_alignStart="@+id/t" />
+
+            <ImageButton
+                android:id="@+id/ele"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_alignLeft="@+id/rt"
+                android:layout_alignStart="@+id/rt"
+                android:layout_alignTop="@+id/ti"
+                android:background="@null"
+                android:scaleType="centerCrop"
+                app:srcCompat="@mipmap/elephant" />
+
+            <ImageButton
+                android:background="@null"
+                android:id="@+id/ho"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@mipmap/horse"
+                android:layout_below="@+id/d"
+                android:layout_alignLeft="@+id/d"
+                android:layout_alignStart="@+id/d" />
+
+            <ImageButton
+                android:background="@null"
+                android:id="@+id/cat"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@mipmap/cat"
+                android:layout_below="@+id/cam"
+                android:layout_alignLeft="@+id/cam"
+                android:layout_alignStart="@+id/cam" />
+
+            <TextView
+                android:id="@+id/cam"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/ca"
+                android:layout_alignStart="@+id/ca"
+                android:layout_below="@+id/ca"
+                android:text="Camel"
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="30sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/d"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Dog"
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="30sp"
+                android:textStyle="italic"
+                android:layout_below="@+id/dogi"
+                android:layout_alignLeft="@+id/dogi"
+                android:layout_alignStart="@+id/dogi" />
+
+            <TextView
+                android:id="@+id/c"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/pi"
+                android:layout_alignStart="@+id/pi"
+                android:layout_below="@+id/cat"
+                android:text="Cat"
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="30sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/h"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/ra"
+                android:layout_alignStart="@+id/ra"
+                android:layout_below="@+id/ho"
+                android:text="Horse"
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="30sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/p"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/pi"
+                android:layout_alignStart="@+id/pi"
+                android:layout_below="@+id/pi"
+                android:text="Pig"
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="30sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/t"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/ti"
+                android:layout_alignStart="@+id/ti"
+                android:layout_below="@+id/ti"
+                android:text="Tiger"
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="30sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/gr"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Girrafe"
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="30sp"
+                android:textStyle="italic"
+                android:layout_below="@+id/gi"
+                android:layout_alignLeft="@+id/go"
+                android:layout_alignStart="@+id/go" />
+
+            <TextView
+                android:id="@+id/b"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/li"
+                android:layout_alignStart="@+id/li"
+                android:layout_below="@+id/be"
+                android:text="Bear"
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="30sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/l"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/li"
+                android:layout_alignStart="@+id/li"
+                android:layout_below="@+id/li"
+                android:text="Lion"
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="30sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/grr"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Gorrila"
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="30sp"
+                android:textStyle="italic"
+                android:layout_below="@+id/go"
+                android:layout_alignLeft="@+id/go"
+                android:layout_alignStart="@+id/go" />
+
+            <TextView
+                android:id="@+id/s"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/sh"
+                android:layout_alignStart="@+id/sh"
+                android:layout_below="@+id/sh"
+                android:text="Shark"
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="30sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/o"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/oc"
+                android:layout_alignStart="@+id/oc"
+                android:layout_below="@+id/oc"
+                android:text="Octopus"
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="30sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/w"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/sh"
+                android:layout_alignStart="@+id/sh"
+                android:layout_below="@+id/wh"
+                android:text="Whale"
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="30sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/tur"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/oc"
+                android:layout_alignStart="@+id/oc"
+                android:layout_below="@+id/tu"
+                android:text="Turtle"
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="30sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/dolp"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/wh"
+                android:layout_alignStart="@+id/wh"
+                android:layout_below="@+id/dol"
+                android:text="Dolphin"
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="30sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/cro"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/tu"
+                android:layout_alignStart="@+id/tu"
+                android:layout_below="@+id/cr"
+                android:text="Crocodile"
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="30sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/e"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/be"
+                android:layout_alignStart="@+id/be"
+                android:layout_below="@+id/ele"
+                android:text="Elephant"
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="30sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/rt"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/ra"
+                android:layout_alignStart="@+id/ra"
+                android:layout_below="@+id/ra"
+                android:text="Rat"
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="30sp"
+                android:textStyle="italic" />
+
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>

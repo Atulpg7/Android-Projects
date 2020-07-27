@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sakshi.new_notezzzz.ds_sec">
+
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="368dp"
+        android:layout_height="652dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Basics of data Structures and algorithms:-
+•	Introduction to data structure
+•	Asymptotic Notations
+•	Space Complexity of Algorithms
+•	Time Complexity of algorithms
+Search Algorithms:-
+•	Introduction to search algorithms
+•	Linear search
+•	Binary search
+Sorting Algorithms:-
+•	Introduction to Sorting
+•	Bubble Sort
+•	Selection Sort
+•	Insertion Sort
+•	Merge Sort
+•	Quick Sort
+•	Heap Sort
+Data Structures:-
+•	Stack Data Structures
+•	Queue Data Structures
+•	Circular Queue
+•	Queue Using Stack
+•	Introduction to Linked List
+•	Linked List Vs Array
+•	Linear Linked List
+•	Circular Linked List
+
+What is an Algorithm ?
+An algorithm is a finite set of instructions or logic, written in order, to accomplish a certain predefined task. Algorithm is not the complete code or program, it is just the core logic(solution) of a problem, which can be expressed either as an informal high level description as pseudocode or using a flowchart.
+Every Algorithm must satisfy the following properties:
+1.	Input- There should be 0 or more inputs supplied externally to the algorithm.
+2.	Output- There should be atleast 1 output obtained.
+3.	Definiteness- Every step of the algorithm should be clear and well defined.
+4.	Finiteness- The algorithm should have finite number of steps.
+5.	Correctness- Every step of the algorithm must generate a correct output
+
+5.	Correctness- Every step of the algorithm must generate a correct output.
+An algorithm is said to be efficient and fast, if it takes less time to execute and consumes less memory space. The performance of an algorithm is measured on the basis of following properties :
+1.	Time Complexity
+2.	Space Complexity
+________________________________________
+Space Complexity
+Its the amount of memory space required by the algorithm, during the course of its execution. Space complexity must be taken seriously for multi-user systems and in situations where limited memory is available.
+An algorithm generally requires space for following components :
+•	Instruction Space: Its the space required to store the executable version of the program. This space is fixed, but varies depending upon the number of lines of code in the program.
+•	Data Space: Its the space required to store all the constants and variables(including temporary variables) value.
+•	Environment Space: Its the space required to store the environment information needed to resume the suspended function.
+To learn about Space Complexity in detail, jump to the Space Complexity tutorial.
+________________________________________
+Time Complexity
+Time Complexity is a way to represent the amount of time required by the program to run till its completion. It's generally a good practice to try to keep the time required minimum, so that our algorithm completes it's execution in the minimum time possible. We will study about Time Complexity in details in later sections.
+
+Remember studying about Limits in High School, this is the same.
+The only difference being, here we do not have to find the value of any expression where n is approaching any finite number or infinity, but in case of Asymptotic notations, we use the same model to ignore the constant factors and insignificant parts of an expression, to device a better way of representing complexities of algorithms, in a single coefficient, so that comparison between algorithms can be done easily.
+Let's take an example to understand this:
+If we have two algorithms with the following expressions representing the time required by them for execution, then:
+Expression 1: (20n2 + 3n - 4)
+Expression 2: (n3 + 100n - 2)
+Now, as per asymptotic notations, we should just worry about how the function will grow as the value of n(input) will grow, and that will entirely depend on n2 for the Expression 1, and on n3 for Expression 2. Hence, we can clearly say that the algorithm for which running time is represented by the Expression 2, will grow faster than the other one, simply by analyzing the highest power coefficient and ignoring the other constants(20 in 20n2) and insignificant parts of the expression(3n - 4 and 100n - 2).
+The main idea behind casting aside the less important part is to make things manageable.
+All we need to do is, first analyses the algorithm to find out an expression to define it's time requirements and then analyses how that expression will grow as the input(n) will grow.
+________________________________________
+Types of Asymptotic Notations
+We use three types of asymptotic notations to represent the growth of any algorithm, as input increases:
+1.	Big Theta (Θ)
+2.	Big Oh(O)
+3.	Big Omega (Ω)
+Tight Bounds: Theta
+When we say tight bounds, we mean that the time compexity represented by the Big-Θ notation is like the average value or range within which the actual time of execution of the algorithm will be.
+For example, if for some algorithm the time complexity is represented by the expression 3n2 + 5n, and we use the Big-Θ notation to represent this, then the time complexity would be Θ(n2), ignoring the constant coefficient and removing the insignificant part, which is 5n.
+It tells us that a certain function will never exceed a specified time for any value of input n.
+The question is why we need this representation when we already have the big-Θ notation, which represents the tightly bound running time for any algorithm. Let's take a small example to understand this.
+Consider Linear Search algorithm, in which we traverse an array elements, one by one to search a given number.
+In Worst case, starting from the front of the array, we find the element or number we are searching for at the end, which will lead to a time complexity of n, where n represents the number of total elements.
+But it can happen, that the element that we are searching for is the first element of the array, in which case the time complexity will be 1.
+Now in this case, saying that the big-Θ or tight bound time complexity for Linear search is Θ(n), will mean that the time required will always be related to n, as this is the right way to represent the average time complexity, but when we use the big-O notation, we mean to say that the time complexity is O(n), which means that the time complexity will never exceed n, defining the upper bound, hence saying that it can be less than or equal to n, which is the correct representation.
+This is the reason, most of the time you will see Big-O notation being used to represent the time complexity of any algorithm, because it makes more sense.
+________________________________________
+Lower Bounds: Omega
+Big Omega notation is used to define the lower bound of any algorithm or we can say the best case of any algorithm.
+This always indicates the minimum time required for any algorithm for all input values, therefore the best case of any algorithm.
+In simple words, when we represent a time complexity for any algorithm in the form of big-Ω, we mean that the algorithm will take atleast this much time to
+
+
+It tells us that a certain function will never exceed a specified time for any value of input n.
+The question is why we need this representation when we already have the big-Θ notation, which represents the tightly bound running time for any algorithm. Let's take a small example to understand this.
+Consider Linear Search algorithm, in which we traverse an array elements, one by one to search a given number.
+In Worst case, starting from the front of the array, we find the element or number we are searching for at the end, which will lead to a time complexity of n, where n represents the number of total elements.
+But it can happen, that the element that we are searching for is the first element of the array, in which case the time complexity will be 1.
+Now in this case, saying that the big-Θ or tight bound time complexity for Linear search is Θ(n), will mean that the time required will always be related to n, as this is the right way to represent the average time complexity, but when we use the big-O notation, we mean to say that the time complexity is O(n), which means that the time complexity will never exceed n, defining the upper bound, hence saying that it can be less than or equal to n, which is the correct representation.
+This is the reason, most of the time you will see Big-O notation being used to represent the time complexity of any algorithm, because it makes more sense.
+________________________________________
+Lower Bounds: Omega
+Big Omega notation is used to define the lower bound of any algorithm or we can say the best case of any algorithm.
+This always indicates the minimum time required for any algorithm for all input values, therefore the best case of any algorithm.
+In simple words, when we represent a time complexity for any algorithm in the form of big-Ω, we mean that the algorithm will take atleast this much time to cmplete it's execution. It can definitely take more time than this too.
+
+Space Complexity of Algorithms:-
+Whenever a solution to a problem is written some memory is required to complete. For any algorithm memory may be used for the following:
+1.	Variables (This include the constant values, temporary values)
+2.	Program Instruction
+3.	Execution
+Space complexity is the amount of memory used by the algorithm (including the input values to the algorithm) to execute and produce the result.
+Sometime Auxiliary Space is confused with Space Complexity. But Auxiliary Space is the extra space or the temporary space used by the algorithm during it's execution.
+Space Complexity = Auxiliary Space + Input space
+________________________________________
+Memory Usage while Execution
+While executing, algorithm uses memory space for three reasons:
+1.	Instruction Space
+It's the amount of memory used to save the compiled version of instructions.
+2.	Environmental Stack
+Sometimes an algorithm(function) may be called inside another algorithm(function). In such a situation, the current variables are pushed onto the system stack, where they wait for further execution and then the call to the inside algorithm(function) is made.
+For example, If a function A() calls function B() inside it, then all th variables of the function A() will get stored on the system stack temporarily, while the function B() is called and executed inside
+
+
+"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintVertical_bias="0.0" />
+    </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

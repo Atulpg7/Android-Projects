@@ -1,0 +1,128 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    
+android:paddingLeft="20dp"
+android:paddingRight="20dp"
+    android:id="@+id/emer">
+    
+ <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/imageView1" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+            
+              
+      <Button
+     android:id="@+id/sem1"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:text="1st Semester " 
+     android:background="@color/back1"
+       android:textStyle="italic"
+       android:textColor="@android:color/white"
+      android:layout_margin="5dp"
+     
+      android:onClick="examresult"
+     />
+     <Button
+     android:id="@+id/sem2"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:text="2nd Semester" 
+      android:textStyle="italic"
+     android:textColor="@android:color/white"
+      android:layout_margin="5dp"
+       android:onClick="examresult"
+      android:background="@color/back2"
+    />
+ <Button
+     android:id="@+id/sem3"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:text="3rd Semester" 
+      android:textStyle="italic"
+     android:textColor="@android:color/white"
+      android:layout_margin="5dp"
+       android:onClick="examresult"
+      android:background="@color/back1"
+     />
+            <Button
+                android:id="@+id/sem4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4th Semester" 
+                 android:textStyle="italic"
+                android:textColor="@android:color/white"
+                 android:layout_margin="5dp"
+                  android:onClick="examresult"
+                 android:background="@color/back2"
+                />
+             <Button
+                android:id="@+id/sem5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5th Semester" 
+                 android:textStyle="italic"
+                android:textColor="@android:color/white"
+                 android:layout_margin="5dp"
+                  android:onClick="examresult"
+                 android:background="@color/back1"
+              />
+              <Button
+                android:id="@+id/sem6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="6th Semester" 
+                 android:textStyle="italic"
+                android:textColor="@android:color/white"
+                 android:layout_margin="5dp"
+                  android:onClick="examresult"
+                 android:background="@color/back2"
+                 />
+               <Button
+                android:id="@+id/sem7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="7th Semester" 
+                 android:textStyle="italic"
+                android:textColor="@android:color/white"
+                 android:layout_margin="5dp"
+                  android:onClick="examresult"
+                 android:background="@color/back1"
+                 />
+                <Button
+                android:id="@+id/sem8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="8th Semester" 
+                 android:textStyle="italic"
+                android:textColor="@android:color/white"
+                 android:layout_margin="5dp"
+                  android:onClick="examresult"
+                 android:background="@color/back2"
+                />
+                 <Button
+                android:id="@+id/sem9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Terms Marks" 
+                 android:textStyle="italic"
+                 android:visibility="invisible"
+                android:textColor="@android:color/white"
+                 android:layout_margin="5dp"
+                  android:onClick="term"
+                 android:background="@color/blue"
+                />
+                
+        </LinearLayout>
+    </ScrollView> 
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Spinner_With_EditText</string>
+
+    <string-array name="courses">
+        <item>Select Course</item>
+        <item>Android Studio</item>
+        <item>Java Language</item>
+        <item>Kotlin Language</item>
+        <item>C Language</item>
+        <item>C++ Language</item>
+
+    </string-array>
+</resources>

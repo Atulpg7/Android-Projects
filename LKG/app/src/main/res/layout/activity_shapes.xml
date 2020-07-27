@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+
+    <TextView
+        android:id="@+id/textView84"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_orange_dark" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView85"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textView38"
+                android:layout_marginTop="14dp"
+                android:background="@android:color/holo_orange_dark" />
+
+            <ImageButton
+                android:id="@+id/ca"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="16dp"
+                android:background="@null"
+                android:scaleType="centerCrop"
+                app:srcCompat="@mipmap/circle"
+
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/ca"
+                android:layout_alignStart="@+id/ca"
+                android:layout_below="@+id/ca"
+                android:text="Circle"
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="30sp"
+                android:textStyle="italic"
+                />
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/re"
+                android:layout_alignStart="@+id/re"
+                android:layout_below="@+id/re"
+                android:text="Rectangle"
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="30sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView36"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/sq"
+                android:layout_alignStart="@+id/sq"
+                android:layout_below="@+id/sq"
+                android:text="Square"
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="30sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView38"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/st"
+                android:layout_alignStart="@+id/st"
+                android:layout_below="@+id/st"
+                android:text="Star"
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="30sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView37"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/oc"
+                android:layout_alignStart="@+id/oc"
+                android:layout_below="@+id/oc"
+                android:text="Octagon"
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="30sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/st"
+                android:layout_alignStart="@+id/st"
+                android:layout_below="@+id/he"
+                android:text="Hegxagon"
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="30sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/sq"
+                android:layout_alignStart="@+id/sq"
+                android:layout_below="@+id/ov"
+                android:text="Oval"
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="30sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/he"
+                android:layout_alignStart="@+id/he"
+                android:layout_below="@+id/tr"
+                android:text="Triangle"
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="30sp"
+                android:textStyle="italic" />
+
+            <ImageButton
+                android:id="@+id/oc"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:background="@null"
+                android:scaleType="centerCrop"
+                app:srcCompat="@mipmap/octagon"
+                android:layout_below="@+id/textView36"
+                android:layout_alignLeft="@+id/sq"
+                android:layout_alignStart="@+id/sq" />
+
+            <ImageButton
+                android:id="@+id/st"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:background="@null"
+                android:scaleType="centerCrop"
+                app:srcCompat="@mipmap/star"
+                android:layout_below="@+id/textView35"
+                android:layout_alignLeft="@+id/he"
+                android:layout_alignStart="@+id/he" />
+
+            <ImageButton
+                android:id="@+id/sq"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:background="@null"
+                android:scaleType="centerCrop"
+                app:srcCompat="@mipmap/square"
+                android:layout_below="@+id/textView34"
+                android:layout_alignLeft="@+id/ov"
+                android:layout_alignStart="@+id/ov" />
+
+            <ImageButton
+                android:id="@+id/he"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:background="@null"
+                android:scaleType="centerCrop"
+                app:srcCompat="@mipmap/hexagon"
+                android:layout_below="@+id/textView33"
+                android:layout_alignLeft="@+id/tr"
+                android:layout_alignStart="@+id/tr" />
+
+            <ImageButton
+                android:id="@+id/ov"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:background="@null"
+                android:scaleType="centerCrop"
+                app:srcCompat="@mipmap/oval"
+                android:layout_below="@+id/textView6"
+                android:layout_alignLeft="@+id/re"
+                android:layout_alignStart="@+id/re" />
+
+            <ImageButton
+                android:id="@+id/tr"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:background="@null"
+                android:scaleType="centerCrop"
+                app:srcCompat="@mipmap/triangle"
+                android:layout_below="@+id/textView6"
+                android:layout_alignLeft="@+id/textView6"
+                android:layout_alignStart="@+id/textView6" />
+
+            <ImageButton
+                android:id="@+id/re"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginEnd="12dp"
+                android:layout_marginRight="12dp"
+                android:background="@null"
+                android:scaleType="centerCrop"
+                app:srcCompat="@mipmap/rectangle"
+                android:layout_alignTop="@+id/ca"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>

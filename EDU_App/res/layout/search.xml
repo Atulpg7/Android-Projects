@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"   
+	android:paddingLeft="5dp"
+	android:paddingRight="5dp"
+    android:id="@+id/emer">
+
+    <TableLayout
+            
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:shrinkColumns="*"  android:stretchColumns="*" android:background="#ffffff">
+    
+    <TableRow
+                            android:layout_height="wrap_content"
+                            android:layout_width="fill_parent"
+                            android:gravity="center_horizontal">
+                            
+        <EditText
+                                android:id="@+id/editText2" 
+                                android:layout_weight="1" android:hint="Name" 
+                                android:gravity="left"/>
+                     
+                            <EditText
+                                android:id="@+id/editText1" 
+                                android:layout_weight="1" android:hint="Mob"
+                                 android:gravity="left"/>
+                            
+        </TableRow>
+        
+     <TableRow
+                            android:layout_height="wrap_content"
+                            android:layout_width="fill_parent"
+                            android:gravity="center_horizontal">
+                            
+         
+					         <Spinner
+					        android:id="@+id/spinner2"
+					        android:gravity="left"
+					        android:layout_weight="1"
+					       />
+					    
+					    <Spinner
+					        android:id="@+id/spinner3"
+					           android:gravity="left"
+					        android:layout_weight="1"
+					      />
+                            
+         </TableRow>
+         
+      <TableRow
+                            android:layout_height="wrap_content"
+                            android:layout_width="fill_parent"
+                            android:gravity="center_horizontal">
+
+								   <Button
+								         android:id="@+id/btnSubmit"
+								         android:layout_width="match_parent"
+								         android:layout_height="wrap_content"
+								    	android:layout_span="2"
+								         android:gravity="center"
+								         android:onClick="subbtn"
+								         android:text="Submit" />
+                       </TableRow>
+                       
+        <TableRow
+                            android:layout_height="wrap_content"
+                            android:layout_width="fill_parent"
+                            android:gravity="center_horizontal">
+						
+					       <ListView android:id="@+id/athead" 
+					    	 android:layout_span="2"
+					         android:background="@color/green1"
+					         android:layout_width="match_parent" 
+					         android:layout_height="wrap_content" >   
+					        </ListView>  
+              		   
+              </TableRow>
+              
+           <TableRow
+                            android:layout_height="wrap_content"
+                            android:layout_width="fill_parent"
+                            android:gravity="center_horizontal">
+						
+					      <ListView android:id="@+id/gridView2" 
+					           android:layout_span="2"
+					          android:background="#3BAAE3"
+					          android:layout_width="match_parent" 
+					          android:layout_height="wrap_content">   
+					        </ListView> 
+              		   
+              </TableRow>
+    
+   <!-- <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/editText2"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="60dp"
+         android:hint="Department Name"
+       />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/editText1"
+        android:layout_alignBottom="@+id/editText1"
+        android:layout_alignParentLeft="true"
+        android:ems="10"
+        android:gravity="left"
+        android:hint="Name"
+        android:inputType="textMultiLine"
+        android:scrollbars="vertical" >
+
+        <requestFocus />
+    </EditText>
+
+    <Spinner
+        android:id="@+id/spinner3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/spinner2"
+        android:layout_toRightOf="@+id/spinner2"
+         android:hint="Designation Name"
+      />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/spinner3"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="14dp"
+        android:ems="10"
+        android:gravity="left"
+        android:hint="Mob"
+        android:inputType="textMultiLine"
+        android:scrollbars="vertical" />
+
+     <Button
+         android:id="@+id/btnSubmit"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="10dp"
+          android:layout_marginRight="10dp"
+         android:layout_marginTop="110dp"
+         android:gravity="center"
+         android:onClick="subbtn"
+         android:text="Submit" />
+
+
+
+ <RelativeLayout
+            android:id="@+id/content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="160dp" >
+     <ListView android:id="@+id/athead" 
+          android:layout_marginTop="1dp"
+          android:background="@color/green1"
+         android:layout_width="wrap_content" android:layout_height="wrap_content" >   
+        </ListView>   
+          
+  <ListView android:id="@+id/gridView2" 
+          android:layout_marginTop="30dp"
+           android:background="#3BAAE3"
+         android:layout_width="wrap_content" android:layout_height="wrap_content">   
+        </ListView>
+
+       </RelativeLayout>-->
+       </TableLayout>
+</RelativeLayout>
+

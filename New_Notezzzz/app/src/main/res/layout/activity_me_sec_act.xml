@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sakshi.new_notezzzz.me_sec_act"
+
+    android:background="@drawable/first">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="368dp"
+        android:layout_height="652dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="378dp"
+                android:layout_height="150dp"
+                android:layout_marginBottom="8dp"
+                app:srcCompat="@drawable/enh"
+                android:layout_weight="0.16" />
+            <Button
+                android:id="@+id/ch_th"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginLeft="8dp"
+                android:background="@drawable/button"
+                android:layout_weight="0.07"
+                android:text=" internal combustion engine " />
+
+            <Button
+                android:id="@+id/math_i"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginLeft="8dp"
+                android:background="@drawable/button"
+                android:layout_weight="0.07"
+                android:text=" beee" />
+
+            <Button
+                android:id="@+id/chemistry_i"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginLeft="8dp"
+                android:background="@drawable/button"
+                android:layout_weight="0.07"
+                android:text="thremal engineering" />
+
+
+            <Button
+                android:id="@+id/physics_i"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginLeft="8dp"
+                android:background="@drawable/button"
+                android:layout_weight="0.07"
+                android:text="workshop technology i" />
+
+            <Button
+                android:id="@+id/foc"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginLeft="8dp"
+                android:background="@drawable/button"
+                android:layout_weight="0.07"
+                android:text="strength of materials" />
+
+            <Button
+                android:id="@+id/mechanics"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginLeft="8dp"
+                android:background="@drawable/button"
+                android:layout_weight="0.07"
+                android:text="hydraulics machines" />
+
+            <Button
+                android:id="@+id/english_ii"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginLeft="8dp"
+                android:background="@drawable/button"
+                android:layout_weight="0.07"
+                android:text="measurement and metrology"
+
+
+                />
+
+            <Button
+                android:id="@+id/math_ii"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginLeft="8dp"
+                android:background="@drawable/button"
+                android:layout_weight="0.07"
+                android:text="workshop technology iii" />
+
+            <Button
+                android:id="@+id/chemistry_ii"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginLeft="8dp"
+                android:background="@drawable/button"
+                android:layout_weight="0.07"
+                android:text="machine design and drawing" />
+
+
+            <Button
+                android:id="@+id/physics_ii"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginLeft="8dp"
+                android:background="@drawable/button"
+                android:layout_weight="0.07"
+                android:text="material and metallurgy" />
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>

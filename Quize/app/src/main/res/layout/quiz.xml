@@ -1,0 +1,93 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/quu"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/quizback3"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp" >
+
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="170dip"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="5dp"
+        android:layout_marginLeft="3dip"
+        android:layout_marginRight="3dip"
+        android:layout_marginTop="3dp" > 
+
+         <!--<android.support.v7.widget.Space
+            android:id="@+id/space1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="63dp" />-->
+
+    </RelativeLayout>
+
+    <!--  Button
+        android:id="@+id/button13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/relativeLayout2"
+        android:layout_below="@+id/relativeLayout2"
+        android:layout_marginTop="38dp"
+        android:background="#9339BC"
+        android:onClick="exit"
+        android:text="Exit"
+        android:textColor="@android:color/white"
+        android:textSize="25dp"
+        android:textStyle="italic" />-->
+
+    <!--  Button
+        android:id="@+id/button13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="113dp"
+        android:background="#9339BC"
+        android:onClick="start"
+        android:text="Select Quiz Type"
+        android:textColor="@android:color/white"
+        android:textSize="25dp"
+        android:textStyle="italic" />-->
+     <ImageButton
+     android:id="@+id/button13"
+      android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="113dp"
+        android:onClick="start"
+     android:background="@null"
+     android:src="@drawable/type" />
+
+ <!--  Button
+     android:id="@+id/button14"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_alignLeft="@+id/button13"
+     android:layout_alignParentBottom="true"
+     android:layout_marginBottom="38dp"
+     android:background="#9339BC"
+     android:onClick="showscr"
+     android:text="Your Score"
+     android:textColor="@android:color/white"
+     android:textSize="25dp"
+     android:textStyle="italic" />-->
+
+ <ImageButton
+     android:id="@+id/button14"
+      android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_alignLeft="@+id/button13"
+     android:layout_alignParentBottom="true"
+     android:layout_marginBottom="38dp"
+     android:onClick="showscr"
+     android:background="@null"
+     android:src="@drawable/score" />
+
+</RelativeLayout>

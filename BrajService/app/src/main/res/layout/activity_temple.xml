@@ -1,0 +1,923 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Purple">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:layout_below="@+id/textView24"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/roundcorner5">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="9dp"
+                android:layout_marginStart="9dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/kjb" />
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_alignLeft="@+id/imageView8"
+                android:layout_alignStart="@+id/imageView8"
+                android:layout_below="@+id/imageView8"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/bbm" />
+
+            <ImageView
+                android:id="@+id/imageView14"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_alignLeft="@+id/imageView9"
+                android:layout_alignStart="@+id/imageView9"
+                android:layout_below="@+id/imageView9"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/pm" />
+
+            <ImageView
+                android:id="@+id/imageView15"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_alignLeft="@+id/imageView14"
+                android:layout_alignStart="@+id/imageView14"
+                android:layout_below="@+id/imageView14"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/ddm" />
+
+            <ImageView
+                android:id="@+id/imageView18"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_alignLeft="@+id/imageView15"
+                android:layout_alignStart="@+id/imageView15"
+                android:layout_below="@+id/imageView15"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/bm" />
+
+            <ImageView
+                android:id="@+id/imageView17"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_alignLeft="@+id/imageView18"
+                android:layout_alignStart="@+id/imageView18"
+                android:layout_below="@+id/imageView18"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/rm" />
+
+            <ImageView
+                android:id="@+id/imageView16"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_alignLeft="@+id/imageView17"
+                android:layout_alignStart="@+id/imageView17"
+                android:layout_below="@+id/imageView17"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/it" />
+
+            <TextView
+                android:id="@+id/textView37"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/imageView19"
+                android:layout_below="@+id/textView38"
+                android:layout_toEndOf="@+id/imageView21"
+                android:layout_toRightOf="@+id/imageView21"
+                android:paddingLeft="20dp"
+                android:paddingTop="5dp"
+                android:text="Shahji Temple"
+                android:textColor="@color/DarkMagenta"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView40"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/textView79"
+                android:layout_below="@+id/textView80"
+                android:layout_toEndOf="@+id/imageView19"
+                android:layout_toRightOf="@+id/imageView19"
+                android:paddingLeft="20dp"
+                android:text="Radha Damodar Mandir"
+                android:textAlignment="textStart"
+                android:textColor="@color/DarkMagenta"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView39"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/textView76"
+                android:layout_below="@+id/imageView17"
+                android:layout_toEndOf="@+id/imageView16"
+                android:layout_toRightOf="@+id/imageView16"
+                android:paddingLeft="20dp"
+                android:paddingTop="5dp"
+                android:text="ISKCON Temple"
+                android:textAlignment="textStart"
+                android:textColor="@color/DarkMagenta"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView38"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/imageView20"
+                android:layout_below="@+id/imageView16"
+                android:layout_toEndOf="@+id/imageView16"
+                android:layout_toRightOf="@+id/imageView16"
+                android:paddingLeft="20dp"
+                android:paddingTop="5dp"
+                android:text="Pagal Baba Temple"
+                android:textAlignment="textStart"
+                android:textColor="@color/DarkMagenta"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/textView60"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:paddingLeft="88dp"
+                android:paddingTop="5dp"
+                android:text="Shri Birla Mandir"
+                android:textAlignment="textStart"
+                android:textColor="@color/DarkMagenta"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/imageView18"
+                android:layout_below="@+id/imageView14"
+                android:layout_toEndOf="@+id/imageView15"
+                android:layout_toRightOf="@+id/imageView15"
+                android:paddingLeft="20dp"
+                android:paddingTop="5dp"
+                android:text="Shri Dwarkadheesh Mandir"
+                android:textAlignment="textStart"
+                android:textColor="@color/DarkMagenta"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView36"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/imageView16"
+                android:layout_below="@+id/textView78"
+                android:layout_toEndOf="@+id/imageView17"
+                android:layout_toRightOf="@+id/imageView17"
+                android:paddingLeft="20dp"
+                android:paddingTop="5dp"
+                android:text="Shri Rang Ji Mandir"
+                android:textAlignment="textStart"
+                android:textColor="@color/DarkMagenta"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/imageView15"
+                android:layout_alignLeft="@+id/textView34"
+                android:layout_alignStart="@+id/textView34"
+                android:layout_below="@+id/imageView9"
+                android:paddingLeft="20dp"
+                android:paddingTop="5dp"
+                android:text="Prem Mandir"
+                android:textAlignment="textStart"
+                android:textColor="@color/DarkMagenta"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/imageView14"
+                android:layout_below="@+id/textView54"
+                android:layout_toEndOf="@+id/imageView9"
+                android:layout_toRightOf="@+id/imageView9"
+                android:paddingLeft="20dp"
+                android:paddingTop="5dp"
+                android:text="Shri Bankey Bihari Mandir"
+                android:textAlignment="textStart"
+                android:textColor="@color/DarkMagenta"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/imageView9"
+                android:layout_alignParentTop="true"
+                android:layout_toEndOf="@+id/imageView8"
+                android:paddingLeft="20dp"
+                android:paddingTop="5dp"
+                android:text="Shri Krishna Janam Bhumi"
+                android:textAlignment="textStart"
+                android:textColor="@color/DarkMagenta"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/imageView21"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_alignLeft="@+id/imageView16"
+                android:layout_alignStart="@+id/imageView16"
+                android:layout_below="@+id/imageView16"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/pbm" />
+
+            <ImageView
+                android:id="@+id/imageView20"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_alignLeft="@+id/imageView21"
+                android:layout_alignStart="@+id/imageView21"
+                android:layout_below="@+id/imageView21"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/sm" />
+
+            <ImageView
+                android:id="@+id/imageView19"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_alignLeft="@+id/imageView20"
+                android:layout_alignStart="@+id/imageView20"
+                android:layout_below="@+id/imageView20"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/rdm" />
+
+            <Button
+                android:id="@+id/kjm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/imageView9"
+                android:layout_alignEnd="@+id/textView41"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignRight="@+id/textView41"
+                android:background="@null" />
+
+            <Button
+                android:id="@+id/bbm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/imageView14"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textView54"
+                android:background="@null" />
+
+            <Button
+                android:id="@+id/pm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/imageView15"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/bbm"
+                android:background="@null" />
+
+            <Button
+                android:id="@+id/ddm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/imageView18"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/pm"
+                android:background="@null" />
+
+            <Button
+                android:id="@+id/bm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/imageView17"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/imageView15"
+                android:background="@null" />
+
+            <Button
+                android:id="@+id/rm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/imageView16"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textView78"
+                android:background="@null" />
+
+            <Button
+                android:id="@+id/it"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/textView76"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textView77"
+                android:background="@null" />
+
+            <Button
+                android:id="@+id/st"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/imageView19"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/pbm"
+                android:background="@null" />
+
+            <Button
+                android:id="@+id/pbm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/imageView20"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/imageView16"
+                android:background="@null" />
+
+            <Button
+                android:id="@+id/rdm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/textView79"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignTop="@+id/textView40"
+                android:background="@null" />
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/imageView9"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:paddingLeft="90dp"
+                android:text="2:00 PM-8:00 PM "
+                android:textAlignment="textStart"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="7sp" />
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/textView30"
+                android:layout_alignLeft="@+id/textView30"
+                android:layout_alignStart="@+id/textView30"
+                android:paddingLeft="90dp"
+                android:text="5:00 AM-12:00 PM "
+                android:textAlignment="textStart"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="7sp" />
+
+            <TextView
+                android:id="@+id/textView42"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/textView43"
+                android:layout_alignEnd="@+id/textView43"
+                android:layout_alignRight="@+id/textView43"
+                android:paddingLeft="90dp"
+                android:text="9:30 AM-12:00 PM"
+                android:textAlignment="textStart"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="7sp" />
+
+            <TextView
+                android:id="@+id/textView49"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/imageView15"
+                android:layout_alignEnd="@+id/textView31"
+                android:layout_alignRight="@+id/textView31"
+                android:paddingLeft="90dp"
+                android:text="4:30 PM-8:30 PM "
+                android:textAlignment="textStart"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="7sp" />
+
+            <TextView
+                android:id="@+id/textView53"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/textView49"
+                android:layout_alignEnd="@+id/textView31"
+                android:layout_alignRight="@+id/textView31"
+                android:paddingLeft="90dp"
+                android:text="8:30 AM-12:00 PM "
+                android:textAlignment="textStart"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="7sp" />
+
+            <TextView
+                android:id="@+id/textView51"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/textView55"
+                android:layout_alignEnd="@+id/textView32"
+                android:layout_alignRight="@+id/textView32"
+                android:paddingLeft="90dp"
+                android:text="4:00 PM-7:00 PM "
+                android:textAlignment="textStart"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="7sp" />
+
+            <TextView
+                android:id="@+id/textView68"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/textView67"
+                android:layout_alignLeft="@+id/textView67"
+                android:layout_alignStart="@+id/textView67"
+                android:paddingLeft="90dp"
+                android:text="5:00 AM-12:00 PM "
+                android:textAlignment="textStart"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="7sp" />
+
+            <TextView
+                android:id="@+id/textView67"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/imageView17"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:paddingLeft="90dp"
+                android:text="2:00 PM-09:00 PM "
+                android:textAlignment="textStart"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="7sp" />
+
+            <TextView
+                android:id="@+id/textView72"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/textView75"
+                android:layout_alignEnd="@+id/textView38"
+                android:layout_alignRight="@+id/textView38"
+                android:paddingLeft="90dp"
+                android:text="3:00 PM-9:00 PM "
+                android:textAlignment="textStart"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="7sp" />
+
+            <TextView
+                android:id="@+id/textView71"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/textView72"
+                android:layout_alignLeft="@+id/textView72"
+                android:layout_alignStart="@+id/textView72"
+                android:paddingLeft="90dp"
+                android:text="5:00 AM-11:30 PM "
+                android:textAlignment="textStart"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="7sp" />
+
+            <TextView
+                android:id="@+id/textView70"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignBottom="@+id/st"
+                android:layout_alignEnd="@+id/textView37"
+                android:layout_alignRight="@+id/textView37"
+                android:paddingLeft="90dp"
+                android:text="4:30 PM-8:30 PM "
+                android:textAlignment="textStart"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="7sp" />
+
+            <TextView
+                android:id="@+id/textView74"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/textView79"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:paddingLeft="90dp"
+                android:text="5:00 PM-9:30 PM "
+                android:textAlignment="textStart"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="7sp" />
+
+            <TextView
+                android:id="@+id/textView73"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/textView74"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:paddingLeft="90dp"
+                android:text="6:30 AM-12:30 PM "
+                android:textAlignment="textStart"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="7sp" />
+
+            <TextView
+                android:id="@+id/textView69"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/textView70"
+                android:layout_alignLeft="@+id/textView70"
+                android:layout_alignStart="@+id/textView70"
+                android:paddingLeft="90dp"
+                android:text="8:30 AM-12:30 PM "
+                android:textAlignment="textStart"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="7sp" />
+
+            <TextView
+                android:id="@+id/textView65"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/textView76"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="8dp"
+                android:paddingLeft="90dp"
+                android:text="5:00 AM-12:00 PM "
+                android:textAlignment="textStart"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="7sp" />
+
+            <TextView
+                android:id="@+id/textView132"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/textView76"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:paddingLeft="90dp"
+                android:text="4:30 PM-8:00 PM "
+                android:textAlignment="textStart"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="7sp" />
+
+            <TextView
+                android:id="@+id/textView50"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/textView77"
+                android:layout_alignLeft="@+id/textView48"
+                android:layout_alignStart="@+id/textView48"
+                android:paddingLeft="90dp"
+                android:text="4:00 PM-9:00 PM "
+                android:textAlignment="textStart"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="7sp" />
+
+            <TextView
+                android:id="@+id/textView48"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/textView50"
+                android:layout_alignEnd="@+id/textView32"
+                android:layout_alignRight="@+id/textView32"
+                android:paddingLeft="90dp"
+                android:text="5:30 AM-10:30 PM "
+                android:textAlignment="textStart"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="7sp" />
+
+            <TextView
+                android:id="@+id/textView47"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/textView51"
+                android:layout_alignLeft="@+id/textView51"
+                android:layout_alignStart="@+id/textView51"
+                android:paddingLeft="90dp"
+                android:text="6:30 AM-10:30 PM "
+                android:textAlignment="textStart"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="7sp" />
+
+            <TextView
+                android:id="@+id/textView43"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/pm"
+                android:layout_alignEnd="@+id/textView34"
+                android:layout_alignRight="@+id/textView34"
+                android:paddingLeft="90dp"
+                android:text="7:00 PM-10:00 PM "
+                android:textAlignment="textStart"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="7sp" />
+
+            <TextView
+                android:id="@+id/textView54"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_alignLeft="@+id/scrollView2"
+                android:layout_alignStart="@+id/scrollView2"
+                android:layout_below="@+id/imageView8"
+                android:background="@color/Black"
+                android:elevation="17dp" />
+
+            <TextView
+                android:id="@+id/textView57"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/imageView9"
+                android:background="@color/Black"
+                android:elevation="17dp" />
+
+            <TextView
+                android:id="@+id/textView55"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/imageView15"
+                android:background="@color/Black"
+                android:elevation="17dp" />
+
+            <TextView
+                android:id="@+id/textView78"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/imageView18"
+                android:background="@color/Black"
+                android:elevation="17dp" />
+
+            <TextView
+                android:id="@+id/textView77"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/imageView17"
+                android:background="@color/Black"
+                android:elevation="17dp" />
+
+            <TextView
+                android:id="@+id/textView76"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_above="@+id/textView38"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:background="@color/Black"
+                android:elevation="17dp" />
+
+            <TextView
+                android:id="@+id/textView75"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/imageView21"
+                android:background="@color/Black"
+                android:elevation="17dp" />
+
+            <TextView
+                android:id="@+id/textView80"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/imageView20"
+                android:background="@color/Black"
+                android:elevation="17dp" />
+
+            <TextView
+                android:id="@+id/textView79"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/imageView19"
+                android:background="@color/Black"
+                android:elevation="17dp" />
+
+            <TextView
+                android:id="@+id/textView130"
+                android:layout_width="match_parent"
+                android:layout_height="8dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textView79"
+                android:background="@color/LemonChiffon"
+                android:elevation="17dp" />
+
+            <TextView
+                android:id="@+id/textView56"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/imageView14"
+                android:background="@color/Black"
+                android:elevation="17dp" />
+
+            <TextView
+                android:id="@+id/textView46"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/textView53"
+                android:layout_alignLeft="@+id/textView53"
+                android:layout_alignStart="@+id/textView53"
+                android:paddingLeft="90dp"
+                android:text="Opening Timings"
+
+                android:textColor="@color/Blue"
+                android:textSize="7sp" />
+
+            <TextView
+                android:id="@+id/textView45"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/textView48"
+                android:layout_alignEnd="@+id/textView32"
+                android:layout_alignRight="@+id/textView32"
+                android:paddingLeft="90dp"
+                android:text="Opening Timings"
+                android:textColor="@color/Blue"
+                android:textSize="7sp" />
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/textView29"
+                android:layout_alignEnd="@+id/kjm"
+                android:layout_alignRight="@+id/kjm"
+                android:paddingLeft="90dp"
+                android:text="Opening Timings"
+                android:textColor="@color/Blue"
+                android:textSize="7sp" />
+
+            <TextView
+                android:id="@+id/textView41"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/textView42"
+                android:layout_alignLeft="@+id/textView46"
+                android:layout_alignStart="@+id/textView46"
+                android:paddingLeft="90dp"
+                android:text="Opening Timings"
+                android:textColor="@color/Blue"
+                android:textSize="7sp" />
+
+            <TextView
+                android:id="@+id/textView44"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/textView47"
+                android:layout_alignEnd="@+id/textView32"
+                android:layout_alignRight="@+id/textView32"
+                android:paddingLeft="90dp"
+                android:text="Opening Timings"
+                android:textAlignment="textStart"
+                android:textColor="@color/Blue"
+                android:textSize="7sp" />
+
+            <TextView
+                android:id="@+id/textView60"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/textView68"
+                android:layout_alignLeft="@+id/textView68"
+                android:layout_alignStart="@+id/textView68"
+                android:paddingLeft="90dp"
+                android:text="Opening Timings"
+
+                android:textColor="@color/Blue"
+                android:textSize="7sp" />
+
+            <TextView
+                android:id="@+id/textView63"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/textView65"
+                android:layout_alignParentLeft="true"
+
+                android:layout_alignParentStart="true"
+                android:paddingLeft="90dp"
+                android:text="Opening Timings"
+                android:textColor="@color/Blue"
+                android:textSize="7sp" />
+
+            <TextView
+                android:id="@+id/textView62"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/textView71"
+                android:layout_alignEnd="@+id/textView38"
+                android:layout_alignRight="@+id/textView38"
+                android:paddingLeft="90dp"
+                android:text="Opening Timings"
+                android:textAlignment="textStart"
+                android:textColor="@color/Blue"
+                android:textSize="7sp" />
+
+            <TextView
+                android:id="@+id/textView61"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/textView69"
+                android:layout_alignLeft="@+id/textView69"
+                android:layout_alignStart="@+id/textView69"
+                android:paddingLeft="90dp"
+                android:text="Opening Timings"
+
+                android:textColor="@color/Blue"
+                android:textSize="7sp" />
+
+            <TextView
+                android:id="@+id/textView64"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/textView73"
+                android:layout_alignParentLeft="true"
+
+                android:layout_alignParentStart="true"
+                android:paddingLeft="90dp"
+                android:text="Opening Timings"
+                android:textColor="@color/Blue"
+                android:textSize="7sp" />
+        </RelativeLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView15"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="13dp"
+        android:background="@drawable/roundcorner4"
+        android:fontFamily="cursive"
+        android:rotation="0"
+        android:text="Temples"
+        android:textAlignment="center"
+        android:textColor="@color/Gold"
+        android:textSize="42sp" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="match_parent"
+        android:layout_height="7dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/Gold" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="match_parent"
+        android:layout_height="7dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@color/Gold" />
+
+</RelativeLayout>

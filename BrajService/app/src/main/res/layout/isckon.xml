@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black">
+
+
+    <TextView
+        android:id="@+id/textView146"
+        android:layout_width="match_parent"
+        android:layout_height="7dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/Gold" />
+
+    <TextView
+        android:id="@+id/textView147"
+        android:layout_width="match_parent"
+        android:layout_height="7dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@color/Gold" />
+
+    <TextView
+        android:id="@+id/textView148"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView15"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="13dp"
+        android:background="@drawable/roundcorner4"
+        android:fontFamily="cursive"
+        android:rotation="0"
+        android:text="Iskcon Temple"
+        android:textAlignment="center"
+        android:textColor="@color/Gold"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:id="@+id/imageView32"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_below="@+id/textView148"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        app:srcCompat="@drawable/iscon" />
+
+    <ScrollView
+        android:layout_width="320dp"
+        android:layout_height="350dp"
+        android:layout_below="@+id/imageView32"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/roundcorner6">
+
+        <TextView
+            android:id="@+id/textView166"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="15dp"
+            android:paddingBottom="15dp"
+            android:paddingTop="10dp"
+            android:text="Sri Krishna Balrama Temple is acknowledged for being the first temple constructed by the International Society for Krishna Consciousness (ISKCON). Built in 1975 by the ISKCON cult, the foundation of the shrine was laid by Swami Prabhupada (founder of ISKCON) himself. Located at Raman Reti in Vrindavan, the temple can be easily reached by regular transport from the western part of Uttar Pradesh. From Delhi, one can get in touch with the temple by taking regular buses or by hiring taxis.   In the vein of other temples made by the society, Sri Krishna Balrama Mandir is too called as Iskcon Temple all over. After the original construction, the temple complex has extended evidently, to accomplish the vision of Swami Prabhupada, for an international center in Vrindavan. The temple stands on the banks of Yamuna River, where Sri Krishna along with Balrama used to herd their cows. The magnificent structure of the Iskcon Temple comes across the sight, as and when, one enters the holy lands of Vrindavan.  "
+            android:textColor="@color/AntiqueWhite"
+            android:textSize="18sp" />
+    </ScrollView>
+</RelativeLayout>

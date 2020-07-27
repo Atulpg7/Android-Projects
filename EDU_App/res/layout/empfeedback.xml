@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="fill_parent"  
+android:paddingLeft="20dp"
+android:paddingRight="20dp"
+android:id="@+id/emer">
+ <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:fillViewport="true"
+        android:layout_below="@+id/imageView1" >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >           
+               <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+              android:orientation="vertical"
+           >        
+     <TextView
+        android:id="@+id/name"
+        android:layout_marginTop="12dp"
+        android:layout_width="fill_parent"
+        android:textStyle="italic"
+       
+        android:layout_height="wrap_content"/>
+        
+    </RelativeLayout>
+            
+    <TextView
+                android:id="@+id/name11" 
+                android:layout_width="match_parent"
+                 android:layout_marginTop="15dp" 
+                 android:textSize="20dp"
+                android:layout_height="wrap_content"
+                android:text=" Q 1 :  How you feel to use Edu_App ?"/>
+
+     <RadioGroup
+        android:id="@+id/radioGroup1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="22dp" >
+
+        <RadioButton
+            android:id="@+id/radioGroupButton0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Best" />
+
+        <RadioButton
+            android:id="@+id/radioGroupButton1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Good" />
+
+        <RadioButton
+            android:id="@+id/radioGroupButton3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Average" />
+        
+          <RadioButton
+            android:id="@+id/radioGroupButton4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Low" />
+          
+    </RadioGroup>
+           <EditText
+        android:id="@+id/msg"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:layout_alignLeft="@+id/tableRow1"
+        android:layout_below="@+id/tableRow1"
+       android:background="@drawable/ractangleb"
+        android:ems="10"
+        android:hint="Write Comment Here:"
+        android:gravity="center"
+        android:inputType="textMultiLine"
+        android:scrollbars="vertical" >
+        <requestFocus />
+    </EditText>
+</LinearLayout>
+</ScrollView>
+
+ <Button
+     android:id="@+id/submit1"
+     android:layout_width="match_parent"
+     android:layout_height="30dp"
+     android:layout_alignParentBottom="true"
+     android:layout_centerHorizontal="true"
+     android:background="@color/firozi"
+     android:onClick="submit"
+     android:text="Post Comment"
+     android:textColor="@color/white" />
+
+</RelativeLayout>

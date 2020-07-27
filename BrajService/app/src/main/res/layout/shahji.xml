@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black">
+
+
+    <TextView
+        android:id="@+id/textView161"
+        android:layout_width="match_parent"
+        android:layout_height="7dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/Gold" />
+
+    <TextView
+        android:id="@+id/textView162"
+        android:layout_width="match_parent"
+        android:layout_height="7dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@color/Gold" />
+
+    <TextView
+        android:id="@+id/textView163"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView15"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="13dp"
+        android:background="@drawable/roundcorner4"
+        android:fontFamily="cursive"
+        android:rotation="0"
+        android:text="Shahji Temple"
+        android:textAlignment="center"
+        android:textColor="@color/Gold"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:id="@+id/imageView37"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_below="@+id/textView163"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+        app:srcCompat="@drawable/shahji" />
+
+    <ScrollView
+        android:layout_width="320dp"
+        android:layout_height="350dp"
+        android:background="@drawable/roundcorner6"
+        android:layout_below="@+id/imageView37"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp">
+
+        <TextView
+            android:id="@+id/textView172"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="15dp"
+            android:paddingBottom="15dp"
+            android:paddingTop="10dp"
+            android:text="Shah Ji Temple, located in Vrindavan, one of the most revered places of India, is by far its best architectural specimen. The temple, dedicated to Lord Krishna is placed high for its religious and spiritual value to the Hindus, and thus, is one of the prime attractions of the town of Vrindavan. This masterpiece was thought of, and built by the two Shah brothers, Shah Kundan Lal and Shah Phundan Lal, who were originally the residents of Lucknow (then, Awadh). They made a registered trust in favour of the deity i.e. Sri Thakur Radha Raman ji Maharaj in the year 1866. The construction of the temple started during the year 1860 and it took eight long years to get the construction work completed. The temple was finally erected in 1876. Another special historical feature of the temple is that the portraits of the founders were not put on the walls, as the usual custom is, instead, they are painted on the floor, to denote their humility and saintliness, and also, the importance of the soil of Vrindavan. The deity worshipped in this temple is another form of Lord Krishna, known as ‘Chote Radha Raman’."
+            android:textColor="@color/AntiqueWhite"
+            android:textSize="18sp" />
+    </ScrollView>
+</RelativeLayout>

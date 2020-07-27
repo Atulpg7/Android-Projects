@@ -1,0 +1,102 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"  
+	android:paddingLeft="20dp"
+	android:paddingRight="20dp"
+    android:id="@+id/emer"
+    android:background="@drawable/bk1">
+    
+ <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+       >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+ <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/a"
+                android:layout_marginTop="-15dp" />
+<RelativeLayout 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" 
+    android:id="@+id/emer1"
+    android:layout_marginTop="5dp">
+ <EditText
+         android:id="@+id/editText"
+         android:layout_width="250dp"
+         android:layout_marginTop="30dp"
+         android:layout_marginLeft="5dp"
+         android:layout_height="wrap_content"
+         android:hint="Select Date >>"
+         android:editable="false" >
+</EditText>
+
+     <ImageButton
+         android:id="@+id/imageButton1"
+         android:layout_width="50dp"
+         android:layout_height="50dp"
+         android:layout_alignParentRight="true"
+         android:layout_alignParentTop="true"
+         android:contentDescription="selectdate"
+         android:cropToPadding="true"
+         android:src="@drawable/date2" />
+
+      </RelativeLayout>  
+      
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+  
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_weight="0.78"
+        android:ems="10"
+        android:hint="Write Company Name"
+        android:inputType="textMultiLine"
+        android:scrollbars="vertical" />
+
+ <EditText
+        android:id="@+id/editText3"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_weight="0.78"
+        android:ems="10"
+        android:hint="Write Branch name"
+        android:inputType="textMultiLine"
+        android:scrollbars="vertical" >
+
+        <requestFocus />
+    </EditText>
+   
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="49dp"
+         android:background="@color/green2"
+       android:textStyle="italic"
+       android:textColor="@drawble/android:color/white"
+        android:text="Submit" />
+</LinearLayout>
+
+    </LinearLayout>
+    </ScrollView>
+    
+</RelativeLayout>

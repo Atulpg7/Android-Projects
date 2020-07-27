@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Blue"
+    tools:context="com.example.atulkumar.brajservice.MainActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="7dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:alpha="0.9"
+                android:background="@color/Gold" />
+
+
+            <EditText
+                android:id="@+id/upass"
+                android:layout_width="210dp"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textView8"
+                android:layout_alignStart="@+id/textView8"
+                android:layout_below="@+id/textView8"
+                android:ems="10"
+                android:inputType="textPassword"
+                android:textColor="@android:color/darker_gray"
+                android:textColorHighlight="@android:color/darker_gray"
+                android:textColorHint="@android:color/darker_gray"
+                android:textColorLink="@android:color/darker_gray"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_alignBottom="@+id/cpass"
+                android:layout_alignLeft="@+id/imageView5"
+                android:layout_alignStart="@+id/imageView5"
+                android:layout_alignTop="@+id/cpass"
+                android:layout_toLeftOf="@+id/cpass"
+                android:layout_toStartOf="@+id/cpass"
+                app:srcCompat="@drawable/passsignup" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/relativeLayout4"
+                android:layout_alignStart="@+id/relativeLayout4"
+                android:layout_below="@+id/relativeLayout4"
+                android:text="Name"
+                android:textColor="@android:color/darker_gray" />
+
+            <EditText
+                android:id="@+id/uemail"
+                android:layout_width="210dp"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textView7"
+                android:layout_alignStart="@+id/textView7"
+                android:layout_below="@+id/textView7"
+                android:ems="10"
+                android:inputType="text"
+                android:textColor="@android:color/darker_gray"
+                android:textColorHighlight="@android:color/darker_gray"
+                android:textColorHint="@android:color/darker_gray"
+                android:textColorLink="@android:color/darker_gray"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/textView2"
+                android:layout_alignRight="@+id/textView2"
+                android:layout_below="@+id/user"
+                android:text="Email"
+                android:textColor="@android:color/darker_gray"
+                android:textColorHighlight="@android:color/white"
+                android:textColorHint="@android:color/white"
+                android:textColorLink="@android:color/white" />
+
+            <RelativeLayout
+                android:layout_width="300dp"
+                android:layout_height="500dp"
+                android:layout_below="@+id/textView9"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/roundcorner4">
+
+                <Button
+                    android:id="@+id/login"
+                    android:layout_width="240dp"
+                    android:layout_height="25dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="41dp"
+                    android:alpha="0.8"
+                    android:background="@null"
+                    android:paddingTop="3dp"
+                    android:text="Already Registered ? Click Here"
+                    android:textAllCaps="false"
+                    android:textColor="@color/White"
+                    android:textSize="16sp"
+                    android:textStyle="italic" />
+
+                <Button
+                    android:id="@+id/create"
+                    android:layout_width="235dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="87dp"
+                    android:alpha="0.7"
+                    android:background="@drawable/roundcorner2"
+                    android:paddingTop="2dp"
+                    android:text="Create Account"
+                    android:textAllCaps="false"
+                    android:textColor="@android:color/white"
+                    android:textSize="20sp"
+                    android:textStyle="bold|italic" />
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_below="@+id/textView2"
+                android:layout_toLeftOf="@+id/relativeLayout4"
+                android:layout_toStartOf="@+id/relativeLayout4"
+                app:srcCompat="@drawable/usersignup" />
+
+            <EditText
+                android:id="@+id/user"
+                android:layout_width="210dp"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textView2"
+                android:layout_alignStart="@+id/textView2"
+                android:layout_below="@+id/textView2"
+                android:ems="10"
+                android:inputType="text"
+                android:textColor="@android:color/darker_gray"
+                android:textColorHighlight="@android:color/darker_gray"
+                android:textColorHint="@android:color/darker_gray"
+                android:textColorLink="@android:color/darker_gray"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_below="@+id/textView7"
+                android:layout_toLeftOf="@+id/user"
+                android:layout_toStartOf="@+id/user"
+                app:srcCompat="@drawable/email" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_alignLeft="@+id/imageView5"
+                android:layout_alignStart="@+id/imageView5"
+                android:layout_below="@+id/textView8"
+                app:srcCompat="@drawable/passsignup" />
+
+            <EditText
+                android:id="@+id/cpass"
+                android:layout_width="210dp"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textView4"
+                android:layout_alignStart="@+id/textView4"
+                android:layout_below="@+id/textView4"
+                android:ems="10"
+                android:inputType="textPassword"
+                android:textColor="@android:color/darker_gray"
+                android:textColorHighlight="@android:color/darker_gray"
+                android:textColorHint="@android:color/darker_gray"
+                android:textColorLink="@android:color/darker_gray"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/upass"
+                android:layout_alignStart="@+id/upass"
+                android:layout_below="@+id/upass"
+                android:text=" Confirm Password"
+                android:textColor="@android:color/darker_gray"
+                android:textColorHighlight="@android:color/white"
+                android:textColorHint="@android:color/white"
+                android:textColorLink="@android:color/white" />
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout4"
+                android:layout_width="200dp"
+                android:layout_height="110dp"
+                android:layout_alignTop="@+id/textView"
+                android:layout_centerHorizontal="true"
+                android:alpha="0.2"
+                android:background="@drawable/roundcorner4">
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="220dp"
+                android:layout_height="110dp"
+                android:layout_below="@+id/textView9"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="40dp"
+                android:fontFamily="cursive"
+                android:rotation="0"
+                android:text="Create Your New Account"
+                android:textAlignment="center"
+                android:textColor="@color/Gold"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/uemail"
+                android:layout_alignStart="@+id/uemail"
+                android:layout_below="@+id/uemail"
+                android:text=" Password"
+                android:textColor="@android:color/darker_gray"
+                android:textColorHighlight="@android:color/white"
+                android:textColorHint="@android:color/white"
+                android:textColorLink="@android:color/white" />
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

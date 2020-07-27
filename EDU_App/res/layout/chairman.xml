@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:id="@+id/emer">
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:fillViewport="true"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentBottom="true"
+            android:gravity="center"
+            >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:orientation="vertical" >
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:src="@drawable/vc" />
+
+                <TextView
+                    android:id="@+id/name1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="200dp"
+                    android:layout_marginTop="25dp"
+                    android:textColor="@color/green2"
+                    android:text=""
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/name2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="175dp"
+                    android:layout_marginTop="60dp"
+                    android:layout_weight="0.97"
+                    android:text=" Prof. D. S. Chauhan"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/name3"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_below="@+id/imageView1"
+                    android:layout_marginTop="10dp"
+                    android:textStyle="bold"
+                    android:text= " Prof. D. S. Chauhan was born in 1949 at Dholpur. A Ph.D from the Goddard Space Flight Centre, Green belt Maryland, USA he began his illustrious career at Banaras Hindu University as a lecturer, reader and then professor. ."
+                    android:layout_weight="0.97" />
+
+                <TextView
+                    android:id="@+id/name4"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_below="@+id/name2"
+                    android:layout_marginTop="10dp"
+                    android:textStyle="italic"
+                    android:textSize="15dp"
+                    android:text= "I cannot emphasis how important it is for you to choose the right institution and the field of study for a successful career. By field of study I do not refer to those where employ... "
+                    android:layout_weight="0.97" />
+
+                <TextView
+                    android:id="@+id/name5"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_below="@+id/name1"
+                    android:layout_marginTop="10dp"
+                    android:text= " In the last decade a number of technical  institutions have been set up across the country and these institutions are producing a large number of professionals every year. However, going by the results of many surveys I have come across, only 25% of the graduates are employable. With an increasing number of students depending on MNCs abroad for their jobs, there is a need to produce good quality professionals who are at par with their counterparts in other countries."
+                    android:layout_weight="0.97" />
+
+                <TextView
+                    android:id="@+id/name6"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_below="@+id/name3"
+                    android:layout_marginTop="10dp"
+                    android:text= " We at GLA right from inception, are striving to produce good quality professionals who are not just at par but even surpass their counterparts in other countries. This is very well reflected in the 100% placement record we have had till now (70% on campus and 30% off campus) \n
+
+I cannot emphasise how important it is for you to choose the right institution and the field of study for a successful career. By field of study I do not refer to those where employability is high, but to those where your interest lies. We are committed to building the future of our students. We tirelessly work towards building the skills-set, knowledge and intellect of our students.\n
+
+We offer a variety of undergraduate courses like B Tech, B Pharm, BBA, BCA, B.Sc. Biotechnology and postgraduate courses like, MCA, MBA, M Pharm and M Tech. We refine our students with modern, state-of-the-art resources and experienced and energetic faculty-members."
+                    android:layout_weight="0.97" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+
+</RelativeLayout> 
+
+

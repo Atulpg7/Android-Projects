@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+
+    <group android:checkableBehavior="single">
+
+
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_person"
+            android:title="Profile" />
+
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@drawable/ic_settings"
+            android:title="Setting" />
+
+        <item
+            android:id="@+id/nav_Bookmark"
+            android:icon="@drawable/ic_bookmark"
+            android:title="Bookmarks" />
+
+
+    </group>
+    <item android:title="Year">
+        <menu>
+            <item
+                android:id="@+id/nav_first"
+                android:icon="@drawable/ic_first"
+                android:title="First Year" />
+
+           <item
+                android:id="@+id/nav_second"
+                android:icon="@drawable/ic_first"
+                android:title="Second Year" />
+
+            <item
+                android:id="@+id/nav_third"
+                android:icon="@drawable/ic_first"
+                android:title="Third Year" />
+
+            <item
+                android:id="@+id/nav_final"
+                android:icon="@drawable/ic_first"
+                android:title="Final Year" />
+        </menu>
+    </item>
+
+    <item android:title="Communication">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_share"
+                android:title="Share " />
+
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_send"
+                android:title="Send" />
+
+        </menu>
+    </item>
+
+</menu>

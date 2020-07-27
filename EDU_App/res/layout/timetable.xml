@@ -1,0 +1,497 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"  
+	android:paddingLeft="20dp"
+	android:paddingRight="20dp"
+    android:id="@+id/emer"
+    android:background="@drawable/bk1">  
+ <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/imageView1" >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+     <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_span="5"
+                android:padding="18dip"
+                android:gravity="center"
+                android:text="Download Your Time Table in PDF Format"
+                android:textColor="#FDD017"
+                android:textSize="20dp" />
+        </TableRow>
+          <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_span="1"
+                android:padding="18dip"
+                android:gravity="left"
+                android:background="@drawable/tables"
+                android:text="B.Tech First Year"
+                android:clickable="true"
+                android:onClick="btechfirstyear"
+               />
+        </TableRow>
+         <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_span="1"
+                android:padding="18dip"
+                android:gravity="left"
+                android:background="@drawable/tables"
+                android:text="B.Tech CS"
+                android:clickable="true"
+                android:onClick="cs"
+               />
+        </TableRow>
+         <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_span="5"
+                android:padding="18dip"
+                android:gravity="left"
+                android:background="@drawable/tables"
+                android:text="B.Tech ME"
+                     android:clickable="true"
+                android:onClick="me"
+               />
+        </TableRow>
+         <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_span="5"
+                android:padding="18dip"
+                android:gravity="left"
+                android:background="@drawable/tables"
+                android:text="B.Tech CE"
+                     android:clickable="true"
+                android:onClick="ce"
+               />
+        </TableRow>
+         <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_span="5"
+                android:padding="18dip"
+                android:gravity="left"
+                android:background="@drawable/tables"
+                android:text="B.Tech EC"
+                     android:clickable="true"
+                android:onClick="ec"
+               />
+        </TableRow>
+         <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_span="5"
+                android:padding="18dip"
+                android:gravity="left"
+                android:background="@drawable/tables"
+                android:text="B.Tech EE"
+                     android:clickable="true"
+                android:onClick="ee"
+               />
+        </TableRow>
+         <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_span="5"
+                android:padding="18dip"
+                android:gravity="left"
+                android:background="@drawable/tables"
+                android:text="M.tech CS"
+                     android:clickable="true"
+                android:onClick="mcs"
+               />
+        </TableRow>
+         <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_span="5"
+                android:padding="18dip"
+                android:gravity="left"
+                android:background="@drawable/tables"
+                android:text="M.tech ec"
+                     android:clickable="true"
+                android:onClick="mec"
+               />
+        </TableRow>
+         <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_span="5"
+                android:padding="18dip"
+                android:gravity="left"
+                android:background="@drawable/tables"
+                android:text="M.tech EN"
+                     android:clickable="true"
+                android:onClick="men"
+               />
+        </TableRow>
+         <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_span="5"
+                android:padding="18dip"
+                android:gravity="left"
+                android:background="@drawable/tables"
+                android:text="M.tech ME"
+                     android:clickable="true"
+                android:onClick="mme"
+               />
+        </TableRow>
+         <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_span="5"
+                android:padding="18dip"
+                android:gravity="left"
+                android:background="@drawable/tables"
+                android:text="M.tech EE"
+                     android:clickable="true"
+                android:onClick="mee"
+               />
+        </TableRow>
+         <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_span="5"
+                android:padding="18dip"
+                android:gravity="left"
+                android:background="@drawable/tables"
+                android:text="M.tech CE"
+                     android:clickable="true"
+                android:onClick="mce"
+               />
+        </TableRow>
+         <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_span="5"
+                android:padding="18dip"
+                android:gravity="left"
+                android:background="@drawable/tables"
+                android:text="MCA"
+                     android:clickable="true"
+                android:onClick="mca"
+               />
+        </TableRow>
+         <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_span="5"
+                android:padding="18dip"
+                android:gravity="left"
+                android:background="@drawable/tables"
+                android:text="MBA"
+                     android:clickable="true"
+                android:onClick="mba"
+               />
+        </TableRow>
+         <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_span="5"
+                android:padding="18dip"
+                android:gravity="left"
+                android:background="@drawable/tables"
+                android:text="BCA"
+                     android:clickable="true"
+                android:onClick="bca"
+               />
+        </TableRow>
+         <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_span="5"
+                android:padding="18dip"
+                android:gravity="left"
+                android:background="@drawable/tables"
+                android:text="BBA"
+                     android:clickable="true"
+                android:onClick="bba"
+               />
+        </TableRow>
+         <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_span="5"
+                android:padding="18dip"
+                android:gravity="left"
+                android:background="@drawable/tables"
+                android:text="MSC"
+                     android:clickable="true"
+                android:onClick="msc"
+               />
+        </TableRow>
+         <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_span="5"
+                android:padding="18dip"
+                android:gravity="left"
+                android:background="@drawable/tables"
+                android:text="BSC"
+                     android:clickable="true"
+                android:onClick="bsc"
+               />
+        </TableRow>
+         <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_span="5"
+                android:padding="18dip"
+                android:gravity="left"
+                android:background="@drawable/tables"
+                android:text="B.ED"
+                     android:clickable="true"
+                android:onClick="bed"
+               />
+        </TableRow>
+         <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_span="5"
+                android:padding="18dip"
+                android:gravity="left"
+                android:background="@drawable/tables"
+                android:text="B.Com"
+                android:onClick="bcom"
+                     android:clickable="true"
+               />
+        </TableRow>
+         <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_span="5"
+                android:padding="18dip"
+                android:gravity="left"
+                android:background="@drawable/tables"
+                android:text="B.Pharma"
+                android:onClick="bph"
+                     android:clickable="true"
+               />
+        </TableRow>
+         <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_span="5"
+                android:padding="18dip"
+                android:gravity="left"
+                android:background="@drawable/tables"
+                android:text="D.Pharma"
+                android:onClick="dph"
+                     android:clickable="true"
+               />
+        </TableRow>
+         <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_span="5"
+                android:padding="18dip"
+                android:gravity="left"
+                android:background="@drawable/tables"
+                android:text="M.Pharma"
+                android:onClick="mph"
+                     android:clickable="true"
+               />
+        </TableRow>
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_span="5"
+                android:padding="18dip"
+                android:gravity="left"
+                android:background="@drawable/tables"
+                android:text="Diploma CS"
+                android:onClick="dcs"
+                     android:clickable="true"
+               />
+        </TableRow>
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_span="5"
+                android:padding="18dip"
+                android:gravity="left"
+                android:background="@drawable/tables"
+                android:text="Diploma CE"
+                android:onClick="dce"
+                     android:clickable="true"
+               />
+        </TableRow>
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_span="5"
+                android:padding="18dip"
+                android:gravity="left"
+                android:background="@drawable/tables"
+                android:text="Diploma EC"
+                android:onClick="dec"
+                     android:clickable="true"
+               />
+        </TableRow>
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_span="5"
+                android:padding="18dip"
+                android:gravity="left"
+                android:background="@drawable/tables"
+                android:text="Diploma EE"
+                android:onClick="dee"
+                     android:clickable="true"
+               />
+        </TableRow>
+        
+ </LinearLayout>
+    </ScrollView>    
+</RelativeLayout>

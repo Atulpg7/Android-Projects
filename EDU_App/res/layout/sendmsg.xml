@@ -1,0 +1,104 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/emer"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bk1"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp" >
+    
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_span="1"
+            android:gravity="center"
+            android:padding="10dip"
+            android:text="Send Messages"
+            android:textColor="#FDD017"
+            android:textSize="15dp" />
+    </TableRow>
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="320dp"
+        android:layout_height="180dp"
+        android:layout_alignLeft="@+id/tableRow1"
+        android:layout_below="@+id/tableRow1"
+        android:background="@color/white"
+        android:ems="10"
+        android:hint="Write Message Here"
+        android:gravity="center"
+        android:inputType="textMultiLine"
+        android:scrollbars="vertical" >
+
+        <requestFocus />
+    </EditText>
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText1"
+        android:layout_below="@+id/editText1"
+        android:layout_marginTop="28dp"
+        android:layout_span="5"
+        android:background="@drawable/tables"
+        android:clickable="true"
+        android:gravity="left"
+        android:onClick="ec"
+        android:padding="10dip"
+        android:text="Student" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/textView1"
+        android:layout_span="5"
+        android:background="@drawable/tables"
+        android:clickable="true"
+        android:gravity="left"
+        android:onClick="ec"
+        android:padding="10dip"
+        android:text="Teaching Staff" />
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_below="@+id/textView2"
+        android:layout_span="5"
+        android:background="@drawable/tables"
+        android:clickable="true"
+        android:gravity="left"
+        android:onClick="ec"
+        android:padding="10dip"
+        android:text="Non Teaching Staff" />
+
+    <TextView
+        android:id="@+id/TextView02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/TextView01"
+        android:layout_below="@+id/TextView01"
+        android:layout_span="5"
+        android:background="@drawable/tables"
+        android:clickable="true"
+        android:gravity="left"
+        android:onClick="ec"
+        android:padding="10dip"
+        android:text="All" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="Submit" />
+</RelativeLayout>

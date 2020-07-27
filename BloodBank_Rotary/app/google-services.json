@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "723462970915",
+    "firebase_url": "https://bloodbankrotary-e9a9f.firebaseio.com",
+    "project_id": "bloodbankrotary-e9a9f",
+    "storage_bucket": "bloodbankrotary-e9a9f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:723462970915:android:12b70d3192cfcf61",
+        "android_client_info": {
+          "package_name": "com.example.gla.bloodbank_rotary"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "723462970915-nipebmh4n08pc95t33ftgtc0p32lvm10.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.gla.bloodbank_rotary",
+            "certificate_hash": "e87de25aa5acbf71a6da6945d3f915b47d6b3f25"
+          }
+        },
+        {
+          "client_id": "723462970915-ipmjsn3qql1kpvdoeo9s4d1naat59tvm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.gla.bloodbank_rotary",
+            "certificate_hash": "9d05c94439195b15bf0475fe435c3adea72c4f30"
+          }
+        },
+        {
+          "client_id": "723462970915-iqk8ldmj89kmaahohi3mo7a1era8k2hj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOFLxJyq6i2Biu91Dj7v7G2TV_YIJ2KXA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "723462970915-iqk8ldmj89kmaahohi3mo7a1era8k2hj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

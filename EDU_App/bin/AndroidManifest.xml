@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.edu_app"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+<supports-screens
+
+android:largeScreens="true"
+
+android:normalScreens="true"
+
+android:smallScreens="true"
+
+android:anyDensity="true" />
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="17" />
+
+     <permission android:name="com.maret.maps.permission.MAPS_RECEIVE" android:protectionLevel="signature"/>
+     
+    <uses-feature
+    android:glEsVersion="0x00020000"
+    android:required="true"/> 
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+   
+    <uses-permission android:name="com.maret.toilet.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+	
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+        android:largeHeap="true"
+         >
+        <activity
+            android:name="com.example.edu_app.MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        
+        
+        
+        
+        
+             <activity
+      android:name=".mainpage"
+      android:label="@string/app_name"> 
+      
+       <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+               
+ </activity>
+ 
+          <activity
+      android:name=".bus_detail"
+      android:label="@string/app_name">          
+ </activity>
+ 
+ 
+            <activity
+      android:name=".another1"
+      android:label="@string/app_name">          
+ </activity>
+      <activity
+      android:name=".examresult1"
+      android:label="@string/app_name">          
+ </activity>
+  <activity
+      android:name=".resultButton1"
+      android:label="@string/app_name">          
+ </activity>
+ <activity
+      android:name=".attendence1"
+      android:label="@string/app_name">          
+ </activity>
+  <activity
+      android:name=".news1"
+      android:label="@string/app_name">          
+ </activity>
+ <activity
+      android:name=".sendnews1"
+      android:label="@string/app_name">          
+ </activity>
+  <activity
+      android:name=".chairman"
+      android:label="@string/app_name">          
+ </activity>
+  <activity
+      android:name=".demo"
+      android:label="@string/app_name">          
+ </activity>
+ <activity
+      android:name=".search"
+      android:label="@string/app_name">          
+ </activity>
+   <activity
+      android:name=".grouping"
+      android:label="@string/app_name">          
+ </activity>
+   <activity
+      android:name=".timetable"
+      android:label="@string/app_name">          
+ </activity>
+ 
+    <activity
+      android:name=".deletenews"
+      android:label="@string/app_name">          
+ </activity>
+ <activity
+      android:name=".empfeedback"
+      android:label="@string/app_name">          
+ </activity>
+  <activity
+      android:name=".directory"
+      android:label="@string/app_name">          
+ </activity>
+  <activity
+      android:name=".syllabus1"
+      android:label="@string/app_name">          
+ </activity>
+  <activity
+      android:name=".home1"
+      android:label="@string/app_name">   
+     <!-- android:screenOrientation="portrait"  -->       
+ </activity>
+  <activity
+      android:name=".ExpandableListAdapter"
+      android:label="@string/app_name">          
+ </activity>
+  <activity
+      android:name=".ExpandableListDataPump"
+      android:label="@string/app_name">          
+ </activity>
+   <activity
+      android:name=".sendmsg"
+      android:label="@string/app_name">          
+ </activity>
+ <activity
+      android:name=".upcoming_upload"
+      android:label="@string/app_name">          
+ </activity>
+  <activity
+      android:name=".visited_upload"
+      android:label="@string/app_name">          
+ </activity>
+ <activity
+      android:name=".upcoming_company"
+      android:label="@string/app_name">          
+ </activity>
+  <activity
+      android:name=".visited_company"
+      android:label="@string/app_name">          
+ </activity>
+   <activity
+      android:name=".deletefeedback"
+      android:label="@string/app_name">          
+ </activity>
+ <activity
+      android:name=".feedback"
+      android:label="@string/app_name">          
+ </activity>
+ 
+  <activity
+      android:name=".show_feedback"
+      android:label="@string/app_name">          
+ </activity>
+  <activity
+      android:name=".about_us"
+      android:label="@string/app_name">          
+ </activity>
+ <activity
+      android:name=".forget"
+      android:label="@string/app_name">          
+ </activity>
+ <activity
+      android:name=".emphome"
+      android:label="@string/app_name"
+     >          
+ </activity>
+ <activity
+      android:name=".Course_syllabus"
+      android:label="@string/app_name"
+     >          
+ </activity>
+ <activity
+      android:name=".emplogin"
+      android:label="@string/app_name"
+      >          
+ </activity>
+ <activity
+      android:name=".empattendance"
+      android:label="@string/app_name">          
+ </activity>
+ 
+  <activity
+      android:name=".studentalert"
+      android:label="@string/app_name">          
+ </activity>
+ <activity
+      android:name=".empsalary"
+      android:label="@string/app_name">          
+ </activity>
+  <activity
+      android:name=".term"
+      android:label="@string/app_name">          
+ </activity>
+ <activity
+      android:name=".empalert"
+      android:label="@string/app_name">          
+ </activity>
+  <activity
+      android:name=".testing_page"
+      android:label="@string/app_name">          
+ </activity>
+ <activity
+      android:name=".empforgetpassword"
+      android:label="@string/app_name">          
+ </activity>
+ 
+  <activity
+      android:name=".quiz"
+      android:label="@string/app_name">          
+ </activity>
+ <activity
+      android:name=".attendencelist1"
+      android:label="@string/app_name">          
+ </activity>
+  
+   <activity
+           android:name=".quiz_main"
+           android:label="@string/app_name"
+            android:screenOrientation="portrait" 
+            >
+            </activity>
+      <activity
+           android:name=".selectquiz"
+           android:label="@string/app_name"
+            >
+        </activity>
+        
+        <activity
+           android:name=".quizscore"
+           android:label="@string/app_name"
+            >
+        </activity>
+         <activity
+      android:name=".sylla"
+      android:label="@string/app_name">          
+ </activity>
+ 
+         
+       <activity
+           android:name=".speech"
+           android:label="@string/app_name"
+            >
+        </activity>
+        
+         <activity
+      android:name=".fire_safty"
+      android:label="@string/app_name">          
+ </activity>
+ 
+          <activity
+      android:name=".fire"
+      android:label="@string/app_name">          
+ </activity>
+ 
+           <activity
+      android:name=".search_student"
+      android:label="@string/app_name">          
+ </activity>
+ 
+          <activity
+      android:name=".act_deact"
+      android:label="@string/app_name">          
+ </activity>
+ 
+    </application>
+ <uses-permission android:name="android.permission.INTERNET" />
+ 
+    <!-- Network State Permissions -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+ 
+</manifest>

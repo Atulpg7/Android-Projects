@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/LightCoral">
+
+
+    <ScrollView
+        android:id="@+id/scrollView4"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imageView49"
+        android:layout_marginTop="19dp"
+        android:background="@drawable/roundcorner5">
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout5"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/imageView47"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/roundcorner5">
+
+            <ImageView
+                android:id="@+id/imageView67"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignLeft="@+id/imageView57"
+                android:layout_alignStart="@+id/imageView57"
+                android:layout_alignTop="@+id/textView279"
+                android:layout_marginLeft="9dp"
+                android:layout_marginStart="9dp"
+                app:srcCompat="@drawable/rating" />
+
+            <TextView
+                android:id="@+id/textView266"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="123dp"
+                android:text="2092 / Room.*"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView270"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textView266"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignStart="@+id/textView266"
+                android:layout_below="@+id/imageView54"
+                android:layout_marginTop="20dp"
+                android:text="Gopalgarh Tehra Road, Vrindavan 281121, Mathura"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView278"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textView270"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignStart="@+id/textView270"
+                android:layout_below="@+id/textView270"
+                android:layout_marginTop="20dp"
+                android:text="Free Wifi, Free Parking, Breakfast included, Air Conditioning, Restaurant"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView279"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textView278"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignStart="@+id/textView278"
+                android:layout_below="@+id/textView278"
+                android:layout_marginTop="21dp"
+                android:text="4.5 / 5"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/imageView54"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="23dp"
+                android:layout_marginStart="23dp"
+                app:srcCompat="@drawable/price" />
+
+            <ImageView
+                android:id="@+id/imageView55"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignEnd="@+id/imageView54"
+                android:layout_alignRight="@+id/imageView54"
+                android:layout_alignTop="@+id/textView270"
+                app:srcCompat="@drawable/address" />
+
+            <ImageView
+                android:id="@+id/imageView57"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignLeft="@+id/imageView55"
+                android:layout_alignStart="@+id/imageView55"
+                android:layout_alignTop="@+id/textView278"
+                app:srcCompat="@drawable/facility" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/imageView49"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_below="@+id/textView189"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        app:srcCompat="@drawable/rb" />
+
+    <TextView
+        android:id="@+id/textView187"
+        android:layout_width="match_parent"
+        android:layout_height="7dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/Gold" />
+
+    <TextView
+        android:id="@+id/textView188"
+        android:layout_width="match_parent"
+        android:layout_height="7dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@color/Gold" />
+
+    <TextView
+        android:id="@+id/textView189"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView15"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="13dp"
+        android:background="@drawable/roundcorner4"
+        android:fontFamily="cursive"
+        android:rotation="0"
+        android:text="Hotel The Royal Bharti"
+        android:textAlignment="center"
+        android:textColor="@color/Gold"
+        android:textSize="30sp" />
+</RelativeLayout>

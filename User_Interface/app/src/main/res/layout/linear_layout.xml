@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <!---
+    1.ORIENTATION:-Used FOr The Look.(Vertical Or Horizontal)
+    2.Match_Paresnt:-Auto Adjust The width And Height.
+    3.Dp:- Density Pixel.
+    4.Edit Text:- Used For Taking Input From The User.
+    5.To Download Free Icon icon8.com.
+    6.icon should be in png and 30px-->
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:inputType="text"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="10dp"
+        android:drawableLeft="@drawable/login"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="numberPassword"
+        android:maxLength="4"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="10dp"
+        android:drawableLeft="@drawable/password"/>
+
+</LinearLayout>

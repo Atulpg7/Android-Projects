@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black">
+
+
+    <TextView
+        android:id="@+id/textView137"
+        android:layout_width="match_parent"
+        android:layout_height="7dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/Gold" />
+
+    <TextView
+        android:id="@+id/textView138"
+        android:layout_width="match_parent"
+        android:layout_height="7dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@color/Gold" />
+
+    <TextView
+        android:id="@+id/textView139"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView15"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="13dp"
+        android:background="@drawable/roundcorner4"
+        android:fontFamily="cursive"
+        android:rotation="0"
+        android:text="Shri Birla Mandir"
+        android:textAlignment="center"
+        android:textColor="@color/Gold"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_below="@+id/textView139"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        app:srcCompat="@drawable/birlamandir" />
+
+    <ScrollView
+        android:layout_width="320dp"
+        android:layout_height="350dp"
+        android:layout_below="@+id/imageView12"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/roundcorner6">
+
+        <TextView
+            android:id="@+id/textView165"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="15dp"
+            android:paddingBottom="15dp"
+            android:paddingTop="10dp"
+            android:text="Birla Mandir is one of Mathura's famous temples. Located on the Mathura-Vrindavan road, this temple is also called 'Geeta Temple'. Bidlaji's temple is usually 5 kms from Mathura. Is located at a distance. Seth Jugal Kishore Birla built this In it there is a huge image of Chakradhya Shrikrishna. There is a pillar of red stone in the north of the temple, on which the entire 'Geeta' has been engraved. The temple council is covered with the Ramneekar garden.This temple has breathtaking architecture accompanied with beautiful carvings and paintings that add to the beauty of this temple. The temple is large and looks magnificent in red sandstone and it also stands as a proof of excellent craftsmanship. A magnificent idol of Lord Krishna is housed in this temple along with Lakshmi Narayan, Ram and Sita. The temple also houses Lord Krishna's Chariot and Gita Stambh which has the entire carvings of Bhagavad Gita.  The temple also boasts of several exquisite paintings of gods and goddesses on marble walls. The temple is well maintained and presents a peaceful and serene ambience to the pilgrims. There is also a small temple dedicated to Lord Hanuman within the premises.   During the festivals like Janmashtami and Holi, the temple is beautifully decorated and illuminated. Special poojas are offered during these festivals and thousands of devotees visit the shrines on these festival days."
+            android:textColor="@color/AntiqueWhite"
+            android:textSize="18sp" />
+    </ScrollView>
+</RelativeLayout>

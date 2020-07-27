@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"   
+    android:id="@+id/emer">
+
+    <TableLayout
+            
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:shrinkColumns="*"  android:stretchColumns="*" android:background="#ffffff">
+    
+    <TableRow
+                            android:layout_height="wrap_content"
+                            android:layout_width="fill_parent"
+                            android:gravity="center_horizontal">
+
+                            <EditText
+                                android:id="@+id/name" 
+                                android:layout_weight="1" android:hint="Name" 
+                                android:gravity="left"/>
+                     
+                            <EditText
+                                android:id="@+id/rollno" 
+                                android:layout_weight="1" android:hint="Rollno"
+                                 android:gravity="left"/>
+                        </TableRow>
+                        
+     <TableRow
+                            android:layout_height="wrap_content"
+                            android:layout_width="fill_parent"
+                            android:gravity="center_horizontal">
+                            
+         
+					         <Spinner
+					        android:id="@+id/spinner2"
+					        android:gravity="left"
+					        android:layout_weight="1"
+					       />
+					    
+					    <Spinner
+					        android:id="@+id/spinner3"
+					           android:gravity="left"
+					        android:layout_weight="1"
+					      />
+                            
+         </TableRow>
+         
+     <TableRow
+                            android:layout_height="wrap_content"
+                            android:layout_width="fill_parent"
+                            android:gravity="center_horizontal">
+					    
+          					<EditText
+                                android:id="@+id/lib" 
+                                android:layout_weight="1" android:hint="Lib. Code" 
+                                 android:gravity="left"/>
+                     
+                            <EditText
+                                android:id="@+id/s_mob" 
+                                android:layout_weight="1" android:hint="Mob"
+                                 android:gravity="left"/>
+					    
+         </TableRow>
+         
+             
+     <TableRow
+                            android:layout_height="wrap_content"
+                            android:layout_width="fill_parent"
+                            android:gravity="center_horizontal">
+
+								   <Button
+								         android:id="@+id/btnSubmit"
+								         android:layout_width="match_parent"
+								         android:layout_height="wrap_content"
+								    	android:layout_span="2"
+								         android:gravity="center"
+								         android:onClick="subbtn"
+								         android:text="Submit" />
+                           
+                            
+
+
+                       </TableRow>
+          <TableRow
+                            android:layout_height="wrap_content"
+                            android:layout_width="fill_parent"
+                            android:gravity="center_horizontal">
+						
+					       <ListView android:id="@+id/athead" 
+					    	 android:layout_span="2"
+					         android:background="@color/green1"
+					         android:layout_width="match_parent" 
+					         android:layout_height="wrap_content" >   
+					        </ListView>  
+              		   
+              </TableRow>
+              
+           <TableRow
+                            android:layout_height="wrap_content"
+                            android:layout_width="fill_parent"
+                            android:gravity="center_horizontal">
+						
+					      <ListView android:id="@+id/gridView2" 
+					           android:layout_span="2"
+					          android:background="#3BAAE3"
+					          android:layout_width="match_parent" 
+					          android:layout_height="wrap_content">   
+					        </ListView> 
+              		   
+              </TableRow>
+              </TableLayout>
+    
+   <!--   <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:hint="Name" >
+    </EditText>
+    
+    <EditText
+     android:id="@+id/rollno"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_below="@+id/name"
+     android:gravity="left"
+     android:hint="rollno" >
+     <requestFocus />
+ </EditText>
+    
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       android:gravity="left"
+     android:layout_below="@+id/rollno"
+       />
+    
+    <Spinner
+        android:id="@+id/spinner3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+    	 android:layout_below="@+id/spinner2"
+    	  android:gravity="left"
+         android:hint="Sem"
+      />
+
+    <EditText
+        android:id="@+id/lib"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+    	 android:layout_below="@+id/spinner3"
+        android:gravity="left"
+        android:hint="lib code"
+         />
+    
+     <EditText
+        android:id="@+id/s_mob"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+    	 android:layout_below="@+id/lib"
+        android:gravity="left"
+        android:hint="Mob"
+         />
+         
+         
+
+     <Button
+         android:id="@+id/btnSubmit"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+    	 android:layout_below="@+id/s_mob"
+         android:gravity="center"
+         android:onClick="subbtn"
+         android:text="Submit" />
+
+ 
+     <ListView android:id="@+id/athead" 
+       android:layout_alignParentLeft="true"
+    	 android:layout_below="@+id/btnSubmit"
+          android:background="@color/green1"
+         android:layout_width="match_parent" 
+         android:layout_height="wrap_content" >   
+        </ListView>   
+          
+  <ListView android:id="@+id/gridView2" 
+          android:layout_marginTop="1dp"
+             android:layout_alignParentLeft="true"
+    	 android:layout_below="@+id/athead"
+           android:background="#3BAAE3"
+         android:layout_width="match_parent" 
+         android:layout_height="wrap_content">   
+        </ListView>-->
+
+</RelativeLayout>
+

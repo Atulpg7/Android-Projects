@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/MediumPurple">
+
+
+    <TextView
+        android:id="@+id/textView253"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView128"
+        android:layout_marginTop="13dp"
+        android:background="@drawable/roundcorner4"
+        android:fontFamily="cursive"
+        android:rotation="0"
+        android:text="About Us"
+        android:textAlignment="center"
+        android:textColor="@color/Gold"
+        android:textSize="42sp" />
+
+    <TextView
+        android:id="@+id/textView254"
+        android:layout_width="match_parent"
+        android:layout_height="7dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/Gold" />
+
+    <TextView
+        android:id="@+id/textView255"
+        android:layout_width="match_parent"
+        android:layout_height="7dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@color/Gold" />
+
+    <TextView
+        android:id="@+id/textView256"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView253"
+        android:layout_marginTop="14dp"
+        android:text="This app is made by Atul Kumar from GLA university. This is my first app in which I try to give you full information about the Temples to visit, Hotels to stay, Cabs to hire and Map for the locations of everything in Vrindavan. Stay with us for more updates like booking a Hotel,Cab or Live Darshan Of Temples. If you have any query about the app you can mail me on my Email ."
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView258"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView256"
+        android:layout_marginTop="28dp"
+        android:text="Email:-"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView259"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kumaratulsingh7jan@gmail.com"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:layout_alignBaseline="@+id/textView258"
+        android:layout_alignBottom="@+id/textView258"
+        android:layout_toRightOf="@+id/textView258"
+        android:layout_toEndOf="@+id/textView258" />
+
+    <TextView
+        android:id="@+id/textView261"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/roundcorner4"
+        android:fontFamily="serif"
+        android:text="Thanks For Being Part Of Our Family"
+        android:textAlignment="center"
+        android:textColor="@color/Gold"
+        android:textSize="30sp"
+        android:textStyle="bold|italic"
+        android:layout_above="@+id/textView255"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="9dp" />
+</RelativeLayout>
